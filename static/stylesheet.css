@@ -1,0 +1,51 @@
+.content {
+    margin: auto;
+    max-width: 1400px;
+    
+}
+
+.banner {
+    text-align: center;
+    margin: auto;
+    height: 5vh;
+    padding: 10px;
+}
+.content_left {
+    width: 300px;
+    float: left; /* [1] */
+    background-color: red;
+    margin: 20px;
+    overflow-y: scroll;
+    height: 75vh;
+    padding-right: 40px;
+    
+}
+.content_right {
+    background-color: blue;
+    overflow: auto; /* [2] */
+    margin: 20px;
+    max-width: 90%;
+    overflow-y: scroll;
+    height: 75vh;
+
+    overflow-wrap: normal;
+}
+
+.export_button {
+    width: 300px;
+    justify-content: center;
+    background-color: green;
+    margin: auto;
+    height: 5vh;
+}
+
+.card {
+
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    max-width: 236px;
+    margin: 25px;
+
+    
+}

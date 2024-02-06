@@ -1,0 +1,21 @@
+{"cannon_bully" : {
+    "card_type" : "pirate",
+    "name" : "cannon_bully",
+    "code" : "boom",
+    "pirate_type" : "explosive",
+    "power" : "4",
+    "effect" : true,
+    "surprise" : true,
+    "card_art" : "/static/images/cannonbully.jpg"
+    },
+"cannon_boo" : {
+    "card_type" : "pirate",
+    "name" : "cannon_boo",
+    "code" : "boom",
+    "pirate_type" : "explosive",
+    "power" : "4",
+    "effect" : true,
+    "surprise" : true,
+    "card_art" : "/static/images/cannonboo.jpg"
+    }
+}
