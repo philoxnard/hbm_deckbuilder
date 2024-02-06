@@ -1,18 +1,21 @@
-This is what you need to do:
 
-1) Display the list of (currently dummy) cards on the right side of screen
-2) Put little plus/minus boxes beneath each card
-3) Create list on left side of screen that gets adjusted when the plus/minus boxes are hit
-4) Generate a text/json string from the user's selected deck and make a deck with it
 
-Eventually:
 
-1) Fill db.json with entire database
-2) Validate decks to ensure they're legal
-3) Make display nice
-
-NOTE: When the user filters by X or Y, we don't CHANGE the card list - we just change what the front end requests from the back end. If they filter by Juju pirates, then the front end will only ask the back end for Juju pirates with which to populate the card list window
-
-get this shit on github yo
+Notes:
 
 card images should be 275px wide
+check secret file for git auth code
+
+To Do list:
+
+1) Add full card list to db.json
+2) Allow users to filter cards
+3) Validate card additions to ensure they're within legal limit
+4) Create export button
+5) Write code for export button to generate TTS-readable deck list
+6) Download TTS-readable deck list to local device
+7) Host web app online (Heroku? AWS?)
+8) Allow users to empty out their deck list
+9) Allow users to name and save their deck lists
+10) Make prettier buttons for adding and removing cards
+11) Write helpful, user friendly README
