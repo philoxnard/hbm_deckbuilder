@@ -5,7 +5,7 @@ function handleOnLoad(json) {
 
     console.log(json)
 
-    drawFilters(filters)
+    //drawFilters(filters)
     drawDeckList()
     drawCardDB(cards)
 

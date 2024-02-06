@@ -45,16 +45,17 @@ function drawCard(card) {
 
 function drawCardButtons(card) {
 
-    let strigified_card = JSON.stringify(card)
+    let stringifiedCard = JSON.stringify(card)
 
     let loaded_card = loadCardFromLocalStorage(card)
+    let card_name = loaded_card["name"]
     let quantity = loaded_card["quantity"]
 
     if (quantity == null) {
         quantity = 0
     }
 
-    let drawn_card_buttons = "<button onClick=removeCard('"+strigified_card+"')>&#128308</button> "+quantity+" <button onClick=addCard('"+strigified_card+"')>&#128994;</button>"
+    let drawn_card_buttons = "<div class="+card_name+"><button onClick=removeCard('"+stringifiedCard+"')>&#128308</button> "+quantity+" <button onClick=addCard('"+stringifiedCard+"')>&#128994;</button></div>"
 
     let drawn_card_buttons_final = drawn_card_buttons + "</div>"
 
@@ -77,7 +78,12 @@ function addCard(stringifiedCard){
 
     storeCardInLocalStorage(updated_card)
 
-    loadPage()
+    let quantity = updated_card["quantity"]
+    let name = updated_card["name"]
+
+    updateDrawnQuantity(stringifiedCard, name, quantity)
+
+    drawDeckList()
     
 }
 
@@ -96,7 +102,22 @@ function removeCard(stringifiedCard){
 
     storeCardInLocalStorage(updated_card)
 
-    loadPage()
+    let quantity = updated_card["quantity"]
+    let name = updated_card["name"]
+
+    updateDrawnQuantity(stringifiedCard, name, quantity)
+
+    drawDeckList()
+}
+
+function updateDrawnQuantity(stringifiedCard, name, quantity) {
+
+    console.log('found')
+
+    console.log(name)
+    console.log(quantity)
+    $("."+name).html("<div class="+name+"><button onClick=removeCard('"+stringifiedCard+"')>&#128308</button> "+quantity+" <button onClick=addCard('"+stringifiedCard+"')>&#128994;</button></div>")
+    console.log('executed')
 }
 
 function drawDeckList() {
