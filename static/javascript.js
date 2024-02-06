@@ -4,13 +4,7 @@ function loadPage() {
 
     message["command"] = "command_on_load"
 
-    // localStorage.removeItem('undefined')
-    // localStorage.removeItem('cannon_boo')
-    // localStorage.removeItem('cannon_bully')
-
-    console.log('about to send')
     send(message)
-    console.log('sent')
 
 }
 
@@ -265,8 +259,6 @@ function sendDeckListToServer(stringifiedDeckList) {
 }
 
 function send(message) {
-
-    console.log('in send')
 
     fetch("/receive", { 
         method: 'POST', 

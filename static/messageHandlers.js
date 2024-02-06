@@ -11,8 +11,6 @@ function handleOnLoad(json) {
 
 function handleExportDecklist(json) {
 
-    console.log(json)
-
     let tts_decklist = json["tts_decklist"]
 
     filename = "test.json"
