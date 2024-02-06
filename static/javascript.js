@@ -279,3 +279,30 @@ function send(message) {
         console.error('Error:', error); 
       }); 
 }
+
+function drawFilters(filters) {
+
+    $("#filters").html("")
+
+    console.log(filters)
+
+    for (const [dropdown_menu, dropdown_option] of Object.entries(filters)) {
+        // console.log(`${key} ${value}`); // "a 5", "b 7", "c 9"
+
+        filter_button = "<label for 'mymenu'><button class='filter_button'>top menu</button></label>"
+        filter_button += "<select name='mymenu' id='mymenu'>"
+        filter_button += "<option value='dropdown'><drowpdown</option>"
+        filter_button += "</select>"
+
+        $("#filters").append(filter_button)
+    }
+}
+
+// {/* <label for="dog-names">Choose a dog name:</label> 
+//     <select name="dog-names" id="dog-names"> 
+//         <option value="rigatoni">Rigatoni</option> 
+//         <option value="dave">Dave</option> 
+//         <option value="pumpernickel">Pumpernickel</option> 
+//         <option value="reeses">Reeses</option> 
+//     </select>
+//    */}

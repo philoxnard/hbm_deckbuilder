@@ -21,3 +21,4 @@ To Do list:
 11) Write helpful, user friendly README
 12) Add instructions on how to use + save decklist
 13) Display how many cards are currently in deck
+14) Figure out more elegant way to redraw quantities without re-rendering every image

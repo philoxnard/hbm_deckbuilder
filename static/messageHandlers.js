@@ -1,9 +1,11 @@
 function handleOnLoad(json) {
 
     let cards = json["cards"]
-    
-    $(".content_left").html("")
+    let filters = json["filters"]
 
+    console.log(json)
+
+    drawFilters(filters)
     drawDeckList()
     drawCardDB(cards)
 

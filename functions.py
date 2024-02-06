@@ -19,7 +19,7 @@ def getCardList():
 
 def getFilters():
 
-    return FILTER_LIST
+    return FILTER_DICT
     
 def generateHeader(decklistJsonObj):
 

@@ -8,7 +8,6 @@
     text-align: center;
     margin: auto;
     height: 5vh;
-    padding: 10px;
 }
 .content_left {
     width: 300px;
@@ -37,6 +36,14 @@
     background-color: green;
     margin: auto;
     height: 5vh;
+}
+
+.filter_button {
+
+    margin: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
 }
 
 .card {
