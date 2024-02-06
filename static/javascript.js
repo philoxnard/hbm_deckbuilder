@@ -8,30 +8,9 @@ function loadPage() {
     // localStorage.removeItem('cannon_boo')
     // localStorage.removeItem('cannon_bully')
 
+    console.log('about to send')
     send(message)
-
-
-function send(message) {
-
-    fetch("/receive", { 
-        method: 'POST', 
-        headers: { 
-          'Content-Type': 'application/json'
-        }, 
-
-        body: JSON.stringify({data: message})
-
-      }) 
-      .then(response => response.text()) 
-      .then(result => { 
-
-        receive(result)
-
-      }) 
-      .catch(error => { 
-        console.error('Error:', error); 
-      }); 
-}
+    console.log('sent')
 
 }
 
@@ -47,6 +26,10 @@ function receive(response) {
     if ( command == "command_on_load" ) {
 
         handleOnLoad(json)
+
+    } else if ( command == "command_export_decklist" ){
+
+        handleExportDecklist(json)
 
     }
 
@@ -240,4 +223,67 @@ function decreaseQuantity(storedCard) {
     storedCard["quantity"] = new_quantity 
 
     return storedCard
+}
+
+function exportDeckList() {
+
+    let json_decklist = {}
+
+    for ( var i = 0, len = localStorage.length; i < len; ++i ) {
+        
+        let stringified_card = localStorage.getItem(localStorage.key(i))
+        let card = JSON.parse(stringified_card)
+
+        let quantity = card["quantity"]
+        let card_name = card["name"]
+
+        if (quantity != 0 && quantity != null && quantity != undefined) {
+            
+            json_decklist[card_name] = quantity
+
+        }
+        
+    }
+
+    stringified_decklist = JSON.stringify(json_decklist)
+
+    sendDeckListToServer(stringified_decklist)
+
+}
+
+function sendDeckListToServer(stringifiedDeckList) {
+
+    let message = {}
+
+    let command = "command_export_decklist"
+
+    message["command"] = command
+    message["stringified_decklist"] = stringifiedDeckList
+
+    send(message)
+
+}
+
+function send(message) {
+
+    console.log('in send')
+
+    fetch("/receive", { 
+        method: 'POST', 
+        headers: { 
+          'Content-Type': 'application/json'
+        }, 
+
+        body: JSON.stringify({data: message})
+
+      }) 
+      .then(response => response.text()) 
+      .then(result => { 
+
+        receive(result)
+
+      }) 
+      .catch(error => { 
+        console.error('Error:', error); 
+      }); 
 }

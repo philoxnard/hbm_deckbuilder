@@ -26,9 +26,9 @@ def receive():
 
         response = handleOnLoad(message)
 
-    elif command == "command_add_card":
+    elif command == "command_export_decklist":
 
-        print('do command for add card')
+        response = handleExportDecklist(message)
 
     else:
 
