@@ -31,6 +31,6 @@ function handleExportDecklist(json) {
 function handleFilterCards(json) {
 
     cards = json["cards"]
-    console.log('found here!!')
+
     drawCardDB(cards)
 }

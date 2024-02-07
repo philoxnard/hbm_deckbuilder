@@ -303,9 +303,20 @@ function submitFilters() {
     json_message["firepower"] = $("#firepower_filter").val()
     json_message["firepower_relativity"] = $('input[name="firepower"]:checked').val()
 
-    console.log('all good')
     console.log(json_message)
     sendFilterListToServer(json_message)
+
+}
+
+function resetFilters() {
+
+
+    $(".pirate_code_radio").prop('checked', false)
+    $("#pirate_type_input").val("")
+    $("#effect_text").val("")
+    $("#firepower_filter").val("")
+
+    submitFilters()
 
 }
 
@@ -405,11 +416,11 @@ function drawFilters(filters) {
     // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="tropical_checkbox" name="tropical" value="tropical"><label for="tropical">Tropical</label><br>')
     // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="boom_checkbox" name="boom" value="boom"><label for="boom">Boom</label><br>')
 
-    $("#filter_modal_column_1").append('<input type="radio" id="boom" name="pirate_code" value="boom"><label for="boom">Boom</label><br>')
-    $("#filter_modal_column_1").append('<input type="radio" id="juju" name="pirate_code" value="juju"><label for="juju">Juju</label><br>')
-    $("#filter_modal_column_1").append('<input type="radio" id="tropical" name="pirate_code" value="tropical"><label for="tropical">Tropical</label><br>')
-    $("#filter_modal_column_1").append('<input type="radio" id="heavy_metal" name="pirate_code" value="heavy_metal"><label for="heavy_metal">Heavy Metal</label><br>')
-    $("#filter_modal_column_1").append('<input type="radio" id="deep_sea" name="pirate_code" value="deep_sea"><label for="deep_sea">Deep Sea</label><br><br>')
+    $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="boom" name="pirate_code" value="boom"><label for="boom">Boom</label><br>')
+    $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="juju" name="pirate_code" value="juju"><label for="juju">Juju</label><br>')
+    $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="tropical" name="pirate_code" value="tropical"><label for="tropical">Tropical</label><br>')
+    $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="heavy_metal" name="pirate_code" value="heavy_metal"><label for="heavy_metal">Heavy Metal</label><br>')
+    $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="deep_sea" name="pirate_code" value="deep_sea"><label for="deep_sea">Deep Sea</label><br><br>')
 
     $("#filter_modal_column_1").append("Display pirates with this type combination (separated by commas):<br>")
     $("#filter_modal_column_1").append("<input type='text' id='pirate_type_input' name='pirate_type_input'>")
