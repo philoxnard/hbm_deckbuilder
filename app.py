@@ -30,6 +30,11 @@ def receive():
 
         response = handleExportDecklist(message)
 
+    elif command == "command_filter_cards":
+
+        response = handleFilterCards(message)
+        print(response)
+
     else:
 
         print('error catch for no command')

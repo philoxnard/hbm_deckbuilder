@@ -3,9 +3,7 @@ function handleOnLoad(json) {
     let cards = json["cards"]
     let filters = json["filters"]
 
-    console.log(json)
-
-    //drawFilters(filters)
+    drawFilters(filters)
     drawDeckList()
     drawCardDB(cards)
 
@@ -28,4 +26,11 @@ function handleExportDecklist(json) {
     
     document.body.removeChild(element);
 
+}
+
+function handleFilterCards(json) {
+
+    cards = json["cards"]
+    console.log('found here!!')
+    drawCardDB(cards)
 }

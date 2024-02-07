@@ -1,0 +1,18 @@
+{
+    
+    
+    "cannon_bully" : {
+    "card_type" : "pirate",
+    "name" : "cannon_bully",
+    "pirate_code" : "boom",
+    "pirate_types" : ["explosive"],
+    "firepower" : "4",
+    "effect_text" : "SURPRISE! Can Free Play, even on your opponent’s turn (as long as its Ship is not empty). Is destroyed at the  end of the Player Turn.",
+    "card_art" : "/static/images/cannonbully.jpg",
+    "FaceURL" : "https://thejesuitpost.org/wp-content/uploads/2021/05/cannon-balls-1659595_1920.jpg",
+    "BackURL" : "https://media.contentapi.ea.com/content/dam/gin/images/2017/01/black-keyart.jpg.adapt.crop3x5.533p.jpg"
+    }
+
+
+
+}

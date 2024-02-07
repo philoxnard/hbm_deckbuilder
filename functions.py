@@ -4,7 +4,7 @@ import ast
 
 from configurations import *
 
-def getCardList():
+def getCardList(filters=None):
     """
     Grab the database of cards from db.json.
 
@@ -15,7 +15,19 @@ def getCardList():
 
     cards = json.load(db)
 
-    return cards
+    if filters != None:
+
+        cards = filterCards(cards, filters)
+
+    # NOTE: In order to display stuff on the GUI, we need to remove effect text from the card
+    #       object because its just too long - because we basically store the whole card
+    #       as text within the div id, we can't make it absurdly long.
+    cards_no_effect_text = {}
+    for card_name, card_info in cards.items():
+        del card_info["effect_text"]
+        cards_no_effect_text[card_name] = card_info
+    
+    return cards_no_effect_text
 
 def getFilters():
 
@@ -312,3 +324,135 @@ def generateFooter(decklistJsonObj):
     decklistJsonObj["VersionNumber"] = ""
 
     return decklistJsonObj
+
+def repackageRawFilters(rawFilters):
+    """
+    Repackage the incoming raw filters and make them pretty and readable.
+    For reference on what keys/values may be present in rawFilters, check
+    the docstring for handleFilterCards().
+    """
+
+    filters = {}
+    pirate_code = ""
+    pirate_types = [""]
+    effect_text = ""
+    firepower = None
+    firepower_relativity = None
+
+    # In case we ever decide to filter inclusively, I'll leave this here
+    # if "show_boom" in rawFilters:
+    #     pirate_codes.append('boom')
+    # if "show_deep_sea" in rawFilters:
+    #     pirate_codes.append('deep_sea')
+    # if "show_heavy_metal" in rawFilters:
+    #     pirate_codes.append('heavy_metal')
+    # if "show_tropical" in rawFilters:
+    #     pirate_codes.append('tropical')
+    # if "show_juju" in rawFilters:
+    #     pirate_codes.append('juju')
+
+    if "pirate_code" in rawFilters:
+        pirate_code = rawFilters["pirate_code"]
+
+    if "pirate_type" in rawFilters:
+        pirate_types_no_spaces = rawFilters["pirate_type"].replace(" ", "")
+        pirate_types = pirate_types_no_spaces.split(",")
+
+    if "effect_text" in rawFilters:
+        effect_text = rawFilters["effect_text"]
+
+    if "firepower" in rawFilters:
+        try:
+            firepower = int(rawFilters["firepower"])
+        except:
+            print("Firepower not an integer")
+
+    if "firepower_relativity" in rawFilters:
+
+        firepower_relativity = rawFilters["firepower_relativity"]
+
+    filters["pirate_code"] = pirate_code
+    filters["pirate_types"] = pirate_types
+    filters["effect_text"] = effect_text
+    filters["firepower"] = firepower
+    filters["firepower_relativity"] = firepower_relativity
+
+    return filters
+
+def filterCards(cards, filters):
+    """
+    This function uses the filters to only pluck out the cards that satisfy the filters
+    and returning that json object.
+
+    """
+
+    filtered_cards = cards.copy()
+
+    for card_name, card_info in cards.items():
+
+        if filters["pirate_code"] != "":
+
+            if card_info["pirate_code"] != filters["pirate_code"]:
+
+                if card_name in filtered_cards:
+
+                    del filtered_cards[card_name]
+
+        if filters["effect_text"] != "":
+
+            if filters["effect_text"] not in card_info["effect_text"]:
+
+                if card_name in filtered_cards:
+
+                    del filtered_cards[card_name]
+
+        if filters["pirate_types"] != [""]:
+
+            type_1 = filters["pirate_types"][0]
+
+            if type_1 not in card_info["pirate_types"]:
+
+                if card_name in filtered_cards:
+
+                    del filtered_cards[card_name]
+
+            if len(filters["pirate_types"]) > 1:
+
+                type_2 = filters["pirate_types"][1]
+
+                if type_2 not in card_info["pirate_types"]:
+
+                    if card_name in filtered_cards:
+
+                        del filtered_cards[card_name]
+
+        if filters["firepower"] != None:
+
+            if filters["firepower_relativity"] == "firepower_equal":
+
+                if card_info["firepower"] != filters["firepower"]:
+
+                    if card_name in filtered_cards:
+
+                        del filtered_cards[card_name]
+
+            elif filters["firepower_relativity"] == "firepower_lower":
+
+                print('we want to only display power lower than ' + str(filters["firepower"]))
+
+                print("card's firepower is " + str(card_info["firepower"]))
+                if card_info["firepower"] >= filters["firepower"]:
+
+                    if card_name in filtered_cards:
+
+                        del filtered_cards[card_name]
+
+            elif filters["firepower_relativity"] == "firepower_higher":
+
+                if card_info["firepower"] <= filters["firepower"]:
+
+                    if card_name in filtered_cards:
+
+                        del filtered_cards[card_name]
+
+    return filtered_cards

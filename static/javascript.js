@@ -25,6 +25,10 @@ function receive(response) {
 
         handleExportDecklist(json)
 
+    } else if ( command == "command_filter_cards" ) {
+
+        handleFilterCards(json)
+
     }
 
 }
@@ -112,12 +116,8 @@ function removeCard(stringifiedCard){
 
 function updateDrawnQuantity(stringifiedCard, name, quantity) {
 
-    console.log('found')
-
-    console.log(name)
-    console.log(quantity)
     $("."+name).html("<div class="+name+"><button onClick=removeCard('"+stringifiedCard+"')>&#128308</button> "+quantity+" <button onClick=addCard('"+stringifiedCard+"')>&#128994;</button></div>")
-    console.log('executed')
+
 }
 
 function drawDeckList() {
@@ -240,6 +240,75 @@ function decreaseQuantity(storedCard) {
     return storedCard
 }
 
+function showFilterModal() {
+
+    $("#filter_modal").show()
+
+}
+
+function resetDeckList() {
+
+    for ( var i = 0, len = localStorage.length; i < len; ++i ) {
+        
+        let stringified_card = localStorage.getItem(localStorage.key(i))
+        let card = JSON.parse(stringified_card)
+
+        let quantity = card["quantity"]
+        let name = card["name"]
+
+        if (quantity != 0 && quantity != null && quantity != undefined) {
+            
+            card["quantity"] = 0
+
+            storeCardInLocalStorage(card)
+
+            updateDrawnQuantity(stringified_card, name, card["quantity"])
+
+        }
+    }
+
+    drawDeckList()
+
+}
+
+function submitFilters() {
+    /// This function needs to package all of the information held in the filter modal.
+    /// It also needs to hide the filter modal
+    /// Then it needs to send all of the information to the server
+
+    $("#filter_modal").hide()
+
+    let json_message = {}
+
+    // In case we ever make it an inclusive filter, I'll leave this here
+    // if ( $( boom_checkbox ).is( ":checked" ) ) {
+    //     json_message["show_boom"] = true
+    // }
+    // if ( $( deep_sea_checkbox ).is( ":checked" ) ) {
+    //     json_message["show_deep_sea"] = true
+    // }
+    // if ( $( heavy_metal_checkbox ).is( ":checked" ) ) {
+    //     json_message["show_heavy_metal"] = true
+    // }
+    // if ( $( tropical_checkbox ).is( ":checked" ) ) {
+    //     json_message["show_tropical"] = true
+    // }
+    // if ( $( juju_checkbox ).is( ":checked" ) ) {
+    //     json_message["show_juju"] = true
+    // }
+
+    json_message["pirate_code"] = $('input[name="pirate_code"]:checked').val()
+    json_message["pirate_type"] = $("#pirate_type_input").val()
+    json_message["effect_text"] = $("#effect_text").val()
+    json_message["firepower"] = $("#firepower_filter").val()
+    json_message["firepower_relativity"] = $('input[name="firepower"]:checked').val()
+
+    console.log('all good')
+    console.log(json_message)
+    sendFilterListToServer(json_message)
+
+}
+
 function exportDeckList() {
 
     let json_decklist = {}
@@ -279,6 +348,19 @@ function sendDeckListToServer(stringifiedDeckList) {
 
 }
 
+function sendFilterListToServer(filters) {
+
+    let message = {}
+
+    let command = "command_filter_cards"
+
+    message["command"] = command
+    message["filters"] = filters
+
+    send(message)
+
+}
+
 function send(message) {
 
     fetch("/receive", { 
@@ -303,27 +385,64 @@ function send(message) {
 
 function drawFilters(filters) {
 
-    $("#filters").html("")
+    // This stuff is all going ot be inside the filter_modal div
+    // There will be checkboxes for the different pirate codes
+    // A text box where they can input type (separated by commas)
+    // A text box where they can input keywords
+    // A text box where they can input firepower AND radio buttons for under, equal, and over
+    // That's good for now, maybe eventually you can add more
 
-    console.log(filters)
+    $("#filter_modal").html("")
+    
+    $("#filter_modal").append("<div class='filter_modal_column' id='filter_modal_column_1'>")
 
-    for (const [dropdown_menu, dropdown_option] of Object.entries(filters)) {
-        // console.log(`${key} ${value}`); // "a 5", "b 7", "c 9"
+    $("#filter_modal_column_1").append("<p>Select pirate code to filter:</p>")
 
-        filter_button = "<label for 'mymenu'><button class='filter_button'>top menu</button></label>"
-        filter_button += "<select name='mymenu' id='mymenu'>"
-        filter_button += "<option value='dropdown'><drowpdown</option>"
-        filter_button += "</select>"
+    // Can keep these in case we decide to filter inclusively
+    // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="juju_checkbox" name="juju" value="juju"><label for="juju">Juju</label><br>')
+    // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="deep_sea_checkbox" name="deep_sea" value="deep_sea"><label for="deep_sea">Deep Sea</label><br>')
+    // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="heavy_metal_checkbox" name="heavy_metal" value="heavy_metal"><label for="heavy_metal">Heavy Metal</label><br>')
+    // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="tropical_checkbox" name="tropical" value="tropical"><label for="tropical">Tropical</label><br>')
+    // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="boom_checkbox" name="boom" value="boom"><label for="boom">Boom</label><br>')
 
-        $("#filters").append(filter_button)
-    }
+    $("#filter_modal_column_1").append('<input type="radio" id="boom" name="pirate_code" value="boom"><label for="boom">Boom</label><br>')
+    $("#filter_modal_column_1").append('<input type="radio" id="juju" name="pirate_code" value="juju"><label for="juju">Juju</label><br>')
+    $("#filter_modal_column_1").append('<input type="radio" id="tropical" name="pirate_code" value="tropical"><label for="tropical">Tropical</label><br>')
+    $("#filter_modal_column_1").append('<input type="radio" id="heavy_metal" name="pirate_code" value="heavy_metal"><label for="heavy_metal">Heavy Metal</label><br>')
+    $("#filter_modal_column_1").append('<input type="radio" id="deep_sea" name="pirate_code" value="deep_sea"><label for="deep_sea">Deep Sea</label><br>')
+
+    $("#filter_modal_column_1").append("<p>Input up to 2 pirate types to display (separated by commas):</p>")
+    $("#filter_modal_column_1").append("<input type='text' id='pirate_type_input' name='pirate_type_input'>")
+
+    $("#filter_modal_column_1").append("<br><p><button onclick='resetFilters()'>Reset Filters</button></p>")
+   
+    $("#filter_modal_column_1").append('</div>')
+
+    $("#filter_modal").append("<div class='filter_modal_column' id='filter_modal_column_2'>")
+
+    $("#filter_modal_column_2").append('<p>Input effect text to filter by:</p>')
+    $("#filter_modal_column_2").append("<input type='text' id='effect_text' name='effect_text'><br>")
+
+    $("#filter_modal_column_2").append('<p>Input firepower to display:</p>')
+    $("#filter_modal_column_2").append('<input type="radio" id="firepower_higher" name="firepower" value="firepower_higher"><label for="firepower_higher">Firepower higher than</label><br>')
+    $("#filter_modal_column_2").append('<input type="radio" id="firepower_equal" name="firepower" value="firepower_equal" checked="checked"><label for="firepower_equal">Firepower equal to</label><br>')
+    $("#filter_modal_column_2").append('<input type="radio" id="firepower_lower" name="firepower" value="firepower_lower"><label for="firepower_lower">Firepower lower than</label><br>')
+    $("#filter_modal_column_2").append("<input type='text' id='firepower_filter' name='firepower_filter'><br><br>")
+
+    $("#filter_modal_column_2").append("<button id='filter_button' onclick='submitFilters()'>Filter Cards</button>")
+
+    $("#filter_modal_column_2").append('</div>')
+
 }
 
-// {/* <label for="dog-names">Choose a dog name:</label> 
-//     <select name="dog-names" id="dog-names"> 
-//         <option value="rigatoni">Rigatoni</option> 
-//         <option value="dave">Dave</option> 
-//         <option value="pumpernickel">Pumpernickel</option> 
-//         <option value="reeses">Reeses</option> 
-//     </select>
-//    */}
+// Copy/pasted this from stackoverflow, works like a charm
+$(document).mouseup(function(e) 
+{
+    var container = $("#filter_modal");
+
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!container.is(e.target) && container.has(e.target).length === 0) 
+    {
+        container.hide();
+    }
+});

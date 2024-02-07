@@ -1,158 +1,27 @@
-{"cannon_bully" : {
-    "card_type" : "pirate",
-    "name" : "cannon_bully",
-    "code" : "boom",
-    "pirate_type" : "explosive",
-    "power" : "4",
-    "effect" : true,
-    "surprise" : true,
-    "card_art" : "/static/images/cannonbully.jpg",
-    "FaceURL" : "https://thejesuitpost.org/wp-content/uploads/2021/05/cannon-balls-1659595_1920.jpg",
-    "BackURL" : "https://media.contentapi.ea.com/content/dam/gin/images/2017/01/black-keyart.jpg.adapt.crop3x5.533p.jpg"
-    },
-"cannon_boo" : {
-    "card_type" : "pirate",
-    "name" : "cannon_boo",
-    "code" : "juju",
-    "pirate_type" : "ghost",
-    "power" : "0",
-    "effect" : true,
-    "surprise" : true,
-    "card_art" : "/static/images/cannonboo.jpg",
-    "FaceURL" : "https://static.wikia.nocookie.net/pokemongo/images/1/15/Gengar_shiny.png/revision/latest/scale-to-width/360?cb=20220516185708",
-    "BackURL" : "https://static01.nyt.com/images/2021/02/07/fashion/NEW-BLUE-1/NEW-BLUE-1-superJumbo.jpg"
-    },
-"fiend_o_war" : {
-    "card_type" : "pirate",
-    "name" : "fiend_o_war",
-    "code" : "boom",
-    "pirate_type" : "mythic",
-    "power" : "25",
-    "effect" : "at_sea",
-    "surprise" : false,
-    "card_art" : "/static/images/cannonboo.jpg",
-    "FaceURL" : "https://static.wikia.nocookie.net/pokemongo/images/1/15/Gengar_shiny.png/revision/latest/scale-to-width/360?cb=20220516185708",
-    "BackURL" : "https://static01.nyt.com/images/2021/02/07/fashion/NEW-BLUE-1/NEW-BLUE-1-superJumbo.jpg"
-    },
-"harbinger_of_pyrocy" : {
-    "card_type" : "pirate",
-    "name" : "harbinger_of_pyrocy",
-    "code" : "boom",
-    "pirate_type" : "wild",
-    "power" : "9",
-    "effect" : "when_played",
-    "surprise" : false,
-    "card_art" : "/static/images/cannonboo.jpg",
-    "FaceURL" : "https://static.wikia.nocookie.net/pokemongo/images/1/15/Gengar_shiny.png/revision/latest/scale-to-width/360?cb=20220516185708",
-    "BackURL" : "https://static01.nyt.com/images/2021/02/07/fashion/NEW-BLUE-1/NEW-BLUE-1-superJumbo.jpg"
-    },
-"yo_ho_hero" : {
-    "card_type" : "pirate",
-    "name" : "yo_ho_hero",
-    "code" : "boom",
-    "pirate_type" : ["super", "flying"],
-    "power" : "6",
-    "effect" : false,
-    "surprise" : false,
-    "card_art" : "/static/images/cannonboo.jpg",
-    "FaceURL" : "https://static.wikia.nocookie.net/pokemongo/images/1/15/Gengar_shiny.png/revision/latest/scale-to-width/360?cb=20220516185708",
-    "BackURL" : "https://static01.nyt.com/images/2021/02/07/fashion/NEW-BLUE-1/NEW-BLUE-1-superJumbo.jpg"
-    },
-"sword_beast" : {
-    "card_type" : "pirate",
-    "name" : "sword_beast",
-    "code" : "boom",
-    "pirate_type" : "sword",
-    "power" : "6",
-    "effect" : false,
-    "surprise" : false,
-    "card_art" : "/static/images/cannonboo.jpg",
-    "FaceURL" : "https://static.wikia.nocookie.net/pokemongo/images/1/15/Gengar_shiny.png/revision/latest/scale-to-width/360?cb=20220516185708",
-    "BackURL" : "https://static01.nyt.com/images/2021/02/07/fashion/NEW-BLUE-1/NEW-BLUE-1-superJumbo.jpg"
-    },
-"pyrannosaurus_rex" : {
-    "card_type" : "pirate",
-    "name" : "pyrannosaurus_rex",
-    "code" : "boom",
-    "pirate_type" : "dinosaur",
-    "power" : "3",
-    "effect" : "when_played",
-    "surprise" : false,
-    "card_art" : "/static/images/cannonboo.jpg",
-    "FaceURL" : "",
-    "BackURL" : ""
-    },
-"broadsidosaurus" : {
-    "card_type" : "pirate",
-    "name" : "broadsidosaurus",
-    "code" : "boom",
-    "pirate_type" : ["dinosaur", "explosive"],
-    "power" : "4",
-    "effect" : "when_played",
-    "surprise" : false,
-    "card_art" : "/static/images/cannonboo.jpg",
-    "FaceURL" : "",
-    "BackURL" : ""
-    },
-"fleet_phoenix" : {
-    "card_type" : "pirate",
-    "name" : "fleet_phoenix",
-    "code" : "boom",
-    "pirate_type" : ["dinosaur", "explosive"],
-    "power" : "2",
-    "effect" : "when_destroyed",
-    "surprise" : false,
-    "card_art" : "/static/images/cannonboo.jpg",
-    "FaceURL" : "",
-    "BackURL" : ""
-    },
-"lava_landlubber" : {
-    "card_type" : "pirate",
-    "name" : "lava_landlubber",
-    "code" : "boom",
-    "pirate_type" : ["wild", "???"],
-    "power" : "3",
-    "effect" : "when_played",
-    "surprise" : false,
-    "card_art" : "/static/images/cannonboo.jpg",
-    "FaceURL" : "",
-    "BackURL" : ""
-    },
-"kannon_katcher" : {
-    "card_type" : "pirate",
-    "name" : "kannon_katcher",
-    "code" : "boom",
-    "pirate_type" : ["cyborg", "???"],
-    "power" : "2",
-    "effect" : "at_sea",
-    "surprise" : false,
-    "card_art" : "/static/images/cannonboo.jpg",
-    "FaceURL" : "",
-    "BackURL" : ""
-    },
-"shogun_scourge" : {
-    "card_type" : "pirate",
-    "name" : "shogun_scourge",
-    "code" : "boom",
-    "pirate_type" : ["explosive", "ghost"],
-    "power" : "-10",
-    "effect" : "at_sea",
-    "surprise" : false,
-    "card_art" : "/static/images/cannonboo.jpg",
-    "FaceURL" : "",
-    "BackURL" : ""
-    },
-"seaworthy_sovereign" : {
-    "card_type" : "pirate",
-    "name" : "seaworthy_sovereign",
-    "code" : "boom",
-    "pirate_type" : ["authority", "armor"],
-    "power" : "8",
-    "effect" : "when_played",
-    "surprise" : false,
-    "restriction" : true,
-    "card_art" : "/static/images/cannonboo.jpg",
-    "FaceURL" : "",
-    "BackURL" : ""
+{
+    "cannon_bully" : {
+        "card_type" : "pirate",
+        "name" : "cannon_bully",
+        "pirate_code" : "boom",
+        "pirate_types" : ["explosive"],
+        "firepower" : 4,
+        "effect_text" : "SURPRISE! Can Free Play, even on your opponent’s turn (as long as its Ship is not empty). Is destroyed at the  end of the Player Turn.",
+        "card_art" : "/static/images/cannonbully.jpg",
+        "FaceURL" : "https://thejesuitpost.org/wp-content/uploads/2021/05/cannon-balls-1659595_1920.jpg",
+        "BackURL" : "https://media.contentapi.ea.com/content/dam/gin/images/2017/01/black-keyart.jpg.adapt.crop3x5.533p.jpg"
+        },
+
+    "cannon_boo" : {
+        "card_type" : "pirate",
+        "name" : "cannon_boo",
+        "pirate_code" : "juju",
+        "pirate_types" : ["ghost", "explosive"],
+        "firepower" : 0,
+        "effect_text" : "SURPRISE! You may Free Play this card when your opponent is Sending a Volley. Prevent a Ship from Sinking. If played this way, this card is a +4.",
+        "card_art" : "/static/images/cannonboo.jpg",
+        "FaceURL" : "https://thejesuitpost.org/wp-content/uploads/2021/05/cannon-balls-1659595_1920.jpg",
+        "BackURL" : "https://media.contentapi.ea.com/content/dam/gin/images/2017/01/black-keyart.jpg.adapt.crop3x5.533p.jpg"
     }
+
+
 }

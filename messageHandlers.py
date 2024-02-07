@@ -57,3 +57,36 @@ def handleExportDecklist(message):
     response["tts_decklist"] = string_list
 
     return response
+
+def handleFilterCards(message):
+    """
+    This function is called when the user hits the Filter Cards button. It will contain
+    a key called "filters", which itself is a large dictionary that may contain any or
+    all of the following fields:
+
+    String values to be converted to lists:
+    pirate_type
+
+    String values to be converted to integers:
+    firepower
+
+    String values:
+    firepower_relativity
+    effect_text
+    pirate_code
+
+    Taking all of that info, we must process the data and repackage the filters as a
+    properly formatted dictionary so getCardList can get the correct cards.
+    """
+
+    response = {}
+
+    raw_filters = message["filters"]
+
+    filters = repackageRawFilters(raw_filters)
+
+    cards = getCardList(filters)
+
+    response["cards"] = cards
+
+    return response

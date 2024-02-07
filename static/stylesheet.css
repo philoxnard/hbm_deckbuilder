@@ -9,6 +9,12 @@
     margin: auto;
     height: 5vh;
 }
+
+.banner_button {
+    width: 50%;
+    float: left;
+}
+
 .content_left {
     width: 300px;
     float: left; /* [1] */
@@ -38,12 +44,27 @@
     height: 5vh;
 }
 
-.filter_button {
+#filter_button {
 
     margin: 5px;
-    width: 200px;
-    height: 50px;
-    font-size: 30px;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+.filter_modal_column{
+
+    width: 180px;
+    float: left;
+    padding: 8px;
+}
+
+.code_checkbox{
+
+    justify-content: left;
+    text-align: left;
+    margin-left: 5px;
 }
 
 .card {
@@ -62,6 +83,20 @@
     width:100%;
     height: 100%;
     font-size: 40px;
+}
+
+#filter_modal {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 400px;
+    height: 300px;
+    background-color: gray;
+    text-align: left;
+    padding: 3px;
 }
 
 img{
