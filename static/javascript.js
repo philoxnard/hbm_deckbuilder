@@ -396,7 +396,7 @@ function drawFilters(filters) {
     
     $("#filter_modal").append("<div class='filter_modal_column' id='filter_modal_column_1'>")
 
-    $("#filter_modal_column_1").append("<p>Select pirate code to filter:</p>")
+    $("#filter_modal_column_1").append("Display only pirates from this pirate code:<br>")
 
     // Can keep these in case we decide to filter inclusively
     // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="juju_checkbox" name="juju" value="juju"><label for="juju">Juju</label><br>')
@@ -409,9 +409,9 @@ function drawFilters(filters) {
     $("#filter_modal_column_1").append('<input type="radio" id="juju" name="pirate_code" value="juju"><label for="juju">Juju</label><br>')
     $("#filter_modal_column_1").append('<input type="radio" id="tropical" name="pirate_code" value="tropical"><label for="tropical">Tropical</label><br>')
     $("#filter_modal_column_1").append('<input type="radio" id="heavy_metal" name="pirate_code" value="heavy_metal"><label for="heavy_metal">Heavy Metal</label><br>')
-    $("#filter_modal_column_1").append('<input type="radio" id="deep_sea" name="pirate_code" value="deep_sea"><label for="deep_sea">Deep Sea</label><br>')
+    $("#filter_modal_column_1").append('<input type="radio" id="deep_sea" name="pirate_code" value="deep_sea"><label for="deep_sea">Deep Sea</label><br><br>')
 
-    $("#filter_modal_column_1").append("<p>Input up to 2 pirate types to display (separated by commas):</p>")
+    $("#filter_modal_column_1").append("Display pirates with this type combination (separated by commas):<br>")
     $("#filter_modal_column_1").append("<input type='text' id='pirate_type_input' name='pirate_type_input'>")
 
     $("#filter_modal_column_1").append("<br><p><button onclick='resetFilters()'>Reset Filters</button></p>")
@@ -420,10 +420,10 @@ function drawFilters(filters) {
 
     $("#filter_modal").append("<div class='filter_modal_column' id='filter_modal_column_2'>")
 
-    $("#filter_modal_column_2").append('<p>Input effect text to filter by:</p>')
-    $("#filter_modal_column_2").append("<input type='text' id='effect_text' name='effect_text'><br>")
+    $("#filter_modal_column_2").append('Input effect text to filter by:<br>')
+    $("#filter_modal_column_2").append("<input type='text' id='effect_text' name='effect_text'><br><br>")
 
-    $("#filter_modal_column_2").append('<p>Input firepower to display:</p>')
+    $("#filter_modal_column_2").append('Input firepower to display:<br>')
     $("#filter_modal_column_2").append('<input type="radio" id="firepower_higher" name="firepower" value="firepower_higher"><label for="firepower_higher">Firepower higher than</label><br>')
     $("#filter_modal_column_2").append('<input type="radio" id="firepower_equal" name="firepower" value="firepower_equal" checked="checked"><label for="firepower_equal">Firepower equal to</label><br>')
     $("#filter_modal_column_2").append('<input type="radio" id="firepower_lower" name="firepower" value="firepower_lower"><label for="firepower_lower">Firepower lower than</label><br>')

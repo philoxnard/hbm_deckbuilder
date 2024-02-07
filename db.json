@@ -15,7 +15,7 @@
         "card_type" : "pirate",
         "name" : "cannon_boo",
         "pirate_code" : "juju",
-        "pirate_types" : ["ghost", "explosive"],
+        "pirate_types" : ["ghost"],
         "firepower" : 0,
         "effect_text" : "SURPRISE! You may Free Play this card when your opponent is Sending a Volley. Prevent a Ship from Sinking. If played this way, this card is a +4.",
         "card_art" : "/static/images/cannonboo.jpg",
