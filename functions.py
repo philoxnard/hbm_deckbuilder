@@ -428,6 +428,12 @@ def filterCards(cards, filters):
 
         if filters["firepower"] != None:
 
+            if card_info["firepower"] == "X":
+
+                card_info["firepower"] = "0"
+
+            card_info["firepower"] = int(card_info["firepower"])
+
             if filters["firepower_relativity"] == "firepower_equal":
 
                 if card_info["firepower"] != filters["firepower"]:
