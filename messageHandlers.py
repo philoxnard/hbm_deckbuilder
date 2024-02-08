@@ -85,6 +85,8 @@ def handleFilterCards(message):
 
     filters = repackageRawFilters(raw_filters)
 
+    print(filters)
+
     cards = getCardList(filters)
 
     response["cards"] = cards

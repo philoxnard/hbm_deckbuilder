@@ -33,7 +33,6 @@ def receive():
     elif command == "command_filter_cards":
 
         response = handleFilterCards(message)
-        print(response)
 
     else:
 

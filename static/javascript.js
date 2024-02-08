@@ -123,6 +123,7 @@ function updateDrawnQuantity(stringifiedCard, name, quantity) {
 function drawDeckList() {
 
     $(".content_left").html("")
+    let total_quantity = 0
     for ( var i = 0, len = localStorage.length; i < len; ++i ) {
         
         let card_name = localStorage.key(i)
@@ -133,10 +134,16 @@ function drawDeckList() {
         if (quantity != 0) {
             let drawn_card = drawCard(card)
             $(".content_left").append(drawn_card)
+
+            total_quantity += quantity
+
         }
         
       }
 
+    $("#total_quantity").html(total_quantity)
+      console.log('total quantity')
+      console.log(total_quantity)
 }
 
 function drawCardDB(cards) {
@@ -297,6 +304,7 @@ function submitFilters() {
     //     json_message["show_juju"] = true
     // }
 
+    json_message["card_type"] = $('input[name="card_type"]:checked').val()
     json_message["pirate_code"] = $('input[name="pirate_code"]:checked').val()
     json_message["pirate_type"] = $("#pirate_type_input").val()
     json_message["effect_text"] = $("#effect_text").val()
@@ -430,6 +438,12 @@ function drawFilters(filters) {
     $("#filter_modal_column_1").append('</div>')
 
     $("#filter_modal").append("<div class='filter_modal_column' id='filter_modal_column_2'>")
+
+    $("#filter_modal_column_2").append('Display which card type:<br>')
+    $("#filter_modal_column_2").append('<input class="card_type_radio" type="radio" id="pirate" name="card_type" value="pirate"><label for="pirate">Pirate</label><br>')
+    $("#filter_modal_column_2").append('<input class="card_type_radio" type="radio" id="ship" name="card_type" value="ship"><label for="ship">Ship</label><br>')
+    $("#filter_modal_column_2").append('<input class="card_type_radio" type="radio" id="shanty" name="card_type" value="shanty"><label for="shanty">Shanty</label><br>')
+
 
     $("#filter_modal_column_2").append('Input effect text to filter by:<br>')
     $("#filter_modal_column_2").append("<input type='text' id='effect_text' name='effect_text'><br><br>")

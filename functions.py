@@ -117,14 +117,9 @@ def generateDeckIDs(deckListJSONObj):
     can build 50 or 65 card decks.
     """
 
-    print('in generatedeckids')
-    print(deckListJSONObj)
     total_quantity = 1
 
     for card, quantity in deckListJSONObj.items():
-
-        print(card)
-        print(quantity)
 
         int_quantity = int(quantity)
 
@@ -136,8 +131,6 @@ def generateDeckIDs(deckListJSONObj):
 
         ID = i*100
         deckIDs.append(ID)
-
-    print(deckIDs)
 
     return deckIDs
 
@@ -182,8 +175,6 @@ def generateCustomDeck(deckListJSONObj):
             info_dict["UniqueBack"] = False
 
             custom_deck[str(count)] = info_dict
-
-            print(count)
 
             count += 1
 
@@ -313,7 +304,7 @@ def generateContainedObjects(deckListJSONObj):
             info_dict["LuaScriptState"] = ""
 
             contained_objects.append(info_dict)
-            print(count)
+
             count += 1
 
     return contained_objects
@@ -333,6 +324,7 @@ def repackageRawFilters(rawFilters):
     """
 
     filters = {}
+    card_type = ""
     pirate_code = ""
     pirate_types = [""]
     effect_text = ""
@@ -351,12 +343,16 @@ def repackageRawFilters(rawFilters):
     # if "show_juju" in rawFilters:
     #     pirate_codes.append('juju')
 
+    if "card_type" in rawFilters:
+        card_type = rawFilters["card_type"]
+
     if "pirate_code" in rawFilters:
         pirate_code = rawFilters["pirate_code"]
 
     if "pirate_type" in rawFilters:
         pirate_types_no_spaces = rawFilters["pirate_type"].replace(" ", "")
-        pirate_types = pirate_types_no_spaces.split(",")
+        pirate_types_lowercase = pirate_types_no_spaces.lower()
+        pirate_types = pirate_types_lowercase.split(",")
 
     if "effect_text" in rawFilters:
         effect_text = rawFilters["effect_text"]
@@ -371,6 +367,7 @@ def repackageRawFilters(rawFilters):
 
         firepower_relativity = rawFilters["firepower_relativity"]
 
+    filters["card_type"] = card_type
     filters["pirate_code"] = pirate_code
     filters["pirate_types"] = pirate_types
     filters["effect_text"] = effect_text
@@ -390,9 +387,17 @@ def filterCards(cards, filters):
 
     for card_name, card_info in cards.items():
 
+        if filters["card_type"] != "":
+
+            if card_info["card_type"] != filters["card_type"]:
+
+                if card_name in filtered_cards:
+
+                    del filtered_cards[card_name]
+
         if filters["pirate_code"] != "":
 
-            if card_info["pirate_code"] != filters["pirate_code"]:
+            if "pirate_code" not in card_info or card_info["pirate_code"] != filters["pirate_code"]:
 
                 if card_name in filtered_cards:
 
@@ -410,7 +415,7 @@ def filterCards(cards, filters):
 
             type_1 = filters["pirate_types"][0]
 
-            if type_1 not in card_info["pirate_types"]:
+            if "pirate_types" not in card_info or type_1 not in card_info["pirate_types"]:
 
                 if card_name in filtered_cards:
 
@@ -428,37 +433,42 @@ def filterCards(cards, filters):
 
         if filters["firepower"] != None:
 
-            if card_info["firepower"] == "X":
-
-                card_info["firepower"] = "0"
-
-            card_info["firepower"] = int(card_info["firepower"])
-
-            if filters["firepower_relativity"] == "firepower_equal":
-
-                if card_info["firepower"] != filters["firepower"]:
+            if "firepower" not in card_info:
 
                     if card_name in filtered_cards:
 
                         del filtered_cards[card_name]
 
-            elif filters["firepower_relativity"] == "firepower_lower":
+            else:
 
-                print('we want to only display power lower than ' + str(filters["firepower"]))
+                if card_info["firepower"] == "X":
 
-                print("card's firepower is " + str(card_info["firepower"]))
-                if card_info["firepower"] >= filters["firepower"]:
+                    card_info["firepower"] = "0"
 
-                    if card_name in filtered_cards:
+                card_info["firepower"] = int(card_info["firepower"])
 
-                        del filtered_cards[card_name]
+                if filters["firepower_relativity"] == "firepower_equal":
 
-            elif filters["firepower_relativity"] == "firepower_higher":
+                    if card_info["firepower"] != filters["firepower"]:
 
-                if card_info["firepower"] <= filters["firepower"]:
+                        if card_name in filtered_cards:
 
-                    if card_name in filtered_cards:
+                            del filtered_cards[card_name]
 
-                        del filtered_cards[card_name]
+                elif filters["firepower_relativity"] == "firepower_lower":
+
+                    if card_info["firepower"] >= filters["firepower"]:
+
+                        if card_name in filtered_cards:
+
+                            del filtered_cards[card_name]
+
+                elif filters["firepower_relativity"] == "firepower_higher":
+
+                    if card_info["firepower"] <= filters["firepower"]:
+
+                        if card_name in filtered_cards:
+
+                            del filtered_cards[card_name]
 
     return filtered_cards
