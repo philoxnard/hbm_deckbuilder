@@ -280,10 +280,7 @@ function resetDeckList() {
 
 function submitFilters() {
     /// This function needs to package all of the information held in the filter modal.
-    /// It also needs to hide the filter modal
     /// Then it needs to send all of the information to the server
-
-    $("#filter_modal").hide()
 
     let json_message = {}
 
@@ -320,6 +317,7 @@ function resetFilters() {
 
 
     $(".pirate_code_radio").prop('checked', false)
+    $(".card_type_radio").prop('checked', false)
     $("#pirate_type_input").val("")
     $("#effect_text").val("")
     $("#firepower_filter").val("")

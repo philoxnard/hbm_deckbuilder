@@ -15,6 +15,16 @@ def index():
 
     return render_template('index.html')
 
+@app.route("/email_signup", methods=["GET", "POST"])
+def email_signup():
+
+    return render_template('email.html')
+
+@app.route("/test", methods=["GET", "POST"])
+def test():
+
+    return "hello world"
+
 @app.route("/receive", methods=['POST'])
 def receive():
 
