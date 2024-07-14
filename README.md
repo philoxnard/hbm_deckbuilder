@@ -22,13 +22,17 @@ To Do list:
 12) Add instructions on how to use + save decklist
 13) DONE!!! Display how many cards are currently in deck
 14) DONE!!! Figure out more elegant way to redraw quantities without re-rendering every image
-15) Ensure that cards use actual art instead of old art from localStorage (loadCardFromLocalStorage() may need to refresh art)
+15) DONE!!! Ensure that cards use actual art instead of old art from localStorage (loadCardFromLocalStorage() may need to refresh art)
 16) Done!!! Figure out how to get nginx conf file to work with www-data as the user instead of root (apparently thats dangerous)
 17) DONE!!! Get deckbuilder app to be accessible via herebemonstersthegame (prob with a subdomain)
 18) DONE!!! Figure out if you can run two flask apps at once so you can have the player database running, or if this needs to be on another instance
 19) DONE!!! Clicking Reset Filters removes the filter window - it shouldnt do that
 20) DONE!!! reset filters button needs to reset pirate/ship/shanty
 21) a_fresh_day_at_sea and adventurous_spirit both do a weird flicker thing, see if there's any comonality between them that would be making them do that
+22) Ensure that card art works not only for website but also for TTS deck that you download
+23) Make cards searchable by crew
+24) Add art to all cards
+25) Update all cards card text
 
 
 WINDOWS FILEPATH:
