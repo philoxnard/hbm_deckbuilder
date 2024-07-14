@@ -1,13 +1,13 @@
 {
     "a_fresh_day_at_sea": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_d43a8c11f7e8453c86a4aceefe1b1794~mv2.jpeg/v1/fill/w_728,h_1020,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_001.jpeg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "activate any friendly pirate\u2019s \u201con play\u201d or \u201con board\u201d effects as if they were just played or boarded respectively.",
         "name": "a_fresh_day_at_sea"
     },
     "abyss_battalion": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -20,14 +20,14 @@
         ]
     },
     "adventurous_spirit": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to a ship. when played and at the start of each of your turns, you may free play a pirate onto the equipped ship.",
         "name": "adventurous_spirit"
     },
     "age_of_aged_cheese": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -41,7 +41,7 @@
         ]
     },
     "ah_hazzah": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -55,7 +55,7 @@
         ]
     },
     "ahoy_toy": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -68,7 +68,7 @@
         ]
     },
     "anchross_aweigh": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -81,7 +81,7 @@
         ]
     },
     "anemone_silver_of_the_dozen_blades": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -95,7 +95,7 @@
         ]
     },
     "angler-bot_of_the_chaos_urchin_order": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -108,7 +108,7 @@
         ]
     },
     "ants_of_the_pirate_queen\u2019s_army": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -122,7 +122,7 @@
         ]
     },
     "apoc.ko1.lypse": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -136,7 +136,7 @@
         ]
     },
     "arg_angel": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -149,7 +149,7 @@
         ]
     },
     "army_guy": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -163,7 +163,7 @@
         ]
     },
     "avast_avenger": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -177,7 +177,7 @@
         ]
     },
     "avian_airship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "this ship cannot be destroyed by a volley.",
@@ -185,7 +185,7 @@
         "pirate_code": "deep_sea"
     },
     "ba_ba_buccaneer": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -199,7 +199,7 @@
         ]
     },
     "barfrogamew_hops": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -213,7 +213,7 @@
         ]
     },
     "big_hand_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "while this ship is at sea, there is no limit to the size of your hand.",
@@ -221,7 +221,7 @@
         "pirate_code": "tropical"
     },
     "bionic_blowfish_blader": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -235,7 +235,7 @@
         ]
     },
     "blockade_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "each of your opponent\u2019s pirates gets -1 when trying to run your blockade.",
@@ -243,7 +243,7 @@
         "pirate_code": "heavy_metal"
     },
     "bluesmith_of_ocean_end_lane": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -256,7 +256,7 @@
         ]
     },
     "boatload_buster": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "every time a heavy metal (grey) pirate boards this ship, draw a card.",
@@ -264,7 +264,7 @@
         "pirate_code": "heavy_metal"
     },
     "boom_sacrifice": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -278,7 +278,7 @@
         ]
     },
     "bootstrap_berserker": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -291,7 +291,7 @@
         ]
     },
     "brain_coral": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -305,7 +305,7 @@
         ]
     },
     "briney_deep,_prehistoric_privateer": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -319,14 +319,14 @@
         ]
     },
     "bring_me_that_horizon": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "play the top card in either player' davy jones\u2019 locker.",
         "name": "bring_me_that_horizon"
     },
     "broadsidosaurus": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -340,7 +340,7 @@
         ]
     },
     "brute": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -354,7 +354,7 @@
         ]
     },
     "calculegend": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -368,7 +368,7 @@
         ]
     },
     "camouflage_bug": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -382,7 +382,7 @@
         ]
     },
     "cannon_boo": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -395,7 +395,7 @@
         ]
     },
     "cannon_bully": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -408,7 +408,7 @@
         ]
     },
     "cannon_floof": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -422,7 +422,7 @@
         ]
     },
     "cannonball_cruiser": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "all boom (red) pirates on this ship get +5.\n\nsend a volley: when fourth pirate boards this ship, immediately send a volley without costing an order.",
@@ -430,7 +430,7 @@
         "pirate_code": "boom"
     },
     "captain_harpoon": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -444,7 +444,7 @@
         ]
     },
     "captain_lazerbeard": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -457,7 +457,7 @@
         ]
     },
     "cargo_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "at the start of each of your turns (after this card is revealed) where there are no pirates aboard this ship, draw an extra card.",
@@ -465,7 +465,7 @@
         "pirate_code": "tropical"
     },
     "caskmaster": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -478,7 +478,7 @@
         ]
     },
     "chop_chop": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -492,14 +492,14 @@
         ]
     },
     "choppy_seas_champion": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "surprise you may free play this card when your opponent announces they are sending a volley or running the blockade. search your poop deck for a pirate to free play. \n\n*only 3 surprise cards allowed per poop deck.",
         "name": "choppy_seas_champion"
     },
     "coast_cutter": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "all deep sea (blue) pirates on this ship get +5.",
@@ -507,7 +507,7 @@
         "pirate_code": "deep_sea"
     },
     "coco-cannon": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "all tropical (orange) pirates on this ship get +5.",
@@ -515,7 +515,7 @@
         "pirate_code": "tropical"
     },
     "coconaut": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -528,7 +528,7 @@
         ]
     },
     "come_aboard_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. at any point (even on your opponent\u2019s turn) you may move any number of friendly pirates at sea to open spaces on this ship. once you do, flip this card face down. it counts as a blank deep sea ship at that point.",
@@ -536,7 +536,7 @@
         "pirate_code": "deep_sea"
     },
     "complete_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "anytime you start your player turn and this ship has a complete crew, gain a bonus order that turn.",
@@ -544,14 +544,14 @@
         "pirate_code": "tropical"
     },
     "confused_crews": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "play as a hidden shanty. after your opponent has boarded a pirate, you may reveal this card. if you have a ship that is empty, you may move your opponent\u2019s boarded pirate over to your empty ship.",
         "name": "confused_crews"
     },
     "cutlass_cricket": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -564,7 +564,7 @@
         ]
     },
     "cycloptus": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -577,14 +577,14 @@
         ]
     },
     "dagger_of_the_deep": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to a pirate (friendly or not). this pirate\u2019s firepower is now inverted.",
         "name": "dagger_of_the_deep"
     },
     "davy_jones\u2019_abomination": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -598,28 +598,28 @@
         ]
     },
     "davylight_savings_time": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "get a bonus order this turn (cannot be revealed on your opponent\u2019s turn).",
         "name": "davylight_savings_time"
     },
     "dead_pirate\u2019s_jig": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "play the top card in either player' davy jones\u2019 locker.",
         "name": "dead_pirate\u2019s_jig"
     },
     "deal_with_the_broadside_devil": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to a ship. while at sea, when a player is sending a volley their ship needs more firepower aboard than the ship that is being sunk. otherwise the ship is not sunk.",
         "name": "deal_with_the_broadside_devil"
     },
     "deckstroyer_mk.iii": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "all heavy metal (grey) pirates on this ship get +5.",
@@ -627,7 +627,7 @@
         "pirate_code": "heavy_metal"
     },
     "defensible_dreamer": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -641,7 +641,7 @@
         ]
     },
     "destructo_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when this ship sets sail, your opponent immediately shuffles their hand back into their deck and draws back up to how many cards they had previously.",
@@ -649,14 +649,14 @@
         "pirate_code": "heavy_metal"
     },
     "disrupting_fundamental_laws_of_cannonball_physics": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "surprise you may free play this card when your opponent is sending a volley. destroy two friendly pirates. your ship is not destroyed, instead send a volley at one of your opponent\u2019s ships. \n\n*only 3 surprise cards allowed per poop deck.",
         "name": "disrupting_fundamental_laws_of_cannonball_physics"
     },
     "doctor_croctor": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -669,7 +669,7 @@
         ]
     },
     "doombeard": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -682,14 +682,14 @@
         ]
     },
     "doombeard\u2019s_cutlass": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to pirate. before the start of the game, your opponent pick a card at random from your poop deck. during the game, you may only play \u201cdoombeard\u2019s cutlass\u201d if a card bearing the picked card\u2019s name is at sea. the equipped pirate now has firepower equal to your opponent\u2019s total firepower. only one \u201cdoombeard\u2019s cutlass\u201d is allowed per deck.",
         "name": "doombeard\u2019s_cutlass"
     },
     "drone": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -703,21 +703,21 @@
         ]
     },
     "each_time_": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "not-dead",
         "name": "each_time_"
     },
     "eighth_sea_amulet": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "play as a hidden shanty. when one of your ships is destroyed, you may pick any number of cards at sea to return to your hand (including from the sunk ship).",
         "name": "eighth_sea_amulet"
     },
     "enchanted_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when this card is first played and when it\u2019s destroyed, search your davy jones\u2019 locker for a shanty and bring it to your hand.",
@@ -725,7 +725,7 @@
         "pirate_code": "juju"
     },
     "exclusion_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when this card is first revealed, pick a pirate type (i.e. explosive, wild, plant, etc). your opponent may not board any pirate of that type as long as this card is at sea.",
@@ -733,7 +733,7 @@
         "pirate_code": "heavy_metal"
     },
     "exhaustion_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "everytime a ship at sea (friendly or not) exhausts, draw a card.",
@@ -741,7 +741,7 @@
         "pirate_code": "boom"
     },
     "extinction_tooth": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -755,7 +755,7 @@
         ]
     },
     "fate_crew": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -769,14 +769,14 @@
         ]
     },
     "fate_storm": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "play as a hidden shanty. reveal when your opponent completes a crew. they may not send a volley. you may free play two cards from your hand.",
         "name": "fate_storm"
     },
     "feather_flotilla": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "every time a tropical (orange) pirate boards this ship, draw a card.",
@@ -784,7 +784,7 @@
         "pirate_code": "tropical"
     },
     "feral_sword_beast": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -797,7 +797,7 @@
         ]
     },
     "fiend-o-war": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -810,7 +810,7 @@
         ]
     },
     "fleet_phoenix": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -824,7 +824,7 @@
         ]
     },
     "flintlock_fury": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -837,7 +837,7 @@
         ]
     },
     "flotsamstein": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -850,7 +850,7 @@
         ]
     },
     "forgotten_fleet": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when played this ship starts exhausted. this card starts in your ship graveyard. when any of your ships are destroyed, you may immediately have this ship set sail and board a pirate on it without costing an order. when sunk, remove from game.",
@@ -858,7 +858,7 @@
         "pirate_code": "juju"
     },
     "frigate_fighter": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "once per turn, when a pirate without any effect boards this ship, you may destroy any one pirate (friendly or not).",
@@ -866,7 +866,7 @@
         "pirate_code": "heavy_metal"
     },
     "funeral_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "once a turn, when a pirate with no effect boards this ship, you may immediately play a shanty/hidden shanty from your davy jones\u2019 locker.",
@@ -874,7 +874,7 @@
         "pirate_code": "juju"
     },
     "gladiator_gold": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -888,7 +888,7 @@
         ]
     },
     "goldfish_gallion": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. unless t\u2019s the first player turn of the game, when this ship is revealed, gain a bonus_order.",
@@ -896,7 +896,7 @@
         "pirate_code": "tropical"
     },
     "guardian_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "no pirates aboard this ship may be destroyed, moved or returned to your hand due to card effects.",
@@ -904,7 +904,7 @@
         "pirate_code": "heavy_metal"
     },
     "gunpowder_sage": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -918,7 +918,7 @@
         ]
     },
     "gunpowder_sage_ash_mode": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -932,7 +932,7 @@
         ]
     },
     "gunpowder_sage_blast_mode": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -946,7 +946,7 @@
         ]
     },
     "gunpowder_sage_hyper_mode": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -960,14 +960,14 @@
         ]
     },
     "gunpowder_shackles": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to one of your pirates. if this card is destroyed, you pick two of your opponent\u2019s pirates at sea to destroy.",
         "name": "gunpowder_shackles"
     },
     "ha_ha_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "once a turn, when you board a pirate on this ship, you may choose to shuffle a card from your hand back into your poop deck and draw a new one.",
@@ -975,7 +975,7 @@
         "pirate_code": "deep_sea"
     },
     "hangkor_lord_of_gallows": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -989,7 +989,7 @@
         ]
     },
     "hangman\u2019s_barge": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "if you have more cards in your djl than your opponent, all pirates on this ship get +5.",
@@ -997,7 +997,7 @@
         "pirate_code": "juju"
     },
     "harbinger_of_pyrocy": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1010,7 +1010,7 @@
         ]
     },
     "harbor_colossus": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1024,7 +1024,7 @@
         ]
     },
     "harbor_harpy": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1038,7 +1038,7 @@
         ]
     },
     "haunted_hauler": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "every time a juju (purple) pirate boards this ship, draw a card.",
@@ -1046,7 +1046,7 @@
         "pirate_code": "juju"
     },
     "hazzah_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when this ship completes a crew, gain two extra orders (if done on your turn).",
@@ -1054,7 +1054,7 @@
         "pirate_code": "deep_sea"
     },
     "headwind_hero_of_land-ho": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1068,7 +1068,7 @@
         ]
     },
     "hercules_hull_beetle": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1081,7 +1081,7 @@
         ]
     },
     "hermit_crawlers": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1094,7 +1094,7 @@
         ]
     },
     "hidden_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "all pirates aboard this ship may be turned face down, except when necessary to reveal points or effects.",
@@ -1102,14 +1102,14 @@
         "pirate_code": "deep_sea"
     },
     "holy_harbor_angel:_gunneliel": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "play as a hidden shanty. reveal when your opponent either sends a volley or attempts to run the blockade. this card immediately boards one of your ships as a +10 \u201cdivine\u201d juju pirate.",
         "name": "holy_harbor_angel:_gunneliel"
     },
     "horizon_herd": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1123,7 +1123,7 @@
         ]
     },
     "indisputable_ironclad": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. all pirates on this ship get x2.",
@@ -1131,7 +1131,7 @@
         "pirate_code": "heavy_metal"
     },
     "jack-o-loot": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1145,7 +1145,7 @@
         ]
     },
     "jay_sparrows": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1158,7 +1158,7 @@
         ]
     },
     "jolly_rodish": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1172,7 +1172,7 @@
         ]
     },
     "kah_mune_deer": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1185,7 +1185,7 @@
         ]
     },
     "kannon_katcher": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1199,7 +1199,7 @@
         ]
     },
     "kickus_cactus": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1213,7 +1213,7 @@
         ]
     },
     "kommodore_kong": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1226,7 +1226,7 @@
         ]
     },
     "lava_landlubber": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1240,7 +1240,7 @@
         ]
     },
     "lava_tug": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "every time a boom (red) pirate boards this ship, draw a card.",
@@ -1248,7 +1248,7 @@
         "pirate_code": "boom"
     },
     "legionnaire_longship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "as_long_as_this_ship_has_a_complete_crew,_all_pirates_aboard_get_+5.",
@@ -1256,7 +1256,7 @@
         "pirate_code": "boom"
     },
     "lightning_eels": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1270,7 +1270,7 @@
         ]
     },
     "lobster_tank": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1283,7 +1283,7 @@
         ]
     },
     "lobster_tank_blue": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1296,7 +1296,7 @@
         ]
     },
     "long-neck_destroyer": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1309,7 +1309,7 @@
         ]
     },
     "lord_voyager": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1323,7 +1323,7 @@
         ]
     },
     "lucky_clam": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1337,7 +1337,7 @@
         ]
     },
     "madame_crossed_bones": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1351,21 +1351,21 @@
         ]
     },
     "marine_miracle_morph": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "permanently change the type of any or all pirates at sea (friendly or not).",
         "name": "marine_miracle_morph"
     },
     "maritime_magnet": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "pick an opponent\u2019s hidden shanty. they cannot activate it in response to this card. place it as a hidden shanty on one of your pirates (if no pirate is available, destroy it instead). it cannot be activated until the next player\u2019s turn.",
         "name": "maritime_magnet"
     },
     "master_sheepwright": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1379,7 +1379,7 @@
         ]
     },
     "metal_devil": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1393,7 +1393,7 @@
         ]
     },
     "metal_dino": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1407,7 +1407,7 @@
         ]
     },
     "metal_muncher": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1421,14 +1421,14 @@
         ]
     },
     "metal_pirazoid_armor": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "quip to a Pirate. That Pirate gets +4 and all friendly Pirates that share the same positioning on their Ships as this Pirate get firepower equal to this Pirate (does not stack with other \u2018Metal Pirazoid Armor\u2019s)",
         "name": "metal_pirazoid_armor"
     },
     "miss-isles": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1442,7 +1442,7 @@
         ]
     },
     "mobile_sailor_gundeck": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1456,14 +1456,14 @@
         ]
     },
     "mollusk_mania": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to a ship. when played and at the start of each of your turns, you may free play a pirate onto the equipped ship.",
         "name": "mollusk_mania"
     },
     "monarch_matey": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1477,21 +1477,21 @@
         ]
     },
     "monsoon_force": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "you may relocate any or all of your opponent\u2019s pirates amongst their ships. if a crew is completed by this card, no volley is sent.",
         "name": "monsoon_force"
     },
     "monster_musketoon": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to a pirate. that pirate gets x2",
         "name": "monster_musketoon"
     },
     "mooring_monk": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1504,7 +1504,7 @@
         ]
     },
     "more_card_draw_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "any time you discard a card, draw a card.",
@@ -1512,7 +1512,7 @@
         "pirate_code": "tropical"
     },
     "moth_from_the_unknown_sea": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1526,7 +1526,7 @@
         ]
     },
     "mr._manty_and_his_magical_hat": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1540,7 +1540,7 @@
         ]
     },
     "mutiny_mummy": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1554,7 +1554,7 @@
         ]
     },
     "navigator_nuts": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1567,14 +1567,14 @@
         ]
     },
     "navy_orders": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "board two pirates (can be to the same ship or different). if played as a hidden shanty, only board one.",
         "name": "navy_orders"
     },
     "not_so_yellow_submarine": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. when this ship is played, you may search your poop deck for a pirate to bring to your hand.",
@@ -1582,7 +1582,7 @@
         "pirate_code": "deep_sea"
     },
     "nuclear_nautilus": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1596,7 +1596,7 @@
         ]
     },
     "nuh-uh_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "no pirate\u2019s firepower counts while aboard. once per turn when your opponent uses an order to draw a card, you draw one as well.",
@@ -1604,7 +1604,7 @@
         "pirate_code": "tropical"
     },
     "oar-angutan": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1617,7 +1617,7 @@
         ]
     },
     "ocean_keep": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "everytime a deep sea (blue) pirate boards this ship, draw a card.",
@@ -1625,7 +1625,7 @@
         "pirate_code": "deep_sea"
     },
     "other_spaceman": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1639,7 +1639,7 @@
         ]
     },
     "paladin_of_the_far_horizon": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1653,14 +1653,14 @@
         ]
     },
     "pearl_pieces_of_three": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "if you have 3x \u201cpearl pieces of three\u201d in your hand, you may immediately free play five pirates from your davy jones\u2019 locker, your poop deck, your hand or a combination of the three. ignore all boarding restrictions. then remove these three shanties from the game.",
         "name": "pearl_pieces_of_three"
     },
     "peek-a-boo_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "everytime a pirate/shanty is played on this ship, look at a random card from your opponent\u2019s hand.",
@@ -1668,7 +1668,7 @@
         "pirate_code": "heavy_metal"
     },
     "peglegasus": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1682,14 +1682,14 @@
         ]
     },
     "perfectly_average_in_every_way": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "when this card is played, immediately board a pirate, with no effect, from your poop deck.",
         "name": "perfectly_average_in_every_way"
     },
     "piranknot": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1702,42 +1702,42 @@
         ]
     },
     "pirate_life_blue": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "Search your Poop Deck for one Deep Sea card and equip this card to a Deep Sea Pirate at Sea. They get +4.",
         "name": "pirate_life_blue"
     },
     "pirate_life_purple": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "Search your Poop Deck for one Juju card and equip this card to a Juju Pirate at Sea. They get +4.",
         "name": "pirate_life_purple"
     },
     "pirate_life_red": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "search your poop deck for one boom card and equip this card to a boom pirate at sea. they get +4.",
         "name": "pirate_life_red"
     },
     "pirate_life_silver": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "when played, bring one heavy metal pirate to your hand from your poop deck and equip this card to a heavy metal pirate at sea and give them +4.",
         "name": "pirate_life_silver"
     },
     "pirate_life_yellow": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "Search your Poop Deck for one Tropical card and equip this card to a Tropical Pirate at Sea. They get +4.",
         "name": "pirate_life_yellow"
     },
     "platypirate": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1750,7 +1750,7 @@
         ]
     },
     "pocket_pirate": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1763,7 +1763,7 @@
         ]
     },
     "pony_boy": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1777,7 +1777,7 @@
         ]
     },
     "popcolonels": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1791,7 +1791,7 @@
         ]
     },
     "powder_king": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1804,7 +1804,7 @@
         ]
     },
     "pterror_deck": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when this ship sets sail you may destroy one pirate if any are currently at sea.",
@@ -1812,7 +1812,7 @@
         "pirate_code": "boom"
     },
     "pterror_pteam": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1826,7 +1826,7 @@
         ]
     },
     "purgatory_parrot": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1840,7 +1840,7 @@
         ]
     },
     "pyramid_prow": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "while this ship is at sea, every time you play a shanty (hidden or not) draw a card.",
@@ -1848,7 +1848,7 @@
         "pirate_code": "juju"
     },
     "pyrannosaurus_rex": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1861,7 +1861,7 @@
         ]
     },
     "quartermaster_95": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1875,7 +1875,7 @@
         ]
     },
     "recovery_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when this ship is first revealed, you may select three ships from your ship graveyard and shuffle them back into your dock deck.",
@@ -1883,7 +1883,7 @@
         "pirate_code": "deep_sea"
     },
     "red-eye_wreckage": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "while this ship is at sea, your opponent\u2019s max hand size is 4.",
@@ -1891,7 +1891,7 @@
         "pirate_code": "heavy_metal"
     },
     "reef_ronin": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1905,14 +1905,14 @@
         ]
     },
     "remnant_of_piracy\u2019s_first_age": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to the ship \u201cthe doomtreader\u201d. if \u201cdoombeard\u201d is aboard this ship, it, this card and the ship cannot be destroyed by any effect your opponent plays. only one \u201cremnant of piracy\u2019s first age\u201d is allowed per deck.",
         "name": "remnant_of_piracy\u2019s_first_age"
     },
     "requisite_icebreaker": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "this ship does not need a pirate aboard to run the blockade.",
@@ -1920,14 +1920,14 @@
         "pirate_code": "deep_sea"
     },
     "rum_for_ye_both": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "when played, return two friendly pirates to your hand and then board two pirates from your hand in their places.",
         "name": "rum_for_ye_both"
     },
     "safety_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when this ship is sunk, move the pirates aboard to any friendly ship (if a crew is completed do not send a volley). if no ships are available, the pirates are destroyed.",
@@ -1935,7 +1935,7 @@
         "pirate_code": "deep_sea"
     },
     "sailor_boom": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1949,7 +1949,7 @@
         ]
     },
     "sailor_spaceman_": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1963,7 +1963,7 @@
         ]
     },
     "santa_monstera": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. if you drew a card at the start of this turn, when this ship sets sail, immediately draw two additional cards.",
@@ -1971,14 +1971,14 @@
         "pirate_code": "tropical"
     },
     "sargasso_spyglass": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "look at the bottom five cards of your opponent\u2019s poop deck. pick one to bring to your hand. then shuffle their deck.",
         "name": "sargasso_spyglass"
     },
     "scallywag_cyber": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1991,7 +1991,7 @@
         ]
     },
     "scallywag_cyber_2_0": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2004,7 +2004,7 @@
         ]
     },
     "scarpion_treasure_bug": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2018,7 +2018,7 @@
         ]
     },
     "schoonier": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2032,7 +2032,7 @@
         ]
     },
     "sea-loth": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2045,7 +2045,7 @@
         ]
     },
     "sea-u-gator": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "all juju (purple) pirates on this ship get +5.",
@@ -2053,14 +2053,14 @@
         "pirate_code": "juju"
     },
     "seabottom_lazer_pistol_5000": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to a pirate. that pirate\u2019s firepower now becomes zero. pick one of your opponent\u2019s ships. that ship loses all of its firepower and can\u2019t be scuttled as long as this card is in play.",
         "name": "seabottom_lazer_pistol_5000"
     },
     "seacove_smuggler_co.": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "all pirates aboard this ship may be turned face down, except when necessary to reveal firepower or effects.",
@@ -2068,21 +2068,21 @@
         "pirate_code": "deep_sea"
     },
     "seal_of_the_crossed_bones": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "pick a player, until the start of your next turn, all of that player's pirates are considered to be no-effect pirates (including the ones in their hand).",
         "name": "seal_of_the_crossed_bones"
     },
     "seawolf_torpedos": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to a ship. each pirate that is boarded on that ship after this card is played, gets x2.",
         "name": "seawolf_torpedos"
     },
     "seaworthy_sovereign": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2096,7 +2096,7 @@
         ]
     },
     "shipside_shelling_corp": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2110,7 +2110,7 @@
         ]
     },
     "shipwreck_golem": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2124,7 +2124,7 @@
         ]
     },
     "shiver_me_timberers": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2137,7 +2137,7 @@
         ]
     },
     "shogun_scourge": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2151,7 +2151,7 @@
         ]
     },
     "shot_shot_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "it counts as completing a crew when this ship has three pirates aboard (although you may board a fourth as well).",
@@ -2159,7 +2159,7 @@
         "pirate_code": "boom"
     },
     "shrimpviathen_(aka_jumbo_shrimp)": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2173,7 +2173,7 @@
         ]
     },
     "skull_of_the_shipasaurus": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "no pirate\u2019s firepower counts towards your total on this ship, except when you\u2019re running the blockade, all pirate\u2019s firepower aboard this ship gets x2.",
@@ -2181,7 +2181,7 @@
         "pirate_code": "boom"
     },
     "slot_machine": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2195,7 +2195,7 @@
         ]
     },
     "sonar_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when this ship sets sail, your opponent must reveal their hand to you.",
@@ -2203,7 +2203,7 @@
         "pirate_code": "heavy_metal"
     },
     "spectral_dutchman": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2217,7 +2217,7 @@
         ]
     },
     "spinnaker_spud": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "at the start of each of your turns (after this card is revealed) where there are no pirates aboard this ship, draw an extra card",
@@ -2225,14 +2225,14 @@
         "pirate_code": "tropical"
     },
     "stinkpot_salvo": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "you may relocate any or all of your opponent\u2019s pirates amongst their ships. if a crew is completed by this card, no volley is sent.",
         "name": "stinkpot_salvo"
     },
     "subject:_s3a_zku11": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2246,14 +2246,14 @@
         ]
     },
     "sunrise_supplies": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "draw back up to having five cards in your hand.",
         "name": "sunrise_supplies"
     },
     "super_destroy": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2267,7 +2267,7 @@
         ]
     },
     "super_giganto_gull": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2281,7 +2281,7 @@
         ]
     },
     "super_harsh_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "for every pirate on this ship with no effect, your opponent gets -4 while they\u2019re running your blockade.",
@@ -2289,14 +2289,14 @@
         "pirate_code": "deep_sea"
     },
     "surging_scallywag_strength": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to a ship. give all friendly pirates that get any additional points beyond their base points (whether through shanty, effect or other) x2.",
         "name": "surging_scallywag_strength"
     },
     "sword_bay_salvager": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "while this ship is at sea, any time a pirate is destroyed (except for blockade runs) draw a card.",
@@ -2304,7 +2304,7 @@
         "pirate_code": "heavy_metal"
     },
     "sword_beast": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2317,14 +2317,14 @@
         ]
     },
     "teach\u2019s_ticking_time_bomb": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "when this card is played, shuffle it into your opponent\u2019s deck. the next time either player draws a \u201cteach\u2019s ticking time bomb\u201d that player\u2019s opponent immediately sinks one of that player\u2019s ships.",
         "name": "teach\u2019s_ticking_time_bomb"
     },
     "tentacollector": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2337,7 +2337,7 @@
         ]
     },
     "terror_of_the_seas_tater": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2350,14 +2350,14 @@
         ]
     },
     "the_art_of_marooning": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "this card may be free played from you hand when either player successfully runs the blockade. pick one pirate (friendly or not) that would have been destroyed after the blockade run and return it on a new ship on your following turn.",
         "name": "the_art_of_marooning"
     },
     "the_big_tub": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "there is no limit to the amount of pirates you can board on this ship, however it counts as completing a crew when you board the fourth.",
@@ -2365,7 +2365,7 @@
         "pirate_code": "tropical"
     },
     "the_black_emerald": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "this ship may be sunk by your own volleys. when done so, flip this card face down. it now counts as a no effect juju ship. you may then fill all empty spaces on your ships with pirates from your djl.",
@@ -2373,7 +2373,7 @@
         "pirate_code": "juju"
     },
     "the_bladeheim": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when this ship completes a crew, gain two extra orders.",
@@ -2381,14 +2381,14 @@
         "pirate_code": "boom"
     },
     "the_conch_shell_of_mariner\u2019s_regret": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to a pirate (friendly or not). search that player\u2019s deck for the pirate with the highest written firepower and swap it with the equipped pirate (ignoring all boarding restrictions and effects).",
         "name": "the_conch_shell_of_mariner\u2019s_regret"
     },
     "the_cute_one": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2402,7 +2402,7 @@
         ]
     },
     "the_darwin": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "if there are 5 or more different types on this ship, all pirates aboard get x2.",
@@ -2410,7 +2410,7 @@
         "pirate_code": "tropical"
     },
     "the_deckrunner": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2423,7 +2423,7 @@
         ]
     },
     "the_doomtreader": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "if the pirate \u201cdoombeard\u201d is aboard this ship, any ship sending a volley at it must have more points aboard than \u201cthe doomtreader\u201d has aboard in order to sink it.",
@@ -2431,7 +2431,7 @@
         "pirate_code": "other"
     },
     "the_drowned_king": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2445,7 +2445,7 @@
         ]
     },
     "the_grand_old_seaworth": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when your opponent boards a pirate on the ship opposite this one, you may immediately free play a pirate from your hand. then flip this card face down. it now counts as a normal boom ship.",
@@ -2453,7 +2453,7 @@
         "pirate_code": "boom"
     },
     "the_greater_sand_witch": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2466,14 +2466,14 @@
         ]
     },
     "the_helm_of_tides": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to a pirate. that pirate gets +4. when this card is destroyed you may free play a card from your hand or draw a card.",
         "name": "the_helm_of_tides"
     },
     "the_icemoor": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2486,7 +2486,7 @@
         ]
     },
     "the_legendary_flamighydra": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2500,14 +2500,14 @@
         ]
     },
     "the_legendary_octdent": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "112",
         "name": "the_legendary_octdent"
     },
     "the_mapillion_vi": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "anytime you start your player turn and this ship has a complete crew, gain a bonus order that turn.",
@@ -2515,14 +2515,14 @@
         "pirate_code": "tropical"
     },
     "the_oldest_sea_shanty": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "destroy a shanty.",
         "name": "the_oldest_sea_shanty"
     },
     "the_plankwalker": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2536,7 +2536,7 @@
         ]
     },
     "the_seacophagus": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2550,7 +2550,7 @@
         ]
     },
     "the_seastress": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2563,7 +2563,7 @@
         ]
     },
     "the_ship-rex": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2576,7 +2576,7 @@
         ]
     },
     "the_squall_skiff_squad": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. when this ship is played, you may immediately board a pirate on it (without costing an order). ",
@@ -2584,14 +2584,14 @@
         "pirate_code": "deep_sea"
     },
     "the_sunken_crown": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "when played and after each order, this card equips itself to the pirate at sea with the highest firepower (if able). it remains where it is on a tie. after it\u2019s played, each subsequent time it equips to a new pirate, the player whose pirate it is gets a bonus order. this card is only destroyed after a successful run of the blockade. ",
         "name": "the_sunken_crown"
     },
     "the_unsinkable": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when this ship is sunk, return all cards aboard to your hand.",
@@ -2599,7 +2599,7 @@
         "pirate_code": "juju"
     },
     "the_vacation_demon": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2612,7 +2612,7 @@
         ]
     },
     "third_spaceman": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2626,7 +2626,7 @@
         ]
     },
     "tidal_troublemaker": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2640,7 +2640,7 @@
         ]
     },
     "topgallant_knight": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2653,7 +2653,7 @@
         ]
     },
     "toucan_trader": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2666,7 +2666,7 @@
         ]
     },
     "treasuratops": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2679,7 +2679,7 @@
         ]
     },
     "tree_house_hullentine": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "once a turn, when a pirate with no effect boards this ship, gain an extra order.",
@@ -2687,28 +2687,28 @@
         "pirate_code": "tropical"
     },
     "tri-crossed_anchors": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "this card cannot be removed from your deck by any means except drawing. if you have 3x \u201ctri-crossed anchors\u201d in your hand when your opponent runs the blockade, you receive the booty instead of them. it is then your opponent\u2019s turn.",
         "name": "tri-crossed_anchors"
     },
     "tricorn_of_dawn": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "cannot be played as a hidden shanty. when this card is played, swap one friendly pirate at sea with one of your opponent\u2019s pirates (no boarding effects activate).",
         "name": "tricorn_of_dawn"
     },
     "truest_aim": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "cannot be played as a hidden shanty. destroy one pirate at sea.",
         "name": "truest_aim"
     },
     "type_cast_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "when you spend an order to board a pirate on this ship, you may immediately free play another pirate of the same type (e.g. animal, robot, mythic, etc\u2026)",
@@ -2716,7 +2716,7 @@
         "pirate_code": "tropical"
     },
     "unkillable_kiwi_krew": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2730,14 +2730,14 @@
         ]
     },
     "urchin_virus_ultra": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "shanty",
         "effect_text": "equip to a ship. all of your opponent\u2019s pirates with firepower over +4 now get brought down to +4 (after any effects are factored in).",
         "name": "urchin_virus_ultra"
     },
     "vampire": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2751,7 +2751,7 @@
         ]
     },
     "wave_in_a_bottle": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2764,7 +2764,7 @@
         ]
     },
     "wave_wolf": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2778,7 +2778,7 @@
         ]
     },
     "weredolphin": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2791,7 +2791,7 @@
         ]
     },
     "world-ender": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2805,7 +2805,7 @@
         ]
     },
     "worrisome_ship": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "pirates with no effect count as two spaces when determining a completed crew.",
@@ -2813,7 +2813,7 @@
         "pirate_code": "deep_sea"
     },
     "ye_olde_ferry_fox": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2827,7 +2827,7 @@
         ]
     },
     "ye_olde_ferry_fox_kitsune": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2841,7 +2841,7 @@
         ]
     },
     "yo_ho_hero": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -2855,7 +2855,7 @@
         ]
     },
     "zombuoy": {
-        "BackURL": "https://i.ebayimg.com/images/g/XGIAAOSwm3Ni98vF/s-l1200.jpg",
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
