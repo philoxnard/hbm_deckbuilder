@@ -150,10 +150,10 @@
     },
     "avast_avenger": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_f884da008b944afdb48b65c2a64f3baf~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_014.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "while at sea if this is the pirate to complete a crew, you may choose not to send a volley. then, at a later point, you may destroy this card in order to send the volley.",
+        "effect_text": "When a Crew is Completed, friendly or not, you may Free Play this card.",
         "firepower": "2",
         "name": "avast_avenger",
         "pirate_code": "boom",
@@ -292,10 +292,10 @@
     },
     "briney_deep,_prehistoric_privateer": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_44433c0672954a3bb602839dbfd81a1f~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_007.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played and at the start each subsequent turn, if the ship this pirate is on has the most firepower of any ship at sea (friendly or not), gain a bonus order.",
+        "effect_text": "while at sea, at the start of each turn if the ship this pirate is on has the most firepower of any ship at sea (friendly or not), gain a bonus order.",
         "firepower": "-1",
         "name": "briney_deep,_prehistoric_privateer",
         "pirate_code": "boom",
@@ -313,10 +313,10 @@
     },
     "broadsidosaurus": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_743ff1dee6c9405fbc8481d3a0fd4ede~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_015.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played if this is the first card on the ship, when its crew is completed, instead of sinking a ship, destroy all of your opponent\u2019s pirates at sea.",
+        "effect_text": "When played if this is the card to complete a crew, instead of firing the cannons, you immediately get a free search for the treasure. Before firepower is calculated, sink this ship.",
         "firepower": "4",
         "name": "broadsidosaurus",
         "pirate_code": "boom",
@@ -382,7 +382,7 @@
     },
     "cannon_bully": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_91258c4f6eb8423ba9367cf107d1ba00~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_022.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "surprise can free play, even on your opponent\u2019s turn (as long as its ship is not empty). is destroyed at the  end of the player turn.\n\n*only 3 surprise cards allowed per poop deck.",
@@ -784,7 +784,7 @@
     },
     "fiend-o-war": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_d9950a06f55e4e6d8096e6083481ca2c~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_016.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "while at sea at the start of each of your turns, this card returns to your hand.",
@@ -797,10 +797,10 @@
     },
     "fleet_phoenix": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_14807ad599cd42ce89c9511129301610~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_002.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when destroyed, return to your hand. the next time you play a \u201cfleet phoenix\u201d it has an additional, permanent x2.",
+        "effect_text": "When played this card gains a permanent x2 for every time a friendly Fleet Phoenix has been destroyed this game. When destroyed, return to the top of your deck.",
         "firepower": "2",
         "name": "fleet_phoenix",
         "pirate_code": "boom",
@@ -861,10 +861,10 @@
     },
     "gladiator_gold": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_3cec67de416f4fb3aae06dcab90ad746~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_005.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played set this pirate\u2019s firepower to exactly one below the number you need to become equal to your opponent\u2019s firepower.",
+        "effect_text": "Boarding restriction: costs 2 orders. When played set this pirate\u2019s firepower to exactly the number you need to become equal to your opponent\u2019s firepower.",
         "firepower": "X",
         "name": "gladiator_gold",
         "pirate_code": "boom",
@@ -891,7 +891,7 @@
     },
     "gunpowder_sage": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_1bb511037c2749daa9faf551fe7355bd~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_023.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "none",
@@ -919,7 +919,7 @@
     },
     "gunpowder_sage_blast_mode": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_6eddb9a97ee849c0b0c308a48229ba27~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_024.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "boarding restriction: costs 3 orders. however, if you have a friendly \u201cgunpowder sage\u201d at sea, you may shuffle it back into your poop deck  and board this in its place without costing an order.",
@@ -984,7 +984,7 @@
     },
     "harbinger_of_pyrocy": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_33f28b6f26924429a844601ec34403d3~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_008.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "when played look at the bottom card of your poop deck. if it\u2019s a shanty, this card is immediately destroyed (then shuffle poop deck).",
@@ -1172,7 +1172,7 @@
     },
     "kannon_katcher": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_179a85bc7e624c11bba51cd6887516b8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_019.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "while at sea when your opponent sends a volley, you may destroy this pirate instead of the intended target.",
@@ -1213,7 +1213,7 @@
     },
     "lava_landlubber": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_2200e0602f2c40649ed3ce2b43a72090~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_020.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "when played select one ship at sea (friendly or not) and flip it face down. its pirate code and effect are null. for all purposes it\u2019s a normal boom ship.",
@@ -1453,8 +1453,8 @@
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "on your turn, if this pirate would complete a crew when played, you may free play it to complete the crew. ",
-        "firepower": "2",
+        "effect_text": "If at any point your opponent is the only one who has a Pirate at Sea, then you may immediately Free Play this card and give it +10 ",
+        "firepower": "3",
         "name": "monarch_matey",
         "pirate_code": "tropical",
         "pirate_types": [
@@ -1468,6 +1468,20 @@
         "card_type": "shanty",
         "effect_text": "you may relocate any or all of your opponent\u2019s pirates amongst their ships. if a crew is completed by this card, no volley is sent.",
         "name": "monsoon_force"
+    },
+    "monkey_bones": {
+        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_07290621d95e433e85813a68ef6ab6c3~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_011.jpeg",
+        "card_art": "",
+        "card_type": "pirate",
+        "effect_text": "on your turn, if this pirate would complete a crew when played, you may free play it to complete the crew. ",
+        "firepower": "2",
+        "name": "monkey_bones",
+        "pirate_code": "boom",
+        "pirate_types": [
+            "mythic",
+            "animal"
+        ]
     },
     "monster_musketoon": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
@@ -1764,7 +1778,7 @@
     },
     "popcolonels": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_cfeceed73f234574af3bc36225e38d94~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_017.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "while at sea the ship this card is on requires one fewer pirate to complete a crew.",
@@ -1799,7 +1813,7 @@
     },
     "pterror_pteam": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_369b1dba009b4d0891c65113f54c21a0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_009.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "while at sea  you may spend two orders and immediately destroy a pirate at sea (friendly or not).",
@@ -1835,10 +1849,10 @@
     },
     "pyrannosaurus_rex": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_10bc365d86bc4f4f96ed84d30ec02dc8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_021.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played if this is the card to complete a crew, you may send two volleys, instead of one (if able).",
+        "effect_text": "when played if this is the card to complete a crew, you may fire the cannons twice, instead of one (if able).",
         "firepower": "3",
         "name": "pyrannosaurus_rex",
         "pirate_code": "boom",
@@ -1922,7 +1936,7 @@
     },
     "sailor_boom": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_2f4bda1ed0584a458e3675833f9da243~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_010.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "while at sea your opponent may not play any pirates except through a standard use of orders (no use of effects).",
@@ -2069,10 +2083,10 @@
     },
     "seaworthy_sovereign": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_43091e9c46dc47c39f0dfdd6b7c363b9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_018.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "boarding restriction: you must return to your hand all pirates (at least one needs to be present) from the ship this is boarding (this card may board a ship with a complete crew). this pirate gets a permanent +2 for each returned pirate.",
+        "effect_text": "WWhile at sea any Shipmate that shares a Type with another Shipmate gets x2.",
         "firepower": "8",
         "name": "seaworthy_sovereign_",
         "pirate_code": "boom",
@@ -2124,10 +2138,10 @@
     },
     "shogun_scourge": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_3f83c6d55adb4c738449d625ca1a3dac~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_003.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "while at sea when your opponent declares they are running the blockade, you may free play a card from your hand.",
+        "effect_text": "while at sea when either player declares they are searching for the treasure, you may free play a card from your hand.",
         "firepower": "-10",
         "name": "shogun_scourge",
         "pirate_code": "boom",
@@ -2291,7 +2305,7 @@
     },
     "sword_beast": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_8d127eb4e1394a429b1b25787ea23412~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_026.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "none",
@@ -2473,7 +2487,7 @@
     },
     "the_legendary_flamighydra": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_83460547cd89401aa534db331be534c1~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_013.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "while at sea this card gets +5 for every ship in your ship graveyard.",
@@ -2828,7 +2842,7 @@
     },
     "yo_ho_hero": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_4bdbcfc59268498dbb81b874ab3fda06~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_025.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "none",
