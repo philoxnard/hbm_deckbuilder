@@ -21,7 +21,7 @@ def handleOnLoad(message):
 
     response["cards"] = cards
     response["filters"] = filters
-    response["version"] = "2"
+    response["version"] = "2.0.1"
     response["result"] = "Success"
 
     return response
