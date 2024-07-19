@@ -264,6 +264,10 @@ function resetDeckList() {
     for ( var i = 0, len = localStorage.length; i < len; ++i ) {
         
         let stringified_card = localStorage.getItem(localStorage.key(i))
+
+        if (stringified_card.includes("FaceURL") == false) {
+            continue
+        }
         let card = JSON.parse(stringified_card)
 
         let quantity = card["quantity"]
@@ -339,6 +343,11 @@ function exportDeckList() {
     for ( var i = 0, len = localStorage.length; i < len; ++i ) {
         
         let stringified_card = localStorage.getItem(localStorage.key(i))
+
+        // skip over random fields in localstorage such as version
+        if ( stringified_card.includes("FaceURL") == false ) {
+            continue
+        }
         let card = JSON.parse(stringified_card)
 
         let quantity = card["quantity"]
