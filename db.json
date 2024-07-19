@@ -1,15 +1,8 @@
 {
-    "a_fresh_day_at_sea": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "shanty",
-        "effect_text": "activate any friendly pirate\u2019s \u201con play\u201d or \u201con board\u201d effects as if they were just played or boarded respectively.",
-        "name": "a_fresh_day_at_sea"
-    },
     "abyss_battalion": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_art": "",
+        "card_art": "https://static.wixstatic.com/media/b7f019_0292c5523a5044278bad717208c7effd~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/b7f019_0292c5523a5044278bad717208c7effd~mv2.jpeg",
         "card_type": "pirate",
         "effect_text": "when played: the game turn after this, running the blockade costs you 2 orders.",
         "firepower": "2",
@@ -19,17 +12,10 @@
             "soldier"
         ]
     },
-    "adventurous_spirit": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "shanty",
-        "effect_text": "equip to a ship. when played and at the start of each of your turns, you may free play a pirate onto the equipped ship.",
-        "name": "adventurous_spirit"
-    },
     "age_of_aged_cheese": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_art": "",
+        "card_art": "https://static.wixstatic.com/media/b7f019_c0f7ee3074494915a932148d5dd2a9d1~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/b7f019_c0f7ee3074494915a932148d5dd2a9d1~mv2.jpeg",
         "card_type": "pirate",
         "effect_text": "when this card enters your hand, reveal it. at the start of each of your turns that this card remains in your hand, place a marker on it. when this card boards a ship, it gets +5 for each marker.",
         "firepower": "5",
@@ -43,7 +29,7 @@
     "ah_hazzah": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_art": "",
+        "card_art": "https://static.wixstatic.com/media/b7f019_675a84375081404883b8b3a8a771064a~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/b7f019_675a84375081404883b8b3a8a771064a~mv2.jpeg",
         "card_type": "pirate",
         "effect_text": "when played none of your ships can be sunk from a volley on your opponent\u2019s next turn.",
         "firepower": "-1",
@@ -57,7 +43,7 @@
     "ahoy_toy": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_art": "",
+        "card_art": "https://static.wixstatic.com/media/b7f019_dcd54f95ac4e4e9a90fb5c579c7c5d86~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/b7f019_dcd54f95ac4e4e9a90fb5c579c7c5d86~mv2.jpeg",
         "card_type": "pirate",
         "effect_text": "none",
         "firepower": "5",
