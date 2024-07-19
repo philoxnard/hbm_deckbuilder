@@ -35,7 +35,7 @@ function receive(response) {
 
 function drawCard(card) {
 
-    let image = card["card_art"]
+    let image = card["FaceURL"]
     let name = card["name"]
 
     let drawn_card = '<div class="card"><img src ="' + image + '" alt="' + name + '">'

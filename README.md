@@ -3,7 +3,6 @@
 
 Notes:
 
-card images should be 275px wide
 check secret file for git auth code
 
 To Do list:
