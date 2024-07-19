@@ -72,7 +72,7 @@
     text-align: center;
     display: inline-block;
     width: 100%;
-    max-width: 236px;
+    max-width: 430px;
     margin: 25px;
 
     
@@ -101,5 +101,5 @@
 
 img{
     width:100%;
-    max-width:275px;
+    max-width:430px;
 }
