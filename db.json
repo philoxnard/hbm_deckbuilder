@@ -249,20 +249,6 @@
         "name": "boatload_buster",
         "pirate_code": "heavy_metal"
     },
-    "boom_sacrifice": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_art": "",
-        "card_type": "pirate",
-        "effect_text": "when destroyed pick one of your opponent\u2019s pirates at sea to destroy as well.",
-        "firepower": "2",
-        "name": "boom_sacrifice",
-        "pirate_code": "boom",
-        "pirate_types": [
-            "n",
-            "a"
-        ]
-    },
     "bootstrap_berserker": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
@@ -725,20 +711,6 @@
         "effect_text": "everytime a ship at sea (friendly or not) exhausts, draw a card.",
         "name": "exhaustion_ship",
         "pirate_code": "boom"
-    },
-    "extinction_tooth": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_art": "",
-        "card_type": "pirate",
-        "effect_text": "when destroyed get one fewer order on your following turn (including runs of the blockade).",
-        "firepower": "14",
-        "name": "extinction_tooth",
-        "pirate_code": "boom",
-        "pirate_types": [
-            "n",
-            "a"
-        ]
     },
     "fate_crew": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
@@ -1281,19 +1253,6 @@
             "vehicle"
         ]
     },
-    "long-neck_destroyer": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_art": "",
-        "card_type": "pirate",
-        "effect_text": "your opponent gets -4 when attempting to run your blockade.",
-        "firepower": "2",
-        "name": "long-neck_destroyer",
-        "pirate_code": "boom",
-        "pirate_types": [
-            "dinosaur"
-        ]
-    },
     "lord_voyager": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
@@ -1581,20 +1540,6 @@
         "name": "not_so_yellow_submarine",
         "pirate_code": "deep_sea"
     },
-    "nuclear_nautilus": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_art": "",
-        "card_type": "pirate",
-        "effect_text": "boarding restriction can only be played by directly spending an order.\nwhile at sea\nat the start of each of your turns, send the top two ships from your dock deck to your ship graveyard. then get a free run of the blockade.",
-        "firepower": "2",
-        "name": "nuclear_nautilus",
-        "pirate_code": "boom",
-        "pirate_types": [
-            "n",
-            "a"
-        ]
-    },
     "nuh-uh_ship": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
@@ -1788,19 +1733,6 @@
         "pirate_types": [
             "plant",
             "soldier"
-        ]
-    },
-    "powder_king": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_art": "",
-        "card_type": "pirate",
-        "effect_text": "when this pirate is in davy jones\u2019 locker, the next time a boom pirate is played (friendly or not), pick one of your opponent\u2019s ships to sink. then remove this card from the game.",
-        "firepower": "2",
-        "name": "powder_king",
-        "pirate_code": "boom",
-        "pirate_types": [
-            "explosive"
         ]
     },
     "pterror_deck": {
