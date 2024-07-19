@@ -125,7 +125,13 @@ function drawDeckList() {
     $(".content_left").html("")
     let total_quantity = 0
     for ( var i = 0, len = localStorage.length; i < len; ++i ) {
-        
+
+        // Because we're dumb, there could be a 'version' key here. if so, we want to skip over it
+
+        if ( localStorage.key(i) == "version" ) {
+            continue
+        }
+
         let card_name = localStorage.key(i)
         let stringified_card = localStorage.getItem(localStorage.key(i))
         let card = JSON.parse(stringified_card)
@@ -138,7 +144,7 @@ function drawDeckList() {
             total_quantity += quantity
 
         }
-        
+
       }
 
     $("#total_quantity").html(total_quantity)
