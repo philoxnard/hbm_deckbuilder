@@ -39,3 +39,6 @@ Documents > My games > Tabletop Sim > Saved > Saved Objects
 
 MAC FILEPATH:
 User > Libary > Tabletop sim > Saved > Saved Objects
+
+LINUX FILEPATH:
+~/.local/share/Tabletop Simulator/Saves/Saved Object
