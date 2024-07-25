@@ -72,10 +72,8 @@
     text-align: center;
     display: inline-block;
     width: 100%;
-    max-width: 430px;
-    margin: 25px;
-
-    
+    max-width: 230px;
+    margin: 5px;
 }
 
 #export_button{
@@ -101,5 +99,5 @@
 
 img{
     width:100%;
-    max-width:430px;
+    max-width:230px;
 }
