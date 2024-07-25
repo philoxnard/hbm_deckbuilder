@@ -32,6 +32,7 @@ To Do list:
 23) Make cards searchable by crew
 24) DONE!!! Add art to all cards
 25) DONE!!! Update all cards card text
+26) make feature so users can zoom in or otherwise read the card text on cards bc they display as pretty small
 
 
 WINDOWS FILEPATH:
