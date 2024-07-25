@@ -279,6 +279,7 @@ def generateContainedObjects(deckListJSONObj):
             info_dict["GridProjection"] = False
             info_dict["HideWhenFaceDown"] = True
             info_dict["Hands"] = True
+            info_dict["CardID"] = count*100
             info_dict["SidewaysCard"] = False
 
             custom_deck = {}
