@@ -27,11 +27,11 @@ To Do list:
 18) DONE!!! Figure out if you can run two flask apps at once so you can have the player database running, or if this needs to be on another instance
 19) DONE!!! Clicking Reset Filters removes the filter window - it shouldnt do that
 20) DONE!!! reset filters button needs to reset pirate/ship/shanty
-21) a_fresh_day_at_sea and adventurous_spirit both do a weird flicker thing, see if there's any comonality between them that would be making them do that
-22) Ensure that card art works not only for website but also for TTS deck that you download
+21) DONE!!! a_fresh_day_at_sea and adventurous_spirit both do a weird flicker thing, see if there's any comonality between them that would be making them do that
+22) DONE!!! Ensure that card art works not only for website but also for TTS deck that you download
 23) Make cards searchable by crew
-24) Add art to all cards
-25) Update all cards card text
+24) DONE!!! Add art to all cards
+25) DONE!!! Update all cards card text
 
 
 WINDOWS FILEPATH:
