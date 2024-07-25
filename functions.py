@@ -268,11 +268,7 @@ def generateContainedObjects(deckListJSONObj):
             info_dict["Nickname"] = nickname
             info_dict["Description"] = ""
             info_dict["GMNotes"] = ""
-            info_dict["ColorDiffuse"] : {
-                "r": 0.713235259,
-                "g": 0.713235259,
-                "b": 0.713235259  
-            }
+            info_dict["ColorDiffuse"] = {"r": 0.713235259, "g": 0.713235259,"b": 0.713235259}
             info_dict["Locked"] = False
             info_dict["Grid"] = True
             info_dict["Snap"] = True
@@ -282,7 +278,7 @@ def generateContainedObjects(deckListJSONObj):
             info_dict["Tooltip"] = True
             info_dict["GridProjection"] = False
             info_dict["HideWhenFaceDown"] = True
-            info_dict["Hands"] = False
+            info_dict["Hands"] = True
             info_dict["SidewaysCard"] = False
 
             custom_deck = {}
