@@ -367,7 +367,7 @@ def repackageRawFilters(rawFilters):
 
     if "crew" in rawFilters:
 
-        if crew != "None":
+        if rawFilters["crew"] != "None":
 
             crew = rawFilters["crew"]
 
@@ -482,7 +482,9 @@ def filterCards(cards, filters):
 
             if "crew" not in card_info:
 
-                del filtered_cards[card_name]
+                if card_name in filtered_cards:
+
+                    del filtered_cards[card_name]
 
             else:
 
@@ -490,6 +492,8 @@ def filterCards(cards, filters):
 
                     if crew != filters["crew"]:
 
-                        del filtered_cards[card_name]
+                        if card_name in filtered_cards:
+
+                            del filtered_cards[card_name]
 
     return filtered_cards

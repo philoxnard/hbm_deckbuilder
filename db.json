@@ -14,20 +14,6 @@
             "soldier"
         ]
     },
-    "ah_hazzah": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_art": "https://static.wixstatic.com/media/b7f019_675a84375081404883b8b3a8a771064a~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/b7f019_675a84375081404883b8b3a8a771064a~mv2.jpeg",
-        "card_type": "pirate",
-        "effect_text": "when played none of your ships can be sunk from a volley on your opponent\u2019s next turn.",
-        "firepower": "-1",
-        "name": "ah_hazzah",
-        "pirate_code": "deep_sea",
-        "pirate_types": [
-            "n",
-            "a"
-        ]
-    },
     "ahoy_toy": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_37171cded6dc41a297bb32285a0e6794~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_018.jpeg",
@@ -524,30 +510,6 @@
             "authority"
         ]
     },
-    "enchanted_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "when this card is first played and when it\u2019s destroyed, search your davy jones\u2019 locker for a shanty and bring it to your hand.",
-        "name": "enchanted_ship",
-        "pirate_code": "juju"
-    },
-    "exclusion_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "when this card is first revealed, pick a pirate type (i.e. explosive, wild, plant, etc). your opponent may not board any pirate of that type as long as this card is at sea.",
-        "name": "exclusion_ship",
-        "pirate_code": "heavy_metal"
-    },
-    "exhaustion_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "everytime a ship at sea (friendly or not) exhausts, draw a card.",
-        "name": "exhaustion_ship",
-        "pirate_code": "boom"
-    },
     "feather_flotilla": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_85b5318cd41241379d0da4008546ba20~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_029.jpeg",
@@ -658,14 +620,6 @@
         "name": "goldfish_gallion",
         "pirate_code": "tropical"
     },
-    "guardian_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "no pirates aboard this ship may be destroyed, moved or returned to your hand due to card effects.",
-        "name": "guardian_ship",
-        "pirate_code": "heavy_metal"
-    },
     "gunpowder_sage": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_1bb511037c2749daa9faf551fe7355bd~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_023.jpeg",
@@ -700,14 +654,6 @@
         "card_type": "shanty",
         "effect_text": "equip to one of your pirates. if this card is destroyed, you pick two of your opponent\u2019s pirates at sea to destroy.",
         "name": "gunpowder_shackles"
-    },
-    "ha_ha_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "once a turn, when you board a pirate on this ship, you may choose to shuffle a card from your hand back into your poop deck and draw a new one.",
-        "name": "ha_ha_ship",
-        "pirate_code": "deep_sea"
     },
     "hangkor_lord_of_gallows": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
@@ -765,14 +711,6 @@
         "name": "haunted_hauler",
         "pirate_code": "juju"
     },
-    "hazzah_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "when this ship completes a crew, gain two extra orders (if done on your turn).",
-        "name": "hazzah_ship",
-        "pirate_code": "deep_sea"
-    },
     "headwind_hero_of_land-ho": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_76f5988dfcb845f4a01a53abbed7e329~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_001.jpeg",
@@ -818,14 +756,6 @@
         "pirate_types": [
             "robot"
         ]
-    },
-    "hidden_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "all pirates aboard this ship may be turned face down, except when necessary to reveal points or effects.",
-        "name": "hidden_ship",
-        "pirate_code": "deep_sea"
     },
     "indisputable_ironclad": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
@@ -1157,14 +1087,6 @@
             "divine"
         ]
     },
-    "more_card_draw_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "any time you discard a card, draw a card.",
-        "name": "more_card_draw_ship",
-        "pirate_code": "tropical"
-    },
     "moth_from_the_unknown_sea": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_bb51998b9cf9427ba4ffc23931ddad35~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_016.jpeg",
@@ -1239,14 +1161,6 @@
         "effect_text": "this ship starts exhausted. when this ship is played, you may search your poop deck for a pirate to bring to your hand.",
         "name": "not_so_yellow_submarine",
         "pirate_code": "deep_sea"
-    },
-    "nuh-uh_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "no pirate\u2019s firepower counts while aboard. once per turn when your opponent uses an order to draw a card, you draw one as well.",
-        "name": "nuh-uh_ship",
-        "pirate_code": "tropical"
     },
     "oar_angutan": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
@@ -1476,14 +1390,6 @@
             "cyborg"
         ]
     },
-    "recovery_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "when this ship is first revealed, you may select three ships from your ship graveyard and shuffle them back into your dock deck.",
-        "name": "recovery_ship",
-        "pirate_code": "deep_sea"
-    },
     "red_eye_wreckage": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_2e776738107945cf8002affa97015baf~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_021.jpeg",
@@ -1521,14 +1427,6 @@
         "card_type": "ship",
         "effect_text": "this ship does not need a pirate aboard to run the blockade.",
         "name": "requisite_icebreaker",
-        "pirate_code": "deep_sea"
-    },
-    "safety_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "when this ship is sunk, move the pirates aboard to any friendly ship (if a crew is completed do not send a volley). if no ships are available, the pirates are destroyed.",
-        "name": "safety_ship",
         "pirate_code": "deep_sea"
     },
     "sailor_boom": {
@@ -1713,14 +1611,6 @@
             "ghost"
         ]
     },
-    "shot_shot_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "it counts as completing a crew when this ship has three pirates aboard (although you may board a fourth as well).",
-        "name": "shot_shot_ship",
-        "pirate_code": "boom"
-    },
     "shrimpviathen_aka_jumbo_shrimp": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_422a9ead12e345309dccdced0e42f5e4~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_005.jpeg",
@@ -1809,20 +1699,6 @@
         "effect_text": "draw back up to having five cards in your hand.",
         "name": "sunrise_supplies"
     },
-    "super_destroy": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_art": "",
-        "card_type": "pirate",
-        "effect_text": "while at sea any effects (yours or your opponent\u2019s) that would destroy a pirate, instead remove it from the game.",
-        "firepower": "3",
-        "name": "super_destroy",
-        "pirate_code": "heavy_metal",
-        "pirate_types": [
-            "n",
-            "a"
-        ]
-    },
     "super_giganto_gull": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_ba74f4c77680405bb9cb6fb78820ce67~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_022.jpeg",
@@ -1835,14 +1711,6 @@
             "flying",
             "colossal"
         ]
-    },
-    "super_harsh_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "for every pirate on this ship with no effect, your opponent gets -4 while they\u2019re running your blockade.",
-        "name": "super_harsh_ship",
-        "pirate_code": "deep_sea"
     },
     "sword_beast": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
@@ -1890,22 +1758,6 @@
         "effect_text": "this card may be free played from you hand when either player successfully runs the blockade. pick one pirate (friendly or not) that would have been destroyed after the blockade run and return it on a new ship on your following turn.",
         "name": "the_art_of_marooning"
     },
-    "the_big_tub": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "there is no limit to the amount of pirates you can board on this ship, however it counts as completing a crew when you board the fourth.",
-        "name": "the_big_tub",
-        "pirate_code": "tropical"
-    },
-    "the_black_emerald": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "this ship may be sunk by your own volleys. when done so, flip this card face down. it now counts as a no effect juju ship. you may then fill all empty spaces on your ships with pirates from your djl.",
-        "name": "the_black_emerald",
-        "pirate_code": "juju"
-    },
     "the_bladeheim": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_f8c93d6f7e504cf8a7b279c22c5cbb89~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_003.jpeg",
@@ -1913,14 +1765,6 @@
         "effect_text": "when this ship completes a crew, gain two extra orders.",
         "name": "the_bladeheim",
         "pirate_code": "boom"
-    },
-    "the_darwin": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "if there are 5 or more different types on this ship, all pirates aboard get x2.",
-        "name": "the_darwin",
-        "pirate_code": "tropical"
     },
     "the_deckrunner": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
@@ -2073,14 +1917,6 @@
         "effect_text": "when played and after each order, this card equips itself to the pirate at sea with the highest firepower (if able). it remains where it is on a tie. after it\u2019s played, each subsequent time it equips to a new pirate, the player whose pirate it is gets a bonus order. this card is only destroyed after a successful run of the blockade. ",
         "name": "the_sunken_crown"
     },
-    "the_unsinkable": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "when this ship is sunk, return all cards aboard to your hand.",
-        "name": "the_unsinkable",
-        "pirate_code": "juju"
-    },
     "the_vacation_demon": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_d2c1aad83ae14599b8f1823817761aeb~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_019.jpeg",
@@ -2162,14 +1998,6 @@
         },
         "effect_text": "cannot be played as a hidden shanty. destroy one pirate at sea.",
         "name": "truest_aim"
-    },
-    "type_cast_ship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
-        "card_type": "ship",
-        "effect_text": "when you spend an order to board a pirate on this ship, you may immediately free play another pirate of the same type (e.g. animal, robot, mythic, etc\u2026)",
-        "name": "type_cast_ship",
-        "pirate_code": "tropical"
     },
     "unkillable_kiwi_krew": {
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",

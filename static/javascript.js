@@ -317,7 +317,7 @@ function submitFilters() {
     json_message["effect_text"] = $("#effect_text").val()
     json_message["firepower"] = $("#firepower_filter").val()
     json_message["firepower_relativity"] = $('input[name="firepower"]:checked').val()
-    json_message["crew"] = $("crew_filter").val()
+    json_message["crew"] = $("#crew_filter").val()
 
     console.log(json_message)
     sendFilterListToServer(json_message)
@@ -427,7 +427,7 @@ function drawFilters(filters) {
     // That's good for now, maybe eventually you can add more
 
     $("#filter_modal").html("")
-    
+
     $("#filter_modal").append("<div class='filter_modal_column' id='filter_modal_column_1'>")
 
     $("#filter_modal_column_1").append("Display only pirates from this pirate code:<br>")
@@ -470,13 +470,7 @@ function drawFilters(filters) {
     $("#filter_modal_column_2").append("<input type='text' id='firepower_filter' name='firepower_filter'><br><br>")
 
     $("#filter_modal_column_2").append('Input crew to display:<br>')
-    $("#filter_modal_column_2").append("<select name='crew_filter' id='crew_filter'>")
-    $("#filter_modal_column_2").append("<option value='None'>None</option>")
-    $("#filter_modal_column_2").append("<option value='starter'>Starter</option>")
-    $("#filter_modal_column_2").append("<option value='bulwark'>Bulwark</option>")
-    $("#filter_modal_column_2").append("<option value='reef'>Reef</option>")
-    $("#filter_modal_column_2").append("<option value='sand'>Sand</option>")
-    $("#filter_modal_column_2").append("</select>")
+    $("#filter_modal_column_2").append("<select name='crew_filter' id='crew_filter'><option value='None'>None</option><option value='starter'>Starter</option><option value='bulwark'>Bulwark</option><option value='reef'>Reef</option><option value='sand'>Sand</option></select>")
 
     $("#filter_modal_column_2").append("<button id='filter_button' onclick='submitFilters()'>Filter Cards</button>")
 
