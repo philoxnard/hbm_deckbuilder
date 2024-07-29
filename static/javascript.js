@@ -317,6 +317,7 @@ function submitFilters() {
     json_message["effect_text"] = $("#effect_text").val()
     json_message["firepower"] = $("#firepower_filter").val()
     json_message["firepower_relativity"] = $('input[name="firepower"]:checked').val()
+    json_message["crew"] = $("crew_filter").val()
 
     console.log(json_message)
     sendFilterListToServer(json_message)
@@ -331,6 +332,7 @@ function resetFilters() {
     $("#pirate_type_input").val("")
     $("#effect_text").val("")
     $("#firepower_filter").val("")
+    $("#crew_filter").val("None")
 
     submitFilters()
 
@@ -466,6 +468,15 @@ function drawFilters(filters) {
     $("#filter_modal_column_2").append('<input type="radio" id="firepower_equal" name="firepower" value="firepower_equal" checked="checked"><label for="firepower_equal">Firepower equal to</label><br>')
     $("#filter_modal_column_2").append('<input type="radio" id="firepower_lower" name="firepower" value="firepower_lower"><label for="firepower_lower">Firepower lower than</label><br>')
     $("#filter_modal_column_2").append("<input type='text' id='firepower_filter' name='firepower_filter'><br><br>")
+
+    $("#filter_modal_column_2").append('Input crew to display:<br>')
+    $("#filter_modal_column_2").append("<select name='crew_filter' id='crew_filter'>")
+    $("#filter_modal_column_2").append("<option value='None'>None</option>")
+    $("#filter_modal_column_2").append("<option value='starter'>Starter</option>")
+    $("#filter_modal_column_2").append("<option value='bulwark'>Bulwark</option>")
+    $("#filter_modal_column_2").append("<option value='reef'>Reef</option>")
+    $("#filter_modal_column_2").append("<option value='sand'>Sand</option>")
+    $("#filter_modal_column_2").append("</select>")
 
     $("#filter_modal_column_2").append("<button id='filter_button' onclick='submitFilters()'>Filter Cards</button>")
 

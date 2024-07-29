@@ -7,6 +7,9 @@
         "firepower": "2",
         "name": "abyss_battalion",
         "pirate_code": "deep_sea",
+        "crew": {
+            "starter": 3
+        },
         "pirate_types": [
             "soldier"
         ]
@@ -195,6 +198,9 @@
         "firepower": "4",
         "name": "bootstrap_berserker",
         "pirate_code": "juju",
+        "crew": {
+            "sand": 3
+        },
         "pirate_types": [
             "wild"
         ]
@@ -338,6 +344,9 @@
         "firepower": "3",
         "name": "caskmaster",
         "pirate_code": "heavy_metal",
+        "crew": {
+            "sand": 3
+        },
         "pirate_types": [
             "robot"
         ]
@@ -382,6 +391,9 @@
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_9135d37bf7f448d789781e739926e8fa~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_027.jpeg",
         "card_type": "shanty",
+        "crew": {
+            "sand": 3
+        },
         "effect_text": "equip to a pirate that pirate gets +4. when this card is destroyed you may free play a card from your hand or draw a card.",
         "name": "crows_nest_coffee"
     },
@@ -415,6 +427,9 @@
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_59a77bf290484f5ea8e7ed06caaf7cda~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_009.jpeg",
         "card_type": "shanty",
+        "crew": {
+            "sand": 1
+        },
         "effect_text": "equip to a pirate (friendly or not). this pirate\u2019s firepower is now inverted.",
         "name": "dagger_of_the_deep"
     },
@@ -577,6 +592,9 @@
         "firepower": "3",
         "name": "flintlock_fury",
         "pirate_code": "heavy_metal",
+        "crew": {
+            "reef": 3
+        },
         "pirate_types": [
             "cyborg"
         ]
@@ -825,6 +843,9 @@
         "effect_text": "while at sea when you or your opponent reveals a hidden shanty, you may flip this card face down (at which point it counts as a no effect +0 juju pirate).  then it counts as if you immediately played a second copy of that shanty.",
         "firepower": "2",
         "name": "pumpkidd",
+        "crew": {
+            "sand": 3
+        },
         "pirate_code": "juju",
         "pirate_types": [
             "???",
@@ -852,6 +873,9 @@
         "firepower": "5",
         "name": "jolly_rodish",
         "pirate_code": "tropical",
+        "crew": {
+            "bulwark": 2
+        },
         "pirate_types": [
             "sword",
             "plant"
@@ -878,6 +902,9 @@
         "firepower": "2",
         "name": "kannon_katcher",
         "pirate_code": "boom",
+        "crew": {
+            "starter": 3
+        },
         "pirate_types": [
             "cyborg",
             "???"
@@ -949,6 +976,9 @@
         "firepower": "2",
         "name": "lightning_eels",
         "pirate_code": "heavy_metal",
+        "crew": {
+            "reef": 3
+        },
         "pirate_types": [
             "robot",
             "sea-thing"
@@ -963,6 +993,9 @@
         "firepower": "6",
         "name": "lobster_tank",
         "pirate_code": "heavy_metal",
+        "crew": {
+            "starter": 3
+        },
         "pirate_types": [
             "vehicle"
         ]
@@ -1055,6 +1088,9 @@
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_4043af7eb4874c74b3402a8410dcc8a3~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_010.jpeg",
         "card_type": "shanty",
+        "crew": {
+            "bulwark": 3
+        },
         "effect_text": "equip to a ship. when played and at the start of each of your turns, you may free play a pirate onto the equipped ship.",
         "name": "mollusk_mania"
     },
@@ -1076,6 +1112,9 @@
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_fa7505db85864b4bbd7455845b721ce0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_006.jpeg",
         "card_type": "shanty",
+        "crew": {
+            "reef": 2
+        },
         "effect_text": "you may relocate any or all of your opponent\u2019s pirates amongst their ships. if a crew is completed by this card, no volley is sent.",
         "name": "monsoon_force"
     },
@@ -1097,6 +1136,9 @@
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_7be4a107a5544dc793122e5989b3805a~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_025.jpeg",
         "card_type": "shanty",
+        "crew": {
+            "bulwark": 3
+        },
         "effect_text": "equip to a pirate. that pirate gets x2",
         "name": "monster_musketoon"
     },
@@ -1108,6 +1150,9 @@
         "firepower": "2",
         "name": "mooring_monk",
         "pirate_code": "deep_sea",
+        "crew": {
+            "bulwark": 3
+        },
         "pirate_types": [
             "divine"
         ]
@@ -1143,6 +1188,9 @@
         "firepower": "2",
         "name": "mr_manty_and_his_magical_hat",
         "pirate_code": "juju",
+        "crew": {
+            "starter": 3
+        },
         "pirate_types": [
             "sea-thing",
             "???"
@@ -1178,6 +1226,9 @@
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_dfd27dae504d4d5195423c98283423b3~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_001.jpeg",
         "card_type": "shanty",
+        "crew": {
+            "starter": 3
+        },
         "effect_text": "board two pirates (can be to the same ship or different). if played as a hidden shanty, only board one.",
         "name": "navy_orders"
     },
@@ -1206,6 +1257,9 @@
         "firepower": "6",
         "name": "oar_angutan",
         "pirate_code": "tropical",
+        "crew": {
+            "starter": 3
+        },
         "pirate_types": [
             "animal"
         ]
@@ -1227,6 +1281,9 @@
         "firepower": "6",
         "name": "paladin_of_the_far_horizon",
         "pirate_code": "juju",
+        "crew": {
+            "bulwark": 3
+        },
         "pirate_types": [
             "divine",
             "armor"
@@ -1247,6 +1304,9 @@
         "firepower": "2",
         "name": "peglegasus",
         "pirate_code": "deep_sea",
+        "crew": {
+            "reef": 3
+        },
         "pirate_types": [
             "mythic",
             "flying"
@@ -1370,6 +1430,9 @@
         "firepower": "5",
         "name": "purgatory_parrot",
         "pirate_code": "juju",
+        "crew": {
+            "sand": 3
+        },
         "pirate_types": [
             "flying",
             "notdead"
@@ -1405,6 +1468,9 @@
         "firepower": "3",
         "name": "quartermaster_95",
         "pirate_code": "heavy_metal",
+        "crew": {
+            "reef": 3
+        },
         "pirate_types": [
             "sea-thing",
             "cyborg"
@@ -1434,6 +1500,9 @@
         "firepower": "2",
         "name": "reef_ronin",
         "pirate_code": "deep_sea",
+        "crew": {
+            "reef": 3
+        },
         "pirate_types": [
             "sword",
             "sea-thing"
@@ -1609,6 +1678,9 @@
         "firepower": "3",
         "name": "shipside_shelling_corp",
         "pirate_code": "heavy_metal",
+        "crew": {
+            "reef": 3
+        },
         "pirate_types": [
             "soldier",
             "vehicle"
@@ -1708,6 +1780,9 @@
         "firepower": "11",
         "name": "sponge_barbarian",
         "pirate_code": "deep_sea",
+        "crew": {
+            "starter": 3
+        },
         "pirate_types": [
             "wild",
             "sea-thing"
@@ -1778,6 +1853,9 @@
         "firepower": "7",
         "name": "sword_beast",
         "pirate_code": "boom",
+        "crew": {
+            "bulwark": 3
+        },
         "pirate_types": [
             "sword"
         ]
@@ -1806,6 +1884,9 @@
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_298fb6e5f9224a77a4f7f813511e2567~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_002.jpeg",
         "card_type": "shanty",
+        "crew": {
+            "reef": 2
+        },
         "effect_text": "this card may be free played from you hand when either player successfully runs the blockade. pick one pirate (friendly or not) that would have been destroyed after the blockade run and return it on a new ship on your following turn.",
         "name": "the_art_of_marooning"
     },
@@ -1878,6 +1959,9 @@
         "effect_text": "while at sea this pirate gets +2 for every shanty in your davy jones\u2019 locker.",
         "firepower": "4",
         "name": "the_greater_sand_witch",
+        "crew": {
+            "sand": 3
+        },
         "pirate_code": "juju",
         "pirate_types": [
             "???"
@@ -1913,6 +1997,9 @@
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_5724128312e04b87be19e4d5c8c65972~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_005.jpeg",
         "card_type": "shanty",
+        "crew": {
+            "starter": 2
+        },
         "effect_text": "equip to a pirate. it gets +8",
         "name": "the_legendary_octdent"
     },
@@ -2015,6 +2102,9 @@
         "firepower": "3",
         "name": "topgallant_knight",
         "pirate_code": "deep_sea",
+        "crew": {
+            "bulwark": 2
+        },
         "pirate_types": [
             "armor"
         ]
@@ -2057,6 +2147,9 @@
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_4693aa03437c49cea72f5e6a1dfb674b~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_003.jpeg",
         "card_type": "shanty",
+        "crew": {
+            "starter": 2
+        },
         "effect_text": "cannot be played as a hidden shanty. when this card is played, swap one friendly pirate at sea with one of your opponent\u2019s pirates (no boarding effects activate).",
         "name": "tricorn_of_dawn"
     },
@@ -2064,6 +2157,9 @@
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_d300fd8598a545708c459e833ca2b2bb~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_008.jpeg",
         "card_type": "shanty",
+        "crew": {
+            "sand": 3
+        },
         "effect_text": "cannot be played as a hidden shanty. destroy one pirate at sea.",
         "name": "truest_aim"
     },
@@ -2104,6 +2200,9 @@
         "firepower": "1",
         "name": "wave_in_a_bottle",
         "pirate_code": "deep_sea",
+        "crew": {
+            "reef": 3
+        },
         "pirate_types": [
             "???"
         ]
@@ -2116,6 +2215,9 @@
         "firepower": "6",
         "name": "wave_wolf",
         "pirate_code": "deep_sea",
+        "crew": {
+            "bulwark": 3
+        },
         "pirate_types": [
             "animal",
             "wild"
@@ -2165,6 +2267,9 @@
         "firepower": "6",
         "name": "yo_ho_hero",
         "pirate_code": "boom",
+        "crew": {
+            "bulwark": 3
+        },
         "pirate_types": [
             "super",
             "flying"
@@ -2179,6 +2284,9 @@
         "firepower": "0",
         "name": "zombuoy",
         "pirate_code": "juju",
+        "crew": {
+            "sand": 3
+        },
         "pirate_types": [
             "notdead"
         ]

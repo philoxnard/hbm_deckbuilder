@@ -324,6 +324,7 @@ def repackageRawFilters(rawFilters):
     card_type = ""
     pirate_code = ""
     pirate_types = [""]
+    crew = None
     effect_text = ""
     firepower = None
     firepower_relativity = None
@@ -364,12 +365,19 @@ def repackageRawFilters(rawFilters):
 
         firepower_relativity = rawFilters["firepower_relativity"]
 
+    if "crew" in rawFilters:
+
+        if crew != "None":
+
+            crew = rawFilters["crew"]
+
     filters["card_type"] = card_type
     filters["pirate_code"] = pirate_code
     filters["pirate_types"] = pirate_types
     filters["effect_text"] = effect_text
     filters["firepower"] = firepower
     filters["firepower_relativity"] = firepower_relativity
+    filters["crew"] = crew
 
     return filters
 
@@ -377,6 +385,8 @@ def filterCards(cards, filters):
     """
     This function uses the filters to only pluck out the cards that satisfy the filters
     and returning that json object.
+
+    It creates a copy of all of the cards, them removes anything from the copy that doesn't pass the filter(s)
 
     """
 
@@ -467,5 +477,19 @@ def filterCards(cards, filters):
                         if card_name in filtered_cards:
 
                             del filtered_cards[card_name]
+
+        if filters["crew"] != None:
+
+            if "crew" not in card_info:
+
+                del filtered_cards[card_name]
+
+            else:
+
+                for crew in card_info["crew"]:
+
+                    if crew != filters["crew"]:
+
+                        del filtered_cards[card_name]
 
     return filtered_cards
