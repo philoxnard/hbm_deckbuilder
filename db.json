@@ -846,7 +846,7 @@
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "if this card is drawn from the top of your poop deck, immediately shuffle it back in and draw a new card.",
-        "firepower": "13",
+        "firepower": "2",
         "name": "kickus_cactus",
         "pirate_code": "tropical",
         "pirate_types": [

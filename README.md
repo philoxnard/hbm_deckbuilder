@@ -33,7 +33,7 @@ To Do list:
 24) DONE!!! Add art to all cards
 25) DONE!!! Update all cards card text
 26) make feature so users can zoom in or otherwise read the card text on cards bc they display as pretty small
-
+27) move filter modal to be under the filter button
 
 WINDOWS FILEPATH:
 Documents > My games > Tabletop Sim > Saved > Saved Objects
