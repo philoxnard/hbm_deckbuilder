@@ -83,7 +83,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_65cd66500dd542d18c510d657a411fa8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_015.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "While at sea any of your opponent's pirates without shipmates have +0 firepower",
+        "effect_text": "while at sea any of your opponent's pirates without shipmates count as +0 firepower",
         "firepower": "3",
         "name": "arg_angel",
         "pirate_code": "juju",
@@ -416,7 +416,7 @@
         "crew": {
             "mystical": 1
         },
-        "effect_text": "equip to a pirate (friendly or not). this pirate\u2019s firepower is now inverted.",
+        "effect_text": "discard two cards. Then, equip to a pirate (friendly or not). this pirate\u2019s firepower is now inverted.",
         "name": "dagger_of_the_deep"
     },
     "davy_jones_abomination": {
@@ -424,7 +424,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_0520f8528a864f7e9eafeafe46898603~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played add up the amount of cards in both davy jones\u2019 lockers. that is the point value of this card going forward (does not change). when destroyed, remove from game.",
+        "effect_text": "when played each player picks a card from their djl to attach to this card. your pick counts as this card's firepower and your opponent's pick is the effect. cannot be played if both players don't have a pirate in their djl.",
         "firepower": "X",
         "name": "davy_jones_abomination",
         "pirate_code": "juju",
@@ -983,7 +983,7 @@
         "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_6a7abd67be904262b6ae53a744fe408d~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_026.jpeg",
         "card_type": "shanty",
-        "effect_text": "quip to a Pirate. That Pirate gets +4 and all friendly Pirates that share the same positioning on their Ships as this Pirate get firepower equal to this Pirate (does not stack with other \u2018Metal Pirazoid Armor\u2019s)",
+        "effect_text": "equip to a Pirate. That Pirate gets +2 and all friendly Pirates that share the same positioning on their Ships as this Pirate get firepower equal to this Pirate (does not stack with other \u2018Metal Pirazoid Armor\u2019s)",
         "name": "metal_pirazoid_armor"
     },
     "miss_isles": {
@@ -1123,7 +1123,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_0b951f837c074ab6b79d21c5efa74a2e~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_006.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when this card first boards a ship, pick one of your opponent\u2019s ships. as long as this card is at sea, the cumulative points of this ship and your selected opponent\u2019s ship now have their points inverted.",
+        "effect_text": "while at sea the cumulative points of this pirate's ship and the cumulative points of the ship opposite it now have their points inverted.",
         "firepower": "4",
         "name": "mutiny_mummy",
         "pirate_code": "juju",
@@ -1503,7 +1503,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_68e9e41658bd495db710dff85697c477~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_008.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "while at sea if this is the card to complete a crew, your opponent no longer gets a free draw at the start of their turn until this card is destroyed.",
+        "effect_text": "while at sea if this is the only pirate on the shit it's on, your opponent does not get a free draw at the start of their turn.",
         "firepower": "1",
         "name": "sea_loth",
         "pirate_code": "tropical",
@@ -1589,8 +1589,8 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_644a08842d2a40ba9e1cd3195cecddd0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_014.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played discard a card from your hand.",
-        "firepower": "9",
+        "effect_text": "when played you may destroy any number of this pirate's shipmates. for every one you destroy, destroy a pirate on the ship opposite it.",
+        "firepower": "2",
         "name": "shiver_me_timberers",
         "pirate_code": "tropical",
         "pirate_types": [
@@ -1740,8 +1740,8 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_0f815e567cb54296ba3402b2297c7e25~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "while at sea, pick a type (plant, robot, animal, etc.), any time your opponent plays a card of that type, you may also free play a card from your hand (only once a turn).",
-        "firepower": "3",
+        "effect_text": "when played you may, instead of boarding, attach this card to a pirate friendly or not, like you would a shanty. that pirate's base firepower now becomes +10 ignore this pirate's firepower.",
+        "firepower": "2",
         "name": "terror_of_the_seas_tater",
         "pirate_code": "tropical",
         "pirate_types": [
@@ -2056,7 +2056,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_5114fec4199941c289c6dc5520311097~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_014.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played if this was played in any way besides a direct order, it gains +11.",
+        "effect_text": "when played if this was played in any way besides a direct order, it gains +26.",
         "firepower": "4",
         "name": "weredolphin",
         "pirate_code": "juju",
