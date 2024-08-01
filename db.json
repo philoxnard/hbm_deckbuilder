@@ -118,6 +118,9 @@
         "card_type": "ship",
         "effect_text": "this ship cannot be destroyed by a volley.",
         "name": "avian_airship",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "deep_sea"
     },
     "ba_ba_buccaneer": {
@@ -389,6 +392,9 @@
         "card_type": "ship",
         "effect_text": "once per turn, when a pirate without any effect boards this ship, you may destroy any one pirate (friendly or not).",
         "name": "crustacean_carrier",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "heavy_metal"
     },
     "cutlass_cricket": {
@@ -433,7 +439,7 @@
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "while in davy jones' locker, you may spend two orders and remove this card from the game. destroy one pirate on each of your opponent's ships.",
-        "firepower": "X",
+        "firepower": "2",
         "name": "davy_jones_abomination",
         "pirate_code": "juju",
         "pirate_types": [
@@ -588,6 +594,9 @@
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. unless t\u2019s the first player turn of the game, when this ship is revealed, gain a bonus_order.",
         "name": "goldfish_gallion",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "tropical"
     },
     "gunpowder_sage": {
@@ -747,6 +756,9 @@
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. all pirates on this ship get x2.",
         "name": "indisputable_ironclad",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "heavy_metal"
     },
     "jay_sparrows": {
@@ -862,6 +874,9 @@
         "card_type": "ship",
         "effect_text": "as_long_as_this_ship_has_a_complete_crew,_all_pirates_aboard_get_+5.",
         "name": "legionnaire_longship",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "boom"
     },
     "lightning_eels": {
@@ -1105,6 +1120,9 @@
         "card_type": "ship",
         "effect_text": "pirates with no effect count as two spaces when determining a completed crew.",
         "name": "nauticlaw",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "deep_sea"
     },
     "navigator_nuts": {
@@ -1135,6 +1153,9 @@
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. when this ship is played, you may search your poop deck for a pirate to bring to your hand.",
         "name": "not_so_yellow_submarine",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "deep_sea"
     },
     "oar_angutan": {
@@ -1294,6 +1315,9 @@
         "card_type": "ship",
         "effect_text": "when this ship sets sail you may destroy one pirate if any are currently at sea.",
         "name": "pterror_deck",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "boom"
     },
     "pterror_pteam": {
@@ -1350,6 +1374,9 @@
         "card_type": "ship",
         "effect_text": "while this ship is at sea, every time you play a shanty (hidden or not) draw a card.",
         "name": "pyramid_prow",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "juju"
     },
     "pyrannosaurus_rex": {
@@ -1441,6 +1468,9 @@
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. if you drew a card at the start of this turn, when this ship sets sail, immediately draw two additional cards.",
         "name": "santa_monstera",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "tropical"
     },
     "sargasso_spyglass": {
@@ -1622,6 +1652,9 @@
         "card_type": "ship",
         "effect_text": "once a turn, when a pirate with no effect boards this ship, you may immediately play a shanty/hidden shanty from your davy jones\u2019 locker.",
         "name": "skeletal_sloop",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "juju"
     },
     "skull_of_the_shipasaurus": {
@@ -1676,6 +1709,9 @@
         "card_type": "ship",
         "effect_text": "when this ship sets sail, your opponent must reveal their hand to you.",
         "name": "stinger_class_jelly_frigate",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "heavy_metal"
     },
     "subject_s3a_zku11": {
@@ -1772,6 +1808,9 @@
         "card_type": "ship",
         "effect_text": "when this ship completes a crew, gain one extra order.",
         "name": "the_bladeheim",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "boom"
     },
     "the_deckrunner": {
@@ -1789,7 +1828,7 @@
     },
     "the_doomtreader": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_bd74641117b34083af7760ab21de4b1e~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_001.jpeg",
         "card_type": "ship",
         "effect_text": "if the pirate \u201cdoombeard\u201d is aboard this ship, any ship sending a volley at it must have more points aboard than \u201cthe doomtreader\u201d has aboard in order to sink it.",
         "name": "the_doomtreader",
@@ -1916,6 +1955,9 @@
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. when this ship is played, you may immediately board a pirate on it (without costing an order). ",
         "name": "the_squall_skiff_squad",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "deep_sea"
     },
     "the_sunken_crown": {
@@ -1985,6 +2027,9 @@
         "card_type": "ship",
         "effect_text": "once a turn, when a pirate with no effect boards this ship, gain an extra order.",
         "name": "tree_house_hullentine",
+        "crew": {
+            "starter_ships": 1
+        },
         "pirate_code": "tropical"
     },
     "tricorn_of_dawn": {
