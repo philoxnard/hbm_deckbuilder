@@ -489,7 +489,7 @@ function drawFilters(filters) {
     $("#filter_modal_column_2").append("<input type='text' id='firepower_filter' name='firepower_filter'><br><br>")
 
     $("#filter_modal_column_2").append('Input crew to display:<br>')
-    $("#filter_modal_column_2").append("<select name='crew_filter' id='crew_filter'><option value='None'>None</option><option value='starter'>Starter</option><option value='bulwark'>Bulwark</option><option value='reef'>Reef</option><option value='sand'>Sand</option></select>")
+    $("#filter_modal_column_2").append("<select name='crew_filter' id='crew_filter'><option value='None'>None</option><option value='starter'>Starter</option><option value='fearless'>Fearless</option><option value='clever'>Clever</option><option value='mystical'>Mystical</option></select>")
 
     $("#filter_modal_column_2").append("<button id='filter_button' onclick='submitFilters()'>Filter Cards</button>")
 
