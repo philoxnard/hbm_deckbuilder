@@ -29,6 +29,10 @@ function receive(response) {
 
         handleFilterCards(json)
 
+    } else if ( command == "command_build_crew" ) {
+
+        handleBuildCrew(json)
+
     }
 
 }
@@ -265,6 +269,7 @@ function resetDeckList() {
         
         let stringified_card = localStorage.getItem(localStorage.key(i))
 
+        // This basically ignores any non-card things that happen to be there - such as version.
         if (stringified_card.includes("FaceURL") == false) {
             continue
         }
@@ -336,6 +341,20 @@ function resetFilters() {
 
     submitFilters()
 
+}
+
+function buildCrew() {
+
+    let message = {}
+
+    let command = "command_build_crew"
+
+    let crew = $("#build_crew").val()
+
+    message["command"] = command
+    message["crew"] = crew
+
+    send(message)
 }
 
 function exportDeckList() {

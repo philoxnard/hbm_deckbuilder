@@ -47,3 +47,36 @@ function handleFilterCards(json) {
 
     drawCardDB(cards)
 }
+
+function handleBuildCrew(json) {
+
+    // json includes "cards" and "crew"
+    // cards have a "crew" field, and that field contains a dictionary that looks like:
+    //      {"starter": 3}
+    // which basically indicates that its quantity in the 'starter' crew is 3.
+
+    // We'll use that dictionary, specifically the ["crew"] field in each card and its accompanying quantity,
+    // to add lots of stuff to local storage. Before we do that, though, we need to delete any card data held
+    // in localStorage.
+
+    resetDeckList()
+
+    let cards = json["cards"]
+    let crew = json["crew"]
+
+    for(const [name, stats] of Object.entries(cards)) {
+
+        // Get the quantity from the value stored within the crew dict
+        let quantity = stats["crew"][crew]
+
+        // Add quantity as a field so it can be picked up by localStorage
+        stats["quantity"] = quantity
+
+        let stringified_card = JSON.stringify(stats)
+
+        localStorage.setItem(name, stringified_card)
+
+    location.reload()
+
+    }
+}

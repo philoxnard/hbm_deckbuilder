@@ -44,6 +44,10 @@ def receive():
 
         response = handleFilterCards(message)
 
+    elif command == "command_build_crew":
+
+        response = handleBuildCrew(message)
+
     else:
 
         print('error catch for no command')

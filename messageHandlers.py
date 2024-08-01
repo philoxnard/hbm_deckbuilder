@@ -21,7 +21,7 @@ def handleOnLoad(message):
 
     response["cards"] = cards
     response["filters"] = filters
-    response["version"] = "2.0.7"
+    response["version"] = "2.0.8"
     response["result"] = "Success"
 
     return response
@@ -91,5 +91,26 @@ def handleFilterCards(message):
     cards = getCardList(filters)
 
     response["cards"] = cards
+
+    return response
+
+def handleBuildCrew(message):
+    """
+    This function is called when the user hits the Build Crew button. It will collect a list of
+    cards based on the desired crew, then send a message to the front end telling it to add
+    those cards to localStorage. Then, it will tell the front end to refresh.
+    """
+
+    response = {}
+
+    crew = message["crew"]
+
+    filters = {}
+    filters["crew"] = crew
+
+    cards = getCardList(filters)
+
+    response["cards"] = cards
+    response["crew"] = crew
 
     return response
