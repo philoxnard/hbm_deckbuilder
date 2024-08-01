@@ -56,10 +56,7 @@ function handleBuildCrew(json) {
     // which basically indicates that its quantity in the 'starter' crew is 3.
 
     // We'll use that dictionary, specifically the ["crew"] field in each card and its accompanying quantity,
-    // to add lots of stuff to local storage. Before we do that, though, we need to delete any card data held
-    // in localStorage.
-
-    resetDeckList()
+    // to add lots of stuff to local storage.
 
     let cards = json["cards"]
     let crew = json["crew"]
