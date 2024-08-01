@@ -105,8 +105,10 @@ def handleBuildCrew(message):
 
     crew = message["crew"]
 
-    filters = {}
-    filters["crew"] = crew
+    raw_filters = {}
+    raw_filters["crew"] = crew
+
+    filters = repackageRawFilters(raw_filters)
 
     cards = getCardList(filters)
 
