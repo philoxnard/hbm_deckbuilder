@@ -1,21 +1,21 @@
 {
     "abyss_battalion": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_5e282cde08c448f8af0acbeb353bb81a~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_008.jpeg",
         "card_type": "pirate",
+        "crew": {
+            "starter": 3
+        },
         "effect_text": "when played: the game turn after this, running the blockade costs you 2 orders.",
         "firepower": "2",
         "name": "abyss_battalion",
         "pirate_code": "deep_sea",
-        "crew": {
-            "starter": 3
-        },
         "pirate_types": [
             "soldier"
         ]
     },
     "ahoy_toy": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_37171cded6dc41a297bb32285a0e6794~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_018.jpeg",
         "card_type": "pirate",
         "effect_text": "none",
@@ -26,8 +26,15 @@
             "toy"
         ]
     },
+    "all_hands_on_deck": {
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_6842439d816e4c45a8b290ba1897b0eb~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_007.jpeg",
+        "card_type": "shanty",
+        "effect_text": "Pick any number of cards from your hand to put face down. Your opponent does the same. Reveal cards. If you have more printed firepower amongst your cards than your opponent, you may free play all of them. If you don't, your cards are destroyed. Opponent's cards are returned to hand.",
+        "name": "all_hands_on_deck"
+    },
     "anchross_aweigh": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_18a94982746442ca8382fdf3d00946e1~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_024.jpeg",
         "card_type": "pirate",
         "effect_text": "while at sea the pirates on the ship opposite this one are all brought back to their base firepower (+x count as +0 in this case).",
@@ -39,7 +46,7 @@
         ]
     },
     "anemone_silver_of_the_dozen_blades": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_44d1ab21b1a949b4a7aebb8150159f84~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_011.jpeg",
         "card_type": "pirate",
         "effect_text": "while at sea at the start of your turn, you may choose to give up your free draw in exchange for an extra order.",
@@ -52,7 +59,7 @@
         ]
     },
     "angler_bot_of_the_chaos_urchin_order": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_2db2b36ad0e4485aba9de939945cdafe~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_015.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -65,7 +72,7 @@
         ]
     },
     "apoc_ko1_lypse": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_8485efe2ebf7440b874d813c23be190f~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_014.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -79,7 +86,7 @@
         ]
     },
     "arg_angel": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_65cd66500dd542d18c510d657a411fa8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_015.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -92,7 +99,7 @@
         ]
     },
     "avast_avenger": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_f884da008b944afdb48b65c2a64f3baf~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_014.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -106,7 +113,7 @@
         ]
     },
     "avian_airship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_03d036ece60a4381b33d39f213b1261f~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_014.jpeg",
         "card_type": "ship",
         "effect_text": "this ship cannot be destroyed by a volley.",
@@ -114,7 +121,7 @@
         "pirate_code": "deep_sea"
     },
     "ba_ba_buccaneer": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_1ae748b2805841bca300363c3cf51784~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_009.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -128,7 +135,7 @@
         ]
     },
     "barfrogamew_hops": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_dc8a3f2a18fc4f468fdad7c2e59c9572~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_018.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -142,7 +149,7 @@
         ]
     },
     "bionic_blowfish_blader": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_ab20696a811243c1a67a8ae1cc35caee~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_026.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -156,7 +163,7 @@
         ]
     },
     "bluesmith_of_ocean_end_lane": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_197185f3e5114c38b86d8f5c6dbb8660~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_017.jpeg",
         "card_type": "pirate",
         "effect_text": "when played you may either bring an \u201cequip to\u201d shanty from your poop deck to your hand or you may free play one from your hand.",
@@ -168,7 +175,7 @@
         ]
     },
     "boatload_buster": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_e3a57ac22a0146b6919107a49113e955~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_018.jpeg",
         "card_type": "ship",
         "effect_text": "every time a heavy metal (grey) pirate boards this ship, draw a card.",
@@ -176,23 +183,23 @@
         "pirate_code": "heavy_metal"
     },
     "bootstrap_berserker": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_b2cab6ac1ab54cbdbed9e777f78b1eb9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_012.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "mystical": 3
+        },
         "effect_text": "while at sea when this card has a hidden shanty or \u201cequip\u201d card attached to it, it gets x2.",
         "firepower": "4",
         "name": "bootstrap_berserker",
         "pirate_code": "juju",
-        "crew": {
-            "mystical": 3
-        },
         "pirate_types": [
             "wild"
         ]
     },
     "briney_deep_prehistoric_privateer": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_44433c0672954a3bb602839dbfd81a1f~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_007.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -205,22 +212,15 @@
             "super"
         ]
     },
-    "all_hands_on_deck": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_6842439d816e4c45a8b290ba1897b0eb~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_007.jpeg",
-        "card_type": "shanty",
-        "effect_text": "Pick any number of cards from your hand to put face down. Your opponent does the same. Reveal cards. If you have more printed firepower amongst your cards than your opponent, you may free play all of them. If you don't, your cards are destroyed. Opponent's cards are returned to hand.",
-        "name": "all_hands_on_deck"
-    },
     "bring_me_that_horizon": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_e5bf85266f9c4dad8e0d504490a59ae8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_030.jpeg",
         "card_type": "shanty",
         "effect_text": "play the top card in either player' davy jones\u2019 locker.",
         "name": "bring_me_that_horizon"
     },
     "broadsidosaurus": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_743ff1dee6c9405fbc8481d3a0fd4ede~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_015.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -234,7 +234,7 @@
         ]
     },
     "bumble_smee": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_eb0861ee2b62414da9a5ff54bd8b3e5d~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_003.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -248,7 +248,7 @@
         ]
     },
     "calculegend": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_310b19ed6f5245e9839eff0366c4be48~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_005.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -262,7 +262,7 @@
         ]
     },
     "cannon_boo": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_7a2c6a79549d41258b8e46698bbe7288~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_025.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -275,7 +275,7 @@
         ]
     },
     "cannon_bully": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_91258c4f6eb8423ba9367cf107d1ba00~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_022.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -288,7 +288,7 @@
         ]
     },
     "cannon_floof": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_c7b9a26f05004770b136248435d758c1~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_021.jpeg",
         "card_type": "pirate",
         "effect_text": "when played take the top card of your poop deck and immediately free play it (you cannot play another pirate via card effect for the rest of the player turn).",
@@ -301,7 +301,7 @@
         ]
     },
     "cannonball_cruiser": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_0ed4566fc5bf46a996a2c8cb3711d403~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_005.jpeg",
         "card_type": "ship",
         "effect_text": "all boom (red) pirates on this ship get +5.\n\nsend a volley: when fourth pirate boards this ship, immediately send a volley without costing an order.",
@@ -309,7 +309,7 @@
         "pirate_code": "boom"
     },
     "captain_lazerbeard": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_e578fdba4b224ea99722c5428da4465b~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_002.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -322,23 +322,23 @@
         ]
     },
     "caskmaster": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_cf3d6fecc6b64e9e993e9eaef44b30d5~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_027.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "mystical": 3
+        },
         "effect_text": "you may play this card as if it was a hidden shanty. upon revealing it, immediately board it on a friendly ship with space (any card that targets this card to destroy a shanty, is ignored and returned to the owner\u2019s hand as if an order had not been spent).",
         "firepower": "3",
         "name": "caskmaster",
         "pirate_code": "heavy_metal",
-        "crew": {
-            "mystical": 3
-        },
         "pirate_types": [
             "robot"
         ]
     },
     "coast_cutter": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_2e750fd8db4744b3ad485098554e83eb~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_008.jpeg",
         "card_type": "ship",
         "effect_text": "all deep sea (blue) pirates on this ship get +5.",
@@ -346,7 +346,7 @@
         "pirate_code": "deep_sea"
     },
     "coco_cannon": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_32cbd1ad01c2440db8a3d9ae44fad957~mv2.jpeg/v1/fill/w_743,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_024.jpeg",
         "card_type": "ship",
         "effect_text": "all tropical (orange) pirates on this ship get +5.",
@@ -354,7 +354,7 @@
         "pirate_code": "tropical"
     },
     "coconaut": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_f331112263604c20aa6ba36956c28cac~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_005.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -367,14 +367,14 @@
         ]
     },
     "confused_crews": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_6450ac98c4de4310801dadac1b5e014f~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_019.jpeg",
         "card_type": "shanty",
         "effect_text": "both players select one friendly pirate if able and their opponent draws at random from their poop deck until a pirate is revealed. swap the new pirate with the selected one in each case. resolve boarding effects and shuffle poop decks.",
         "name": "confused_crews"
     },
     "crows_nest_coffee": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_9135d37bf7f448d789781e739926e8fa~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_027.jpeg",
         "card_type": "shanty",
         "crew": {
@@ -383,8 +383,16 @@
         "effect_text": "equip to a pirate that pirate gets +4. when this card is destroyed you may free play a card from your hand or draw a card.",
         "name": "crows_nest_coffee"
     },
+    "crustacean_carrier": {
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_a27d05702b8042efab02a2dbcd90846d~mv2.jpeg/v1/fill/w_743,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_022.jpeg",
+        "card_type": "ship",
+        "effect_text": "once per turn, when a pirate without any effect boards this ship, you may destroy any one pirate (friendly or not).",
+        "name": "crustacean_carrier",
+        "pirate_code": "heavy_metal"
+    },
     "cutlass_cricket": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_003aff7957b44abd828ffe2f3946f808~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_010.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -397,7 +405,7 @@
         ]
     },
     "cycloptus": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_ff6d17e98d4143dca8d77e7d9ddc3126~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_003.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -410,7 +418,7 @@
         ]
     },
     "dagger_of_the_deep": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_59a77bf290484f5ea8e7ed06caaf7cda~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_009.jpeg",
         "card_type": "shanty",
         "crew": {
@@ -420,11 +428,11 @@
         "name": "dagger_of_the_deep"
     },
     "davy_jones_abomination": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_0520f8528a864f7e9eafeafe46898603~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_001.jpeg",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_85c55908a8b64aed944dbb57ee375964~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played each player picks a card from their djl to attach to this card. your pick counts as this card's firepower and your opponent's pick is the effect. cannot be played if both players don't have a pirate in their djl.",
+        "effect_text": "while in davy jones' locker, you may spend two orders and remove this card from the game. destroy one pirate on each of your opponent's ships.",
         "firepower": "X",
         "name": "davy_jones_abomination",
         "pirate_code": "juju",
@@ -434,37 +442,29 @@
         ]
     },
     "deal_with_the_broadside_devil": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_ce27823828174dc4b093cf87ca9855a0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_022.jpeg",
         "card_type": "shanty",
         "effect_text": "equip to a ship. while at sea, when a player is sending a volley their ship needs more firepower aboard than the ship that is being sunk. otherwise the ship is not sunk.",
         "name": "deal_with_the_broadside_devil"
     },
     "deckstroyer_mk_iii": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_c6da84eb55994971b2dc3818e0a8a124~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_017.jpeg",
         "card_type": "ship",
         "effect_text": "all heavy metal (grey) pirates on this ship get +5.",
         "name": "deckstroyer_mk_iii",
         "pirate_code": "heavy_metal"
     },
-    "sword_bay_salvager": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_87f1393e579a4c419a3967c0f448b591~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_019.jpeg",
-        "card_type": "ship",
-        "effect_text": "when this ship sets sail, your opponent immediately shuffles their hand back into their deck and draws back up to how many cards they had previously.",
-        "name": "sword_bay_salvager",
-        "pirate_code": "heavy_metal"
-    },
     "disrupting_fundamental_laws_of_cannonball_physics": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_d7e311d46b9044c094b2f23e358489cc~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_021.jpeg",
         "card_type": "shanty",
         "effect_text": "surprise you may free play this card when your opponent is sending a volley. destroy two friendly pirates. your ship is not destroyed, instead send a volley at one of your opponent\u2019s ships. \n\n*only 3 surprise cards allowed per poop deck.",
         "name": "disrupting_fundamental_laws_of_cannonball_physics"
     },
     "doctor_croctor": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_6b4925e4a6be4ba194b8c68455414e44~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_008.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -477,7 +477,7 @@
         ]
     },
     "doombeard": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_de6595dbd0b142e586c3f81acf4d26d9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_026.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -490,28 +490,14 @@
         ]
     },
     "doombeards_cutlass": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_5fb7053d4ab047d28ed827ae101278c8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_028.jpeg",
         "card_type": "shanty",
         "effect_text": "cannot be played as a hidden shanty. equip to a pirate. if this pirate has the highest bounty at sea, it gets +10 and x2",
         "name": "doombeard\u2019s_cutlass"
     },
-    "hacker_of_halyard_rig": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_d62271608dfb4d4796a597bb08c5bd55~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_006.jpeg",
-        "card_art": "",
-        "card_type": "pirate",
-        "effect_text": "while at sea if you start your turn without a hidden shanty or \u201cequip to\u201d shanty attached to this card, it\u2019s destroyed.",
-        "firepower": "15",
-        "name": "hacker_of_halyard_rig",
-        "pirate_code": "heavy_metal",
-        "pirate_types": [
-            "science",
-            "authority"
-        ]
-    },
     "feather_flotilla": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_85b5318cd41241379d0da4008546ba20~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_029.jpeg",
         "card_type": "ship",
         "effect_text": "every time a tropical (orange) pirate boards this ship, draw a card.",
@@ -519,7 +505,7 @@
         "pirate_code": "tropical"
     },
     "fiend_o_war": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_d9950a06f55e4e6d8096e6083481ca2c~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_016.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -532,7 +518,7 @@
         ]
     },
     "fleet_phoenix": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_14807ad599cd42ce89c9511129301610~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_002.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -546,23 +532,23 @@
         ]
     },
     "flintlock_fury": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_55bb558555484913bd70378767b1d621~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_022.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "clever": 3
+        },
         "effect_text": "when played if your opponent has more pirates at sea than you, you may destroy one enemy pirate.",
         "firepower": "3",
         "name": "flintlock_fury",
         "pirate_code": "heavy_metal",
-        "crew": {
-            "clever": 3
-        },
         "pirate_types": [
             "cyborg"
         ]
     },
     "flotsamstein": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_4d9e3baa97684a63b2c945369c9d45d1~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_020.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -575,31 +561,15 @@
         ]
     },
     "forgotten_fleet": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_a7e357a3e95f476f80c7dd8cbdc01b83~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_035.jpeg",
         "card_type": "ship",
         "effect_text": "when played this ship starts exhausted. this card starts in your ship graveyard. when any of your ships are destroyed, you may immediately have this ship set sail and board a pirate on it without costing an order. when sunk, remove from game.",
         "name": "forgotten_fleet",
         "pirate_code": "juju"
     },
-    "crustacean_carrier": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_a27d05702b8042efab02a2dbcd90846d~mv2.jpeg/v1/fill/w_743,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_022.jpeg",
-        "card_type": "ship",
-        "effect_text": "once per turn, when a pirate without any effect boards this ship, you may destroy any one pirate (friendly or not).",
-        "name": "crustacean_carrier",
-        "pirate_code": "heavy_metal"
-    },
-    "skeletal_sloop": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_e50f4139526c4fb08cbeca7b55a8a926~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_036.jpeg",
-        "card_type": "ship",
-        "effect_text": "once a turn, when a pirate with no effect boards this ship, you may immediately play a shanty/hidden shanty from your davy jones\u2019 locker.",
-        "name": "skeletal_sloop",
-        "pirate_code": "juju"
-    },
     "gladiator_gold": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_3cec67de416f4fb3aae06dcab90ad746~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_005.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -613,7 +583,7 @@
         ]
     },
     "goldfish_gallion": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_113e9f9cb9a544afbdfa096d8496d939~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_026.jpeg",
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. unless t\u2019s the first player turn of the game, when this ship is revealed, gain a bonus_order.",
@@ -621,7 +591,7 @@
         "pirate_code": "tropical"
     },
     "gunpowder_sage": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_1bb511037c2749daa9faf551fe7355bd~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_023.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -635,7 +605,7 @@
         ]
     },
     "gunpowder_sage_blast_mode": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_6eddb9a97ee849c0b0c308a48229ba27~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_024.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -649,14 +619,28 @@
         ]
     },
     "gunpowder_shackles": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_936c5c01758c433b804dede638fef973~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_031.jpeg",
         "card_type": "shanty",
         "effect_text": "equip to one of your pirates. if this card is destroyed, you pick two of your opponent\u2019s pirates at sea to destroy.",
         "name": "gunpowder_shackles"
     },
+    "hacker_of_halyard_rig": {
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_d62271608dfb4d4796a597bb08c5bd55~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_006.jpeg",
+        "card_art": "",
+        "card_type": "pirate",
+        "effect_text": "while at sea if you start your turn without a hidden shanty or \u201cequip to\u201d shanty attached to this card, it\u2019s destroyed.",
+        "firepower": "15",
+        "name": "hacker_of_halyard_rig",
+        "pirate_code": "heavy_metal",
+        "pirate_types": [
+            "science",
+            "authority"
+        ]
+    },
     "hangkor_lord_of_gallows": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_30c40274a9564c88a5ecc0819e379b79~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_002.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -670,7 +654,7 @@
         ]
     },
     "hangmans_barge": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_7279386943084e7e8f9acdda227100a6~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_034.jpeg",
         "card_type": "ship",
         "effect_text": "if you have more cards in your djl than your opponent, all pirates on this ship get +5.",
@@ -678,7 +662,7 @@
         "pirate_code": "juju"
     },
     "harbinger_of_pyrocy": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_33f28b6f26924429a844601ec34403d3~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_008.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -691,7 +675,7 @@
         ]
     },
     "harbor_harpy": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_3025efe428424e36b126a425e78a2ec7~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_010.jpeg",
         "card_type": "pirate",
         "effect_text": "when played if your opponent has double, or more, pirates at sea than you, bring one of your opponent\u2019s pirates over to the ship this pirate is on, if able.",
@@ -704,7 +688,7 @@
         ]
     },
     "haunted_hauler": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_f85780da0fd642188e69e894bfa93daf~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_032.jpeg",
         "card_type": "ship",
         "effect_text": "every time a juju (purple) pirate boards this ship, draw a card.",
@@ -712,7 +696,7 @@
         "pirate_code": "juju"
     },
     "headwind_hero_of_land-ho": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_76f5988dfcb845f4a01a53abbed7e329~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_001.jpeg",
         "card_type": "pirate",
         "effect_text": "while at sea this card counts as if all \u201cequip to pirate\u201d shanties at sea and in your davy jones locker have been played on it.",
@@ -725,14 +709,14 @@
         ]
     },
     "heavy_metal_shanty_rock": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_325700b4dc664b349c743b70a8cc761d~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_035.jpeg",
         "card_type": "shanty",
         "effect_text": "when played, immediately free play a hidden shanty on this card. this card and the attached shanty are not destroyed at high tide. when the hidden shanty is revealed this card is destroyed.",
         "name": "heavy_metal_shanty_rock:_gunneliel"
     },
     "hercules_hull_beetle": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_e215b43f72a8414d981455944fea700d~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_015.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -745,11 +729,11 @@
         ]
     },
     "hermit_crawlers": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_067ccb3a2900404b838a1cc5df3ae384~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_017.jpeg",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_548d9eda2a7f4264b7b850fd81c7802e~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/todays_game_002.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "while at sea the ship this pirate is on cannot send a volley and requires two orders to board a pirate on that ship. this card may board your opponent\u2019s ships.",
+        "effect_text": "when played play on your opponent's pirates. their effect is still active but their firepower is now this pirate's firepower.",
         "firepower": "-4",
         "name": "hermit_crawlers",
         "pirate_code": "heavy_metal",
@@ -758,32 +742,15 @@
         ]
     },
     "indisputable_ironclad": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_66b8e3f84a12467a8079b820969b2c6f~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_020.jpeg",
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. all pirates on this ship get x2.",
         "name": "indisputable_ironclad",
         "pirate_code": "heavy_metal"
     },
-    "pumpkidd": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_a98046b37730470cafa64a6af74df4e8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_024.jpeg",
-        "card_art": "",
-        "card_type": "pirate",
-        "effect_text": "while at sea when you or your opponent reveals a hidden shanty, you may flip this card face down (at which point it counts as a no effect +0 juju pirate).  then it counts as if you immediately played a second copy of that shanty.",
-        "firepower": "2",
-        "name": "pumpkidd",
-        "crew": {
-            "mystical": 3
-        },
-        "pirate_code": "juju",
-        "pirate_types": [
-            "???",
-            "plant"
-        ]
-    },
     "jay_sparrows": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_8454c9d0a543478aa2f18820fa5f9e53~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_007.jpeg",
         "card_type": "pirate",
         "effect_text": "after drawing your opening hand at the start of the game, bring this card to your hand. after any successful runs of the blockade, bring this card to your hand, from anywhere.",
@@ -795,24 +762,24 @@
         ]
     },
     "jolly_rodish": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_64ca8922b9c94f94a3508134b984ba57~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_022.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "fearless": 2
+        },
         "effect_text": "none",
         "firepower": "5",
         "name": "jolly_rodish",
         "pirate_code": "tropical",
-        "crew": {
-            "fearless": 2
-        },
         "pirate_types": [
             "sword",
             "plant"
         ]
     },
     "kah_mune_deer": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_ca886cc0bf444c9db3604a484892c03c~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_012.jpeg",
         "card_type": "pirate",
         "effect_text": "surprise you may free play this card and prevent your opponent from setting sail a ship until their following turn. if there is nowhere to play, this card is instead destroyed.\n\n*only 3 surprise cards allowed per poop deck.",
@@ -824,24 +791,24 @@
         ]
     },
     "kannon_katcher": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_179a85bc7e624c11bba51cd6887516b8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_019.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "starter": 3
+        },
         "effect_text": "while at sea when your opponent sends a volley, you may destroy this pirate instead of the intended target.",
         "firepower": "2",
         "name": "kannon_katcher",
         "pirate_code": "boom",
-        "crew": {
-            "starter": 3
-        },
         "pirate_types": [
             "cyborg",
             "???"
         ]
     },
     "kickus_cactus": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_5277e849134b45f69fa94452df9e7c58~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_020.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -855,7 +822,7 @@
         ]
     },
     "kommodore_kong": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_9a625a1a8988442f9e73835207395b01~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_013.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -868,7 +835,7 @@
         ]
     },
     "lava_landlubber": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_2200e0602f2c40649ed3ce2b43a72090~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_020.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -882,7 +849,7 @@
         ]
     },
     "lava_tug": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_729eb5678d7748dfb3e637c41603e0fd~mv2.jpeg/v1/fill/w_743,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_004.jpeg",
         "card_type": "ship",
         "effect_text": "every time a boom (red) pirate boards this ship, draw a card.",
@@ -890,7 +857,7 @@
         "pirate_code": "boom"
     },
     "legionnaire_longship": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_2dab9cad18ac423c993ddaff484c914e~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_001.jpeg",
         "card_type": "ship",
         "effect_text": "as_long_as_this_ship_has_a_complete_crew,_all_pirates_aboard_get_+5.",
@@ -898,40 +865,40 @@
         "pirate_code": "boom"
     },
     "lightning_eels": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_c8419951569643ef9851c09325351cab~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_016.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "clever": 3
+        },
         "effect_text": "when played destroy all of your opponent\u2019s hidden shanties at sea.",
         "firepower": "2",
         "name": "lightning_eels",
         "pirate_code": "heavy_metal",
-        "crew": {
-            "clever": 3
-        },
         "pirate_types": [
             "robot",
             "sea-thing"
         ]
     },
     "lobster_tank": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_ce089fd32cc24775a3bc4f33a9981a02~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_019.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "starter": 3
+        },
         "effect_text": "none",
         "firepower": "6",
         "name": "lobster_tank",
         "pirate_code": "heavy_metal",
-        "crew": {
-            "starter": 3
-        },
         "pirate_types": [
             "vehicle"
         ]
     },
     "lord_voyager": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_ba712d7e395a496fa21648964ee13abf~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -945,7 +912,7 @@
         ]
     },
     "madame_crossed_bones": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_e48e8dbbdc8448258fe1800ab9c79bb2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_005.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -959,14 +926,14 @@
         ]
     },
     "maritime_magnet": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_7042545cdecf4667a0196f06835b998c~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_029.jpeg",
         "card_type": "shanty",
         "effect_text": "pick an opponent\u2019s hidden shanty. they cannot activate it in response to this card. play it or place it as a hidden shanty on one of your pirates (if no pirate is available, destroy it instead).",
         "name": "maritime_magnet"
     },
     "master_sheepwright": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_fcd960daa97a4adba8d9da8bdfc93bdd~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_007.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -980,14 +947,14 @@
         ]
     },
     "metal_pirazoid_armor": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_6a7abd67be904262b6ae53a744fe408d~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_026.jpeg",
         "card_type": "shanty",
         "effect_text": "equip to a Pirate. That Pirate gets +2 and all friendly Pirates that share the same positioning on their Ships as this Pirate get firepower equal to this Pirate (does not stack with other \u2018Metal Pirazoid Armor\u2019s)",
         "name": "metal_pirazoid_armor"
     },
     "miss_isles": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_ca157be8591f41838e7d63fe6fbf03e8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_025.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1001,7 +968,7 @@
         ]
     },
     "mobile_sailor_gundeck": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_7bb173f148874979a4174e1cee0fa8d8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_021.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1015,7 +982,7 @@
         ]
     },
     "mollusk_mania": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_4043af7eb4874c74b3402a8410dcc8a3~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_010.jpeg",
         "card_type": "shanty",
         "crew": {
@@ -1025,7 +992,7 @@
         "name": "mollusk_mania"
     },
     "monarch_matey": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_80f0c7e61dec490e8c2f281385338d97~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_017.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1038,18 +1005,8 @@
             "flying"
         ]
     },
-    "monsoon_force": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_fa7505db85864b4bbd7455845b721ce0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_006.jpeg",
-        "card_type": "shanty",
-        "crew": {
-            "clever": 2
-        },
-        "effect_text": "you may relocate any or all of your opponent\u2019s pirates amongst their ships. if a crew is completed by this card, no volley is sent.",
-        "name": "monsoon_force"
-    },
     "monkey_bones": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_07290621d95e433e85813a68ef6ab6c3~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_011.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1062,8 +1019,18 @@
             "animal"
         ]
     },
+    "monsoon_force": {
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_fa7505db85864b4bbd7455845b721ce0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_006.jpeg",
+        "card_type": "shanty",
+        "crew": {
+            "clever": 2
+        },
+        "effect_text": "you may relocate any or all of your opponent\u2019s pirates amongst their ships. if a crew is completed by this card, no volley is sent.",
+        "name": "monsoon_force"
+    },
     "monster_musketoon": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_7be4a107a5544dc793122e5989b3805a~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_025.jpeg",
         "card_type": "shanty",
         "crew": {
@@ -1073,27 +1040,27 @@
         "name": "monster_musketoon"
     },
     "mooring_monk": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_3661791930c84748a9c27aff359f1bc2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_018.jpeg",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_02e0d2442d474e1da93c435885913337~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_002.jpeg",
         "card_type": "pirate",
-        "effect_text": "when played you may immediately board a pirate with no effect from your davy jones\u2019 locker.",
-        "firepower": "2",
-        "name": "mooring_monk",
-        "pirate_code": "deep_sea",
         "crew": {
             "fearless": 3
         },
+        "effect_text": "when played you may board a pirate with no effect from your davy jones' locker onto this pirate's ship.",
+        "firepower": "0",
+        "name": "mooring_monk",
+        "pirate_code": "deep_sea",
         "pirate_types": [
             "divine"
         ]
     },
     "moth_from_the_unknown_sea": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_bb51998b9cf9427ba4ffc23931ddad35~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_016.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "while at sea any time you end your turn without any cards in your hand, you may immediately board three pirates from your davy jones\u2019 locker to a friendly ship(s). no additional pirates can be boarded through card effect for the rest of the player turn. flip this card face down once activated.",
-        "firepower": "0",
+        "firepower": "1",
         "name": "moth_from_the_unknown_sea",
         "pirate_code": "juju",
         "pirate_types": [
@@ -1102,24 +1069,24 @@
         ]
     },
     "mr_manty_and_his_magical_hat": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_dcccb06f20e44371b30542d557cde0e0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_003.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "starter": 3
+        },
         "effect_text": "when played you may free play a hidden shanty.",
         "firepower": "2",
         "name": "mr_manty_and_his_magical_hat",
         "pirate_code": "juju",
-        "crew": {
-            "starter": 3
-        },
         "pirate_types": [
             "sea-thing",
             "???"
         ]
     },
     "mutiny_mummy": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_0b951f837c074ab6b79d21c5efa74a2e~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_006.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1132,12 +1099,20 @@
             "notdead"
         ]
     },
+    "nauticlaw": {
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_4aa254b76ece45bdadd3521857663453~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_016.jpeg",
+        "card_type": "ship",
+        "effect_text": "pirates with no effect count as two spaces when determining a completed crew.",
+        "name": "nauticlaw",
+        "pirate_code": "deep_sea"
+    },
     "navigator_nuts": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_e02844c44d2a4ecf8dfbd94d1bd64a1d~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_019.jpeg",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_80e39a0e291d4e99b41b0523382fcfd9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_001.jpeg",
         "card_type": "pirate",
         "effect_text": "when played you may immediately swap one ship at sea with a ship from your dock deck (replacing all pirates and shanties on the new ship).",
-        "firepower": "2",
+        "firepower": "0",
         "name": "navigator_nuts",
         "pirate_code": "deep_sea",
         "pirate_types": [
@@ -1145,7 +1120,7 @@
         ]
     },
     "navy_orders": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_dfd27dae504d4d5195423c98283423b3~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_001.jpeg",
         "card_type": "shanty",
         "crew": {
@@ -1155,7 +1130,7 @@
         "name": "navy_orders"
     },
     "not_so_yellow_submarine": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_d7c7c3da00c846dda81851a9d945b447~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_013.jpeg",
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. when this ship is played, you may search your poop deck for a pirate to bring to your hand.",
@@ -1163,23 +1138,23 @@
         "pirate_code": "deep_sea"
     },
     "oar_angutan": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_a2a2d16df76c4c5db3ef0e62c0c8168d~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_021.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "starter": 3
+        },
         "effect_text": "none",
         "firepower": "6",
         "name": "oar_angutan",
         "pirate_code": "tropical",
-        "crew": {
-            "starter": 3
-        },
         "pirate_types": [
             "animal"
         ]
     },
     "ocean_keep": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_d8160c23ed5a4f6cb03aeb8f9816c63d~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_009.jpeg",
         "card_type": "ship",
         "effect_text": "everytime a deep sea (blue) pirate boards this ship, draw a card.",
@@ -1187,47 +1162,47 @@
         "pirate_code": "deep_sea"
     },
     "paladin_of_the_far_horizon": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_cac9b2b3a437438f941e582e9e333667~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_022.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "fearless": 3
+        },
         "effect_text": "none",
         "firepower": "6",
         "name": "paladin_of_the_far_horizon",
         "pirate_code": "juju",
-        "crew": {
-            "fearless": 3
-        },
         "pirate_types": [
             "divine",
             "armor"
         ]
     },
     "pearl_pieces_of_three": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_5f057f49a931418b96a9933a1db58310~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_011.jpeg",
         "card_type": "shanty",
         "effect_text": "if you have 3x \u201cpearl pieces of three\u201d in your hand, you may immediately free play five pirates from your davy jones\u2019 locker, your poop deck, your hand or a combination of the three. ignore all boarding restrictions. then remove these three shanties from the game.",
         "name": "pearl_pieces_of_three"
     },
     "peglegasus": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_e8e80ee48b084d43b9bbab899c0ffc07~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_016.jpeg",
         "card_type": "pirate",
+        "crew": {
+            "clever": 3
+        },
         "effect_text": "when played on the following turn, your opponent can\u2019t run the blockade.",
         "firepower": "2",
         "name": "peglegasus",
         "pirate_code": "deep_sea",
-        "crew": {
-            "clever": 3
-        },
         "pirate_types": [
             "mythic",
             "flying"
         ]
     },
     "piranknot": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_be5806e3d7824cc580a38be7828d03c9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_009.jpeg",
         "card_type": "pirate",
         "effect_text": "when played pick one pirate at sea (friendly or not) to destroy. at the end of the player turn, shuffle this card back into your poop deck, draw a new one.",
@@ -1239,42 +1214,42 @@
         ]
     },
     "pirate_life_blue": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_64bafb392f0d45039e379d4165db8901~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_013.jpeg",
         "card_type": "shanty",
         "effect_text": "Search your Poop Deck for one Deep Sea card and equip this card to a Deep Sea Pirate at Sea. They get +5.",
         "name": "pirate_life_blue"
     },
+    "pirate_life_orange": {
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_a8bc4ffb9b684341bfe77da5551c2ed5~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_014.jpeg",
+        "card_type": "shanty",
+        "effect_text": "Search your Poop Deck for one Tropical card and equip this card to a Tropical Pirate at Sea. They get +5.",
+        "name": "pirate_life_yellow"
+    },
     "pirate_life_purple": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_52d9232887d6440e8e6c5eb1c0aac871~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_016.jpeg",
         "card_type": "shanty",
         "effect_text": "Search your Poop Deck for one Juju card and equip this card to a Juju Pirate at Sea. They get +5.",
         "name": "pirate_life_purple"
     },
     "pirate_life_red": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_80b5f80cc8ec40cdb648fd138e34428d~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_012.jpeg",
         "card_type": "shanty",
         "effect_text": "search your poop deck for one boom card and equip this card to a boom pirate at sea. they get +5.",
         "name": "pirate_life_red"
     },
     "pirate_life_silver": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_1a107a9c90004e3d85ff703ed05ea475~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_015.jpeg",
         "card_type": "shanty",
         "effect_text": "when played, bring one heavy metal pirate to your hand from your poop deck and equip this card to a heavy metal pirate at sea and give them +5.",
         "name": "pirate_life_silver"
     },
-    "pirate_life_orange": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_a8bc4ffb9b684341bfe77da5551c2ed5~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_014.jpeg",
-        "card_type": "shanty",
-        "effect_text": "Search your Poop Deck for one Tropical card and equip this card to a Tropical Pirate at Sea. They get +5.",
-        "name": "pirate_life_yellow"
-    },
     "platypirate": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_9842e5a7bd32458c8cd539f4375a1470~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_012.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1287,7 +1262,7 @@
         ]
     },
     "pocket_pirate": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_7deae0c7a98c43fba6cc90bc04f94e0d~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_007.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1300,7 +1275,7 @@
         ]
     },
     "popcolonels": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_cfeceed73f234574af3bc36225e38d94~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_017.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1314,7 +1289,7 @@
         ]
     },
     "pterror_deck": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_6b6cdbda8c604fa3a17eb3d828dff95e~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_002.jpeg",
         "card_type": "ship",
         "effect_text": "when this ship sets sail you may destroy one pirate if any are currently at sea.",
@@ -1322,7 +1297,7 @@
         "pirate_code": "boom"
     },
     "pterror_pteam": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_369b1dba009b4d0891c65113f54c21a0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_009.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1335,25 +1310,42 @@
             "dinosaur"
         ]
     },
+    "pumpkidd": {
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_a98046b37730470cafa64a6af74df4e8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_024.jpeg",
+        "card_art": "",
+        "card_type": "pirate",
+        "crew": {
+            "mystical": 3
+        },
+        "effect_text": "while at sea when you or your opponent reveals a hidden shanty, you may flip this card face down (at which point it counts as a no effect +0 juju pirate).  then it counts as if you immediately played a second copy of that shanty.",
+        "firepower": "2",
+        "name": "pumpkidd",
+        "pirate_code": "juju",
+        "pirate_types": [
+            "???",
+            "plant"
+        ]
+    },
     "purgatory_parrot": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_298f1c7cb139443080caa73d95493443~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_021.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "mystical": 3
+        },
         "effect_text": "none",
         "firepower": "5",
         "name": "purgatory_parrot",
         "pirate_code": "juju",
-        "crew": {
-            "mystical": 3
-        },
         "pirate_types": [
             "flying",
             "notdead"
         ]
     },
     "pyramid_prow": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_50b83180f66046d6b36a711dfe75b3de~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_033.jpeg",
         "card_type": "ship",
         "effect_text": "while this ship is at sea, every time you play a shanty (hidden or not) draw a card.",
@@ -1361,7 +1353,7 @@
         "pirate_code": "juju"
     },
     "pyrannosaurus_rex": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_10bc365d86bc4f4f96ed84d30ec02dc8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_021.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1374,24 +1366,24 @@
         ]
     },
     "quartermaster_95": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_b5caeffdfd3942bc81125eee9ef34d13~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_013.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "clever": 3
+        },
         "effect_text": "while at sea your opponent can only board pirates (while directly using orders) onto their ship(s) currently with the fewest pirates.",
         "firepower": "3",
         "name": "quartermaster_95",
         "pirate_code": "heavy_metal",
-        "crew": {
-            "clever": 3
-        },
         "pirate_types": [
             "sea-thing",
             "cyborg"
         ]
     },
     "red_eye_wreckage": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_2e776738107945cf8002affa97015baf~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_021.jpeg",
         "card_type": "ship",
         "effect_text": "while this ship is at sea, your opponent\u2019s max hand size is 4.",
@@ -1399,30 +1391,30 @@
         "pirate_code": "heavy_metal"
     },
     "reef_ronin": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_cd19fda533e14c3fa89987abea5fbe8a~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_013.jpeg",
         "card_type": "pirate",
+        "crew": {
+            "clever": 3
+        },
         "effect_text": "when played pick a pirate at sea (friendly or not) and send them back to their owner\u2019s hand.",
         "firepower": "2",
         "name": "reef_ronin",
         "pirate_code": "deep_sea",
-        "crew": {
-            "clever": 3
-        },
         "pirate_types": [
             "sword",
             "sea-thing"
         ]
     },
     "remnant_of_piracys_first_age": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_3c39b14dff1f49d9918c63dd35612bb9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_032.jpeg",
         "card_type": "shanty",
         "effect_text": "equip to the ship \u201cthe doomtreader\u201d. if \u201cdoombeard\u201d is aboard this ship, it, this card and the ship cannot be destroyed by any effect your opponent plays. only one \u201cremnant of piracy\u2019s first age\u201d is allowed per deck.",
         "name": "remnant_of_piracys_first_age"
     },
     "requisite_icebreaker": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_52e2660efaaf4357a96f0dae89d0c403~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_015.jpeg",
         "card_type": "ship",
         "effect_text": "this ship does not need a pirate aboard to run the blockade.",
@@ -1430,7 +1422,7 @@
         "pirate_code": "deep_sea"
     },
     "sailor_boom": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_2f4bda1ed0584a458e3675833f9da243~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_010.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1444,7 +1436,7 @@
         ]
     },
     "santa_monstera": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_e13e42b7441343389515311898465590~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_027.jpeg",
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. if you drew a card at the start of this turn, when this ship sets sail, immediately draw two additional cards.",
@@ -1452,14 +1444,14 @@
         "pirate_code": "tropical"
     },
     "sargasso_spyglass": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_547148d14f8641a680510f5c7b313771~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_018.jpeg",
         "card_type": "shanty",
         "effect_text": "look at the bottom five cards of your opponent\u2019s poop deck. pick one to bring to your hand. then shuffle their deck.",
         "name": "sargasso_spyglass"
     },
     "scallywag_cyber": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_1f4069698fcd43b4a8271836c865396b~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_009.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1472,7 +1464,7 @@
         ]
     },
     "scallywag_cyber_2_0": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_340df8a999a14020bc162dc441a50235~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_008.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1485,7 +1477,7 @@
         ]
     },
     "scarpion_treasure_bug": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_b0ebefa6ee3a41999c919ef4138b0884~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_002.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1499,7 +1491,7 @@
         ]
     },
     "sea_loth": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_68e9e41658bd495db710dff85697c477~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_008.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1512,7 +1504,7 @@
         ]
     },
     "sea_u_gator": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_3b8047a150a6414aaeb0301336bf3079~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_031.jpeg",
         "card_type": "ship",
         "effect_text": "all juju (purple) pirates on this ship get +5.",
@@ -1520,7 +1512,7 @@
         "pirate_code": "juju"
     },
     "seacove_smuggler_co": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_8c43754f1b144605a40c516a0914dd9e~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_010.jpeg",
         "card_type": "ship",
         "effect_text": "all pirates aboard this ship may be turned face down, except when necessary to reveal firepower or effects.",
@@ -1528,7 +1520,7 @@
         "pirate_code": "deep_sea"
     },
     "seadog_squid": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_a58c0dc597314f028d99412bce7b9ada~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_002.jpeg",
         "card_type": "pirate",
         "effect_text": "While at sea all of your pirates may have multiple hidden shanties and equip to cards attached to them.",
@@ -1540,21 +1532,21 @@
         ]
     },
     "seal_of_the_crossed_bones": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_60bf84a752514bdaad62dde052519c5b~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_023.jpeg",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_3f469db2b26b4a61a50395f63ee682ee~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "card_type": "shanty",
-        "effect_text": "pick a player, until the start of your next turn, all of that player's pirates are considered to be no-effect pirates (including the ones in their hand).",
+        "effect_text": "pick a player, until the start of your next turn, all of that player's pirates are considered to be no-effect pirates (including the ones in their hand and DJL).",
         "name": "seal_of_the_crossed_bones"
     },
     "seawolf_torpedos": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_89890d2e4b7a4786b164e7b6a440e5f4~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_004.jpeg",
         "card_type": "shanty",
         "effect_text": "equip to a ship. each pirate that is boarded on that ship after this card is played, gets x2.",
         "name": "seawolf_torpedos"
     },
     "seaworthy_sovereign": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_43091e9c46dc47c39f0dfdd6b7c363b9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_018.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1568,24 +1560,24 @@
         ]
     },
     "shipside_shelling_corp": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_8b095c65237f43e49b05ee8393564db0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_010.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "clever": 3
+        },
         "effect_text": "while at sea when any ship is exhausted (friendly or not), you may pick a pirate on the ship opposite this one to destroy.",
         "firepower": "3",
         "name": "shipside_shelling_corp",
         "pirate_code": "heavy_metal",
-        "crew": {
-            "clever": 3
-        },
         "pirate_types": [
             "soldier",
             "vehicle"
         ]
     },
     "shiver_me_timberers": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_644a08842d2a40ba9e1cd3195cecddd0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_014.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1598,7 +1590,7 @@
         ]
     },
     "shogun_scourge": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_3f83c6d55adb4c738449d625ca1a3dac~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_003.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1612,7 +1604,7 @@
         ]
     },
     "shrimpviathen_aka_jumbo_shrimp": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_422a9ead12e345309dccdced0e42f5e4~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_005.jpeg",
         "card_type": "pirate",
         "effect_text": "boarding restriction: costs 2 orders. at the end of your turn destroy all pirates on the ship this boards, unless they are deep sea, then you may instead board them on any open spaces on your other ships.",
@@ -1624,24 +1616,24 @@
             "sea-thing"
         ]
     },
+    "skeletal_sloop": {
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_e50f4139526c4fb08cbeca7b55a8a926~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_036.jpeg",
+        "card_type": "ship",
+        "effect_text": "once a turn, when a pirate with no effect boards this ship, you may immediately play a shanty/hidden shanty from your davy jones\u2019 locker.",
+        "name": "skeletal_sloop",
+        "pirate_code": "juju"
+    },
     "skull_of_the_shipasaurus": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_3bc729220db74a3da2dc23baf774eb1a~mv2.jpeg/v1/fill/w_743,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_006.jpeg",
         "card_type": "ship",
         "effect_text": "no pirate\u2019s firepower counts towards your total on this ship, except when you\u2019re running the blockade, all pirate\u2019s firepower aboard this ship gets x2.",
         "name": "skull_of_the_shipasaurus",
         "pirate_code": "boom"
     },
-    "stinger_class_jelly_frigate": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_de0f2b02323b4ab4996269d0747391cc~mv2.jpeg/v1/fill/w_743,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_023.jpeg",
-        "card_type": "ship",
-        "effect_text": "when this ship sets sail, your opponent must reveal their hand to you.",
-        "name": "stinger_class_jelly_frigate",
-        "pirate_code": "heavy_metal"
-    },
     "spectral_dutchman": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_61f119d7668842dd9cc80f98ea569911~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_007.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1655,7 +1647,7 @@
         ]
     },
     "spinnaker_spud": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_63c00c9f1a8a45cf82d4e1badf2f4204~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_028.jpeg",
         "card_type": "ship",
         "effect_text": "at the start of each of your turns (after this card is revealed) where there are no pirates aboard this ship, draw an extra card",
@@ -1663,28 +1655,36 @@
         "pirate_code": "tropical"
     },
     "sponge_barbarian": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_3adaa4f3481140d6829aca531c41d0cb~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_004.jpeg",
         "card_type": "pirate",
+        "crew": {
+            "starter": 3
+        },
         "effect_text": "Boarding restriction: you need at least five friendly pirates at sea",
         "firepower": "11",
         "name": "sponge_barbarian",
         "pirate_code": "deep_sea",
-        "crew": {
-            "starter": 3
-        },
         "pirate_types": [
             "wild",
             "sea-thing"
         ]
     },
+    "stinger_class_jelly_frigate": {
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_de0f2b02323b4ab4996269d0747391cc~mv2.jpeg/v1/fill/w_743,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_023.jpeg",
+        "card_type": "ship",
+        "effect_text": "when this ship sets sail, your opponent must reveal their hand to you.",
+        "name": "stinger_class_jelly_frigate",
+        "pirate_code": "heavy_metal"
+    },
     "subject_s3a_zku11": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_6aa2322b747446049fe49b6562180cee~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_012.jpeg",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_ce70076f8f014aa1a5341c92a1de9e8d~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/todays_game_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "boarding restriction: costs 3 orders. you may discard any number of shanties from your hand when played. for each card discarded, gain one additional order.",
-        "firepower": "8",
+        "effect_text": "while at sea this pirate gets x2 for every pirate on the ship opposite it.",
+        "firepower": "1",
         "name": "subject_s3a_zku11",
         "pirate_code": "heavy_metal",
         "pirate_types": [
@@ -1693,14 +1693,14 @@
         ]
     },
     "sunrise_supplies": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_05b030555df2461da27c3610c50b7b84~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_024.jpeg",
         "card_type": "shanty",
         "effect_text": "draw back up to having five cards in your hand.",
         "name": "sunrise_supplies"
     },
     "super_giganto_gull": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_ba74f4c77680405bb9cb6fb78820ce67~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_022.jpeg",
         "card_type": "pirate",
         "effect_text": "none\n",
@@ -1712,31 +1712,39 @@
             "colossal"
         ]
     },
+    "sword_bay_salvager": {
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_87f1393e579a4c419a3967c0f448b591~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_019.jpeg",
+        "card_type": "ship",
+        "effect_text": "when this ship sets sail, your opponent immediately shuffles their hand back into their deck and draws back up to how many cards they had previously.",
+        "name": "sword_bay_salvager",
+        "pirate_code": "heavy_metal"
+    },
     "sword_beast": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_8d127eb4e1394a429b1b25787ea23412~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_026.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "fearless": 3
+        },
         "effect_text": "none",
         "firepower": "7",
         "name": "sword_beast",
         "pirate_code": "boom",
-        "crew": {
-            "fearless": 3
-        },
         "pirate_types": [
             "sword"
         ]
     },
     "teachs_ticking_time_bomb": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_4394d9bfc0a14d5fbd915357974937d4~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_020.jpeg",
         "card_type": "shanty",
         "effect_text": "when this card is played, shuffle it into your opponent\u2019s deck. the next time either player draws a \u201cteach\u2019s ticking time bomb\u201d that player\u2019s opponent immediately sinks one of that player\u2019s ships.",
         "name": "teach\u2019s_ticking_time_bomb"
     },
     "terror_of_the_seas_tater": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_0f815e567cb54296ba3402b2297c7e25~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1749,7 +1757,7 @@
         ]
     },
     "the_art_of_marooning": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_298fb6e5f9224a77a4f7f813511e2567~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_002.jpeg",
         "card_type": "shanty",
         "crew": {
@@ -1759,19 +1767,19 @@
         "name": "the_art_of_marooning"
     },
     "the_bladeheim": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_f8c93d6f7e504cf8a7b279c22c5cbb89~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_003.jpeg",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_4963bc09fcce4ada92b68faa5e3eb690~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_001.jpeg",
         "card_type": "ship",
-        "effect_text": "when this ship completes a crew, gain two extra orders.",
+        "effect_text": "when this ship completes a crew, gain one extra order.",
         "name": "the_bladeheim",
         "pirate_code": "boom"
     },
     "the_deckrunner": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_bc1c2fb0a72b49a285d5f2757ad47c51~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_011.jpeg",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_f3bd3cf1049444e79c2487d75f1519be~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/todays_game_003.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played you may free play another pirate from your hand with firepower less than this card. the effect of the free played card is ignored and for all purposes it\u2019s a no effect card.",
+        "effect_text": "when played if played on an exhausted ship you may free play another pirate. ignore that pirate's effect it now counts as no effect",
         "firepower": "4",
         "name": "the_deckrunner",
         "pirate_code": "heavy_metal",
@@ -1780,7 +1788,7 @@
         ]
     },
     "the_doomtreader": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_type": "ship",
         "effect_text": "if the pirate \u201cdoombeard\u201d is aboard this ship, any ship sending a volley at it must have more points aboard than \u201cthe doomtreader\u201d has aboard in order to sink it.",
@@ -1788,7 +1796,7 @@
         "pirate_code": "other"
     },
     "the_grand_old_seaworth": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_df9811acc3ef4080be358fbf64876712~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_007.jpeg",
         "card_type": "ship",
         "effect_text": "when your opponent boards a pirate on the ship opposite this one, you may immediately free play a pirate from your hand. then flip this card face down. it now counts as a normal boom ship.",
@@ -1796,23 +1804,23 @@
         "pirate_code": "boom"
     },
     "the_greater_sand_witch": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_3a9c3210e4ee43f788320d2916024b58~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_009.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "while at sea this pirate gets +2 for every shanty in your davy jones\u2019 locker.",
-        "firepower": "4",
-        "name": "the_greater_sand_witch",
         "crew": {
             "mystical": 3
         },
+        "effect_text": "while at sea this pirate gets +2 for every shanty in your davy jones\u2019 locker.",
+        "firepower": "4",
+        "name": "the_greater_sand_witch",
         "pirate_code": "juju",
         "pirate_types": [
             "???"
         ]
     },
     "the_icemoor": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_d64b107c1e3545e0bf25595f280e4716~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_015.jpeg",
         "card_type": "pirate",
         "effect_text": "while at sea your opponent additionally needs more pirates than you to run the blockade.",
@@ -1824,7 +1832,7 @@
         ]
     },
     "the_legendary_flamighydra": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_83460547cd89401aa534db331be534c1~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_013.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1838,7 +1846,7 @@
         ]
     },
     "the_legendary_octdent": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_5724128312e04b87be19e4d5c8c65972~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_005.jpeg",
         "card_type": "shanty",
         "crew": {
@@ -1848,7 +1856,7 @@
         "name": "the_legendary_octdent"
     },
     "the_mapillion_vi": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_f49d745f69494c199ed3107046b7f269~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_030.jpeg",
         "card_type": "ship",
         "effect_text": "anytime you start your player turn and this ship has a complete crew, gain a bonus order that turn.",
@@ -1856,14 +1864,14 @@
         "pirate_code": "tropical"
     },
     "the_oldest_sea_shanty": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_9c2a923eb4904902909eb1076a5dba5b~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_033.jpeg",
         "card_type": "shanty",
         "effect_text": "destroy a shanty.",
         "name": "the_oldest_sea_shanty"
     },
     "the_plankwalker": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_148a9a5b8790418ba5733c6906ccad11~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_019.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1877,12 +1885,12 @@
         ]
     },
     "the_seastress": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_e9caaedb9dc54b8c9b311f30d7724896~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_017.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "when played pick one pirate at sea (friendly or not). that pirate permanently loses their effect and this card gains it (activate this effect as if this was just played).",
-        "firepower": "0",
+        "firepower": "1",
         "name": "the_seastress",
         "pirate_code": "juju",
         "pirate_types": [
@@ -1890,7 +1898,7 @@
         ]
     },
     "the_ship_rex": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
         "card_art": "",
         "card_type": "pirate",
@@ -1903,7 +1911,7 @@
         ]
     },
     "the_squall_skiff_squad": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_d5c43e26945e44c1bf189a909ce86ef0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_012.jpeg",
         "card_type": "ship",
         "effect_text": "this ship starts exhausted. when this ship is played, you may immediately board a pirate on it (without costing an order). ",
@@ -1911,14 +1919,14 @@
         "pirate_code": "deep_sea"
     },
     "the_sunken_crown": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_d0820bdfc72548f7ad386a9836fd7a35~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_034.jpeg",
         "card_type": "shanty",
         "effect_text": "when played and after each order, this card equips itself to the pirate at sea with the highest firepower (if able). it remains where it is on a tie. after it\u2019s played, each subsequent time it equips to a new pirate, the player whose pirate it is gets a bonus order. this card is only destroyed after a successful run of the blockade. ",
         "name": "the_sunken_crown"
     },
     "the_vacation_demon": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_d2c1aad83ae14599b8f1823817761aeb~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_019.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1931,22 +1939,22 @@
         ]
     },
     "topgallant_knight": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_c5747163445e442a96168ca1d3db5526~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_020.jpeg",
         "card_type": "pirate",
+        "crew": {
+            "fearless": 2
+        },
         "effect_text": "while at sea all pirates on the ship this pirate is on cannot be destroyed, moved or returned to your hand directly by card effects.",
         "firepower": "3",
         "name": "topgallant_knight",
         "pirate_code": "deep_sea",
-        "crew": {
-            "fearless": 2
-        },
         "pirate_types": [
             "armor"
         ]
     },
     "toucan_trader": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_3b22dc3acfda463ba805e8fea172996a~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_011.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1959,7 +1967,7 @@
         ]
     },
     "treasuratops": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_6935cec7548f4d1e8490f39385928064~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_004.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -1972,7 +1980,7 @@
         ]
     },
     "tree_house_hullentine": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_9034ce726a564d6cb5ffaa4e017ff5e7~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_025.jpeg",
         "card_type": "ship",
         "effect_text": "once a turn, when a pirate with no effect boards this ship, gain an extra order.",
@@ -1980,7 +1988,7 @@
         "pirate_code": "tropical"
     },
     "tricorn_of_dawn": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_4693aa03437c49cea72f5e6a1dfb674b~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_003.jpeg",
         "card_type": "shanty",
         "crew": {
@@ -1990,7 +1998,7 @@
         "name": "tricorn_of_dawn"
     },
     "truest_aim": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_d300fd8598a545708c459e833ca2b2bb~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_008.jpeg",
         "card_type": "shanty",
         "crew": {
@@ -2000,7 +2008,7 @@
         "name": "truest_aim"
     },
     "unkillable_kiwi_krew": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_79422d31b8664340a4d07973c381d28a~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_016.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -2014,45 +2022,45 @@
         ]
     },
     "urchin_virus_ultra": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_88014e084fe04fef8609f2b1d10dcbc7~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_017.jpeg",
         "card_type": "shanty",
         "effect_text": "equip to a ship. all of your opponent\u2019s pirates with firepower over +4 now get brought down to +4 (after any effects are factored in).",
         "name": "urchin_virus_ultra"
     },
     "wave_in_a_bottle": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_c9244036db9147698e4c7c0302f9b657~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_006.jpeg",
         "card_type": "pirate",
+        "crew": {
+            "clever": 3
+        },
         "effect_text": "when played exhaust one of your opponent\u2019s ships.",
         "firepower": "1",
         "name": "wave_in_a_bottle",
         "pirate_code": "deep_sea",
-        "crew": {
-            "clever": 3
-        },
         "pirate_types": [
             "???"
         ]
     },
     "wave_wolf": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_fe21997186c2457f879b0056ac836973~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_023.jpeg",
         "card_type": "pirate",
+        "crew": {
+            "fearless": 3
+        },
         "effect_text": "none\n",
         "firepower": "6",
         "name": "wave_wolf",
         "pirate_code": "deep_sea",
-        "crew": {
-            "fearless": 3
-        },
         "pirate_types": [
             "animal",
             "wild"
         ]
     },
     "weredolphin": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_5114fec4199941c289c6dc5520311097~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_014.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -2064,16 +2072,8 @@
             "mythic"
         ]
     },
-    "nauticlaw": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_4aa254b76ece45bdadd3521857663453~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_016.jpeg",
-        "card_type": "ship",
-        "effect_text": "pirates with no effect count as two spaces when determining a completed crew.",
-        "name": "nauticlaw",
-        "pirate_code": "deep_sea"
-    },
     "ye_olde_ferry_fox": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_dda0c13b07944b178966ea08fe5ab6b2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_010.jpeg",
         "card_art": "",
         "card_type": "pirate",
@@ -2087,34 +2087,34 @@
         ]
     },
     "yo_ho_hero": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_4bdbcfc59268498dbb81b874ab3fda06~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_025.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "fearless": 3
+        },
         "effect_text": "none",
         "firepower": "6",
         "name": "yo_ho_hero",
         "pirate_code": "boom",
-        "crew": {
-            "fearless": 3
-        },
         "pirate_types": [
             "super",
             "flying"
         ]
     },
     "zombuoy": {
-        "BackURL": "https://ms.yugipedia.com//thumb/9/90/Back-RushDuel-JP.png/253px-Back-RushDuel-JP.png",
+        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_cc2875d7cf0c4ef0854efab9998bd5c0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_023.jpeg",
         "card_art": "",
         "card_type": "pirate",
+        "crew": {
+            "mystical": 3
+        },
         "effect_text": "when destroyed, during your next turn, board this pirate on a friendly ship.",
         "firepower": "0",
         "name": "zombuoy",
         "pirate_code": "juju",
-        "crew": {
-            "mystical": 3
-        },
         "pirate_types": [
             "notdead"
         ]
