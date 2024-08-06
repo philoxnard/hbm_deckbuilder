@@ -824,7 +824,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_5277e849134b45f69fa94452df9e7c58~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_020.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "if this card is drawn from the top of your poop deck, immediately shuffle it back in and draw a new card.",
+        "effect_text": "for every ship at sea friendly or not with a completed crew you may destroy 2 pirates.",
         "firepower": "2",
         "name": "kickus_cactus",
         "pirate_code": "tropical",
@@ -1777,7 +1777,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_4394d9bfc0a14d5fbd915357974937d4~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_020.jpeg",
         "card_type": "shanty",
         "effect_text": "when this card is played, shuffle it into your opponent\u2019s deck. the next time either player draws a \u201cteach\u2019s ticking time bomb\u201d that player\u2019s opponent immediately sinks one of that player\u2019s ships.",
-        "name": "teach\u2019s_ticking_time_bomb"
+        "name": "teachs_ticking_time_bomb"
     },
     "terror_of_the_seas_tater": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",

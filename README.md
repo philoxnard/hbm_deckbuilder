@@ -29,7 +29,7 @@ To Do list:
 20) DONE!!! reset filters button needs to reset pirate/ship/shanty
 21) DONE!!! a_fresh_day_at_sea and adventurous_spirit both do a weird flicker thing, see if there's any comonality between them that would be making them do that
 22) DONE!!! Ensure that card art works not only for website but also for TTS deck that you download
-23) Make cards searchable by crew
+23) DONE!!! Make cards searchable by crew
 24) DONE!!! Add art to all cards
 25) DONE!!! Update all cards card text
 26) make feature so users can zoom in or otherwise read the card text on cards bc they display as pretty small
