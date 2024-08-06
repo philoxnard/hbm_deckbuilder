@@ -1899,7 +1899,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_f49d745f69494c199ed3107046b7f269~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_030.jpeg",
         "card_type": "ship",
         "effect_text": "anytime you start your player turn and this ship has a complete crew, gain a bonus order that turn.",
-        "name": "_the_mapillion_vi",
+        "name": "the_mapillion_vi",
         "pirate_code": "tropical"
     },
     "the_oldest_sea_shanty": {
