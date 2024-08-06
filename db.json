@@ -1582,7 +1582,7 @@
         "card_type": "pirate",
         "effect_text": "WWhile at sea any Shipmate that shares a Type with another Shipmate gets x2.",
         "firepower": "8",
-        "name": "seaworthy_sovereign_",
+        "name": "seaworthy_sovereign",
         "pirate_code": "boom",
         "pirate_types": [
             "authority",
