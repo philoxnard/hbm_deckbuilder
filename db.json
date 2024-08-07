@@ -1580,7 +1580,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_43091e9c46dc47c39f0dfdd6b7c363b9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_018.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "WWhile at sea any Shipmate that shares a Type with another Shipmate gets x2.",
+        "effect_text": "While at sea any Shipmate that shares a Type with another Shipmate gets x2.",
         "firepower": "8",
         "name": "seaworthy_sovereign",
         "pirate_code": "boom",
