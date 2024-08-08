@@ -151,7 +151,7 @@ function drawDeckList() {
 
       }
 
-    $("#total_quantity").html(total_quantity)
+    $("#total_quantity").html("Cards in deck: " + total_quantity)
       console.log('total quantity')
       console.log(total_quantity)
 }
