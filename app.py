@@ -25,6 +25,11 @@ def test():
 
     return "hello world"
 
+@app.route("/comic", methods=["GET", "POST"])
+def test():
+
+    return render_template('comic.html')
+
 @app.route("/receive", methods=['POST'])
 def receive():
 
