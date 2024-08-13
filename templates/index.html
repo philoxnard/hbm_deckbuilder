@@ -1,44 +1,44 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <title>HBM Deck Builder</title>
-    
-    <link rel="stylesheet" href="static/stylesheet.css">
-  </head>
-  <body onload="loadPage()">
-    <div class="content">
-      <div class="banner">Click green circle to add card, red circle to remove card</div>
-      <div class="banner">
-        <div class="banner_button" id="total_quantity"></div>
-        <div class="banner_button" id="reset_decklist"><button onclick="resetDeckList()">Clear out deck list</button></div>
-        <div class="banner_button" ><button onclick="showFilterModal()">Filter button</button></div>
-        <div class="modal" id="filter_modal" hidden></div>
-      </div>
-      <div class="content_left"></div>
-      <div class="content_right"></div>
-      <div class="export_button"><button id="export_button" onclick="exportDeckList()">Export</button></div>
+	<html lang="en">
+	<head>
+		<title>HBM Deck Builder</title>
 
-      <label for="build_crew">Quick build a crew:</label>
-      <select name="build_crew" id="build_crew">
-        <option value="starter_ships">Starter Ships</option>
-        <option value="starter">Starter</option>
-        <option value="fearless">Fearless</option>
-        <option value="clever">Clever</option>
-        <option value="mystical">Mystical</option>
-      </select>
-      <button onclick="buildCrew()">Build Crew</button>
+		<link rel="stylesheet" href="static/stylesheet.css">
+	</head>
+	<body onload="loadPage()">
+		<div class="content">
+			<div class="banner">Click green circle to add card, red circle to remove card</div>
+			<div class="banner">
+				<div class="banner_button" id="total_quantity"></div>
+				<div class="banner_button" id="reset_decklist"><button onclick="resetDeckList()">Clear out deck list</button></div>
+				<div class="banner_button" ><button onclick="showFilterModal()">Filter button</button></div>
+				<div class="modal" id="filter_modal" hidden></div>
+			</div>
+			<div class="content_left"></div>
+			<div class="content_right"></div>
+			<div class="export_button"><button id="export_button" onclick="exportDeckList()">Export</button></div>
 
-    </div>
+			<label for="build_crew">Quick build a crew:</label>
+			<select name="build_crew" id="build_crew">
+				<option value="starter_ships">Starter Ships</option>
+				<option value="starter">Starter</option>
+				<option value="fearless">Fearless</option>
+				<option value="clever">Clever</option>
+				<option value="mystical">Mystical</option>
+			</select>
+			<button onclick="buildCrew()">Build Crew</button>
+
+		</div>
 
 
 
-    <div id="scripts">
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.min.js"></script>
-      <script type="text/javascript" src="static/javascript.js"></script>
-      <script type="text/javascript" src="static/messageHandlers.js"></script>
-    </div>
+		<div id="scripts">
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.min.js"></script>
+			<script type="text/javascript" src="static/javascript.js"></script>
+			<script type="text/javascript" src="static/messageHandlers.js"></script>
+		</div>
 
-  </body>
-  </html>
+	</body>
+	</html>
