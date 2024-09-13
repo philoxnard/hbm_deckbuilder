@@ -479,7 +479,7 @@ function drawFilters(filters) {
     $("#filter_modal_column_2").append('<input class="card_type_radio" type="radio" id="shanty" name="card_type" value="shanty"><label for="shanty">Shanty</label><br>')
 
 
-    $("#filter_modal_column_2").append('Input effect text to filter by:<br>')
+    $("#filter_modal_column_2").append('Input card text to filter by:<br>')
     $("#filter_modal_column_2").append("<input type='text' id='effect_text' name='effect_text'><br><br>")
 
     $("#filter_modal_column_2").append('Input firepower to display:<br>')

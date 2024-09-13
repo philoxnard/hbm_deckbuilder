@@ -412,7 +412,7 @@ def filterCards(cards, filters):
 
         if filters["effect_text"] != "":
 
-            if filters["effect_text"].lower() not in card_info["effect_text"].lower():
+            if filters["effect_text"].lower() not in card_info["effect_text"].lower() and filters["effect_text"].lower() not in card_info["name"]:
 
                 if card_name in filtered_cards:
 
