@@ -100,4 +100,15 @@
 img{
     width:100%;
     max-width:230px;
+    z-index: 1;
+}
+
+img:active{
+    max-width: 500px;
+    width:500px;
+    height:700px;
+    z-index:2;
+    position:absolute;
+    left:100px;
+    top:100px;
 }
