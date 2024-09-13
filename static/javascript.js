@@ -489,7 +489,7 @@ function drawFilters(filters) {
     $("#filter_modal_column_2").append("<input type='text' id='firepower_filter' name='firepower_filter'><br><br>")
 
     $("#filter_modal_column_2").append('Input crew to display:<br>')
-    $("#filter_modal_column_2").append("<select name='crew_filter' id='crew_filter'><option value='None'>None</option><option value='starter_ships'>Starter Ships</option><option value='starter'>Starter</option><option value='fearless'>Fearless</option><option value='clever'>Clever</option><option value='mystical'>Mystical</option></select>")
+    $("#filter_modal_column_2").append("<select name='crew_filter' id='crew_filter'><option value='None'>None</option><option value='starter_ships'>Starter Ships</option><option value='high_seas_ships'>High Seas Ships</option><option value='starter'>Starter</option><option value='fearless'>Fearless</option><option value='clever'>Clever</option><option value='mystical'>Mystical</option><option value='boom_crew'>BOOM</option><option value='deep_sea_crew'>Deap Sea</option><option value='heavy_metal_crew'>Heavy Metal</option><option value='tropical_crew'>Tropical</option><option value='juju_crew'>Juju</option><option value='gotcha'>Gotcha!</option><option value='world_ender'>World Ender</option><option value='valiant_shores'>Valiant Shores</option><option value='privateer_alliance'>Privateer Alliance</option><option value='final_seas'>Final Seas</option><option value='outlaw_dynasty'>Outlaw Dynasty</option><option value='vacation_beach'>Vacation Beach</option></select>")
 
     $("#filter_modal_column_2").append("<button id='filter_button' onclick='submitFilters()'>Filter Cards</button>")
 
