@@ -31,12 +31,12 @@
     },
     "all_hands_on_deck": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_6842439d816e4c45a8b290ba1897b0eb~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_007.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_dbbbbf5f6a8347aca11b2df4c6366237~mv2.jpeg/v1/fill/w_748,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "card_type": "shanty",
         "crew": {
             "gotcha": 2
         },
-        "effect_text": "Pick any number of cards from your hand to put face down. Your opponent does the same. Reveal cards. If you have more printed firepower amongst your cards than your opponent, you may free play all of them. If you don't, your cards are destroyed. Opponent's cards are returned to hand.",
+        "effect_text": "pick one of your ships and the ship opposite it. ignore both ship's cumulative firepower until the end of the player turn",
         "name": "all_hands_on_deck"
     },
     "anchross_aweigh": {
@@ -395,13 +395,13 @@
     },
     "caskmaster": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_cf3d6fecc6b64e9e993e9eaef44b30d5~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_027.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_915527c63e5741bc97a10523dbdaba8e~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "crew": {
             "mystical": 3
         },
-        "effect_text": "you may play this card as if it was a hidden shanty. upon revealing it, immediately board it on a friendly ship with space (any card that targets this card to destroy a shanty, is ignored and returned to the owner\u2019s hand as if an order had not been spent).",
+        "effect_text": "you may play this card as if it was a hidden shanty. upon revealing it, immediately board it on a friendly ship with space (any card that targets this card to destroy a shanty, instead forces it to reveal itself).",
         "firepower": "3",
         "name": "caskmaster",
         "pirate_code": "heavy_metal",
@@ -447,15 +447,15 @@
             "plant"
         ]
     },
-    "confused_crews": {
+    "confused_crew": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_6450ac98c4de4310801dadac1b5e014f~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_019.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_f1bda5f003584c15a3a5a2bead4ddc42~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "card_type": "shanty",
         "crew": {
             "privateer_alliance": 3
         },
-        "effect_text": "both players select one friendly pirate if able and their opponent draws at random from their poop deck until a pirate is revealed. swap the new pirate with the selected one in each case. resolve boarding effects and shuffle poop decks.",
-        "name": "confused_crews"
+        "effect_text": "both players select one friendly pirate if able and their opponent draws at random from their poop deck until a pirate that can be played is revealed. swap the new pirate with the selected one in each case. resolve boarding effects and shuffle poop decks.",
+        "name": "confused_crew"
     },
     "crows_nest_coffee": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -469,9 +469,9 @@
     },
     "crustacean_carrier": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_a27d05702b8042efab02a2dbcd90846d~mv2.jpeg/v1/fill/w_743,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_022.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_b998f4705a0346439e1772d42611d3d6~mv2.jpeg/v1/fill/w_748,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_001.jpeg",
         "card_type": "ship",
-        "effect_text": "once per turn, when a pirate without any effect boards this ship, you may destroy any one pirate (friendly or not).",
+        "effect_text": "once per game turn, when a pirate without any effect boards this ship, you may destroy any one pirate (friendly or not).",
         "name": "crustacean_carrier",
         "crew": {
             "starter_ships": 1
@@ -522,7 +522,7 @@
     },
     "davy_jones_abomination": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_85c55908a8b64aed944dbb57ee375964~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_3c08a436cd834b29ae89ce69208dc8b4~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_002.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "while in davy jones' locker, you may spend two orders and remove this card from the game. destroy one pirate on each of your opponent's ships.",
@@ -685,9 +685,9 @@
     },
     "forgotten_fleet": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_a7e357a3e95f476f80c7dd8cbdc01b83~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_035.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_f5123c52aa7e4deaa0f42e45735c27c4~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_starters_today_001.jpeg",
         "card_type": "ship",
-        "effect_text": "when played this ship starts exhausted. this card starts in your ship graveyard. when any of your ships are destroyed, you may immediately have this ship set sail and board a pirate on it without costing an order. when sunk, remove from game.",
+        "effect_text": "when played this ship starts exhausted. this card starts in your ship graveyard. when any of your ships are destroyed, at the end of the player turn you may set sail this ship and board a pirate on it without costing an order. when sunk, remove from game.",
         "name": "forgotten_fleet",
         "crew": {
             "high_seas_ships": 1
@@ -882,10 +882,10 @@
     },
     "hercules_hull_beetle": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_e215b43f72a8414d981455944fea700d~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_015.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_f5826fb3bd0f40a4a0d1c2bc0f735b0c~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_003.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "while at sea each time you access your poop deck (for anything besides drawing a card) give one friendly pirate a permanent +2.",
+        "effect_text": "boarding restriction: you may choose not to set sail a ship and instead free play this card from your hand. this can not be played using an order.",
         "firepower": "2",
         "name": "hercules_hull_beetle",
         "crew": {
@@ -898,10 +898,10 @@
     },
     "hermit_crawlers": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_548d9eda2a7f4264b7b850fd81c7802e~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/todays_game_002.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_9ceaf734230440e7b1bab7f421883b8e~mv2.jpeg/v1/fill/w_746,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played play on your opponent's pirates. their effect is still active but their firepower is now this pirate's firepower.",
+        "effect_text": "set this card off to the side. the next time your opponent boards a pirate, if the ship it boards already has a pirate(s), you may destroy one of them and replace it with this one. it now costs an additional order for your opponents to board pirates on that ship.",
         "firepower": "-4",
         "name": "hermit_crawlers",
         "crew": {
@@ -1094,10 +1094,10 @@
     },
     "lord_voyager": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_ba712d7e395a496fa21648964ee13abf~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_b51e9889a01046c496e4fe7f4bddde94~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_005.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "While at sea all of the pirates on this ship and the ship opposite now count as no effect pirates (including htose being played).",
+        "effect_text": "While at sea all of this pirates shipmates on this ship and the ship opposite now count as no effect pirates (including those being played).",
         "firepower": "2",
         "name": "lord_voyager",
         "crew": {
@@ -1243,12 +1243,12 @@
     },
     "monsoon_force": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_fa7505db85864b4bbd7455845b721ce0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_006.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_b5a09c05b1e1453eb4c37aac7a141c20~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_003.jpeg",
         "card_type": "shanty",
         "crew": {
             "clever": 2
         },
-        "effect_text": "you may relocate any or all of your opponent\u2019s pirates amongst their ships. if a crew is completed by this card, no volley is sent.",
+        "effect_text": "you may relocate up to two of your opponent\u2019s pirates amongst their ships. if a crew is completed by this card, no volley is sent.",
         "name": "monsoon_force"
     },
     "monster_musketoon": {
@@ -1263,7 +1263,7 @@
     },
     "mooring_monk": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_02e0d2442d474e1da93c435885913337~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_002.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_9c92427cf57f496099fc53169308f973~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_004.jpeg",
         "card_type": "pirate",
         "crew": {
             "fearless": 3
@@ -1278,10 +1278,10 @@
     },
     "moth_from_the_unknown_sea": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_bb51998b9cf9427ba4ffc23931ddad35~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_016.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_d1ca3b8122f04d83ab704de4eed92e93~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "while at sea any time you end your turn without any cards in your hand, you may immediately board three pirates from your davy jones\u2019 locker to a friendly ship(s). no additional pirates can be boarded through card effect for the rest of the player turn. flip this card face down once activated.",
+        "effect_text": "while at sea any time you end your turn without any cards in your hand, you may immediately board three pirates from your davy jones\u2019 locker to a friendly ship(s). no additional pirates can be boarded through card effect for the rest of the player turn. then destroy this card.",
         "firepower": "1",
         "name": "moth_from_the_unknown_sea",
         "crew": {
@@ -1340,7 +1340,7 @@
     },
     "navigator_nuts": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_80e39a0e291d4e99b41b0523382fcfd9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_ba84a738823445dc85ceeb8241ba24e0~mv2.jpeg/v1/fill/w_741,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_003.jpeg",
         "card_type": "pirate",
         "effect_text": "when played you may immediately swap one ship at sea with a ship from your dock deck (replacing all pirates and shanties on the new ship).",
         "firepower": "0",
@@ -1446,9 +1446,9 @@
     },
     "piranknot": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_be5806e3d7824cc580a38be7828d03c9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_009.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_12a4a9c21da74b9f8fad73fc5aedf8ba~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_002.jpeg",
         "card_type": "pirate",
-        "effect_text": "when played pick one pirate at sea (friendly or not) to destroy. at the end of the player turn, shuffle this card back into your poop deck, draw a new one.",
+        "effect_text": "when played destroy one of this pirates shipmates. if so, destroy one pirate on the ship opposite this one.",
         "firepower": "0",
         "name": "piranknot",
         "crew": {
@@ -1781,11 +1781,11 @@
     },
     "scarpion_treasure_bug": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_b0ebefa6ee3a41999c919ef4138b0884~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_002.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_086b332e4f4f4724b282d6a3184ac3b5~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_005.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when this card is drawn from the top of your deck, you may free play it, if able.",
-        "firepower": "1",
+        "effect_text": "if your opponent has a piece of treasure, you may free play one scarpion treasure bug per turn",
+        "firepower": "3",
         "crew": {
             "vacation_beach": 3
         },
@@ -1825,9 +1825,9 @@
     },
     "seacove_smuggler_co": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_8c43754f1b144605a40c516a0914dd9e~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_010.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_e283d83fe9e1433984a90471a916d374~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_starters_today_2_003.jpeg",
         "card_type": "ship",
-        "effect_text": "all pirates aboard this ship may be turned face down, except when necessary to reveal firepower or effects.",
+        "effect_text": "all pirates aboard this ship may be turned face down, except when necessary to reveal firepower or effects (WHEN PLAYED effects must be shown). firepower is only calculated when cards are revealed.",
         "name": "seacove_smuggler_co",
         "crew": {
             "high_seas_ships": 1
@@ -1836,9 +1836,9 @@
     },
     "seadog_squid": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_a58c0dc597314f028d99412bce7b9ada~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_002.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_79f887176ef3430c816e507b036eb552~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_001.jpeg",
         "card_type": "pirate",
-        "effect_text": "While at sea all of your pirates may have multiple hidden shanties and equip to cards attached to them.",
+        "effect_text": "When played you may exhaust a friendly ship and free play a pirate.",
         "firepower": "4",
         "name": "seadog_squid",
         "pirate_code": "deep_sea",
@@ -1851,12 +1851,12 @@
     },
     "seal_of_the_crossed_bones": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_3f469db2b26b4a61a50395f63ee682ee~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_03a468616eee4788b701414a2b9433b5~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_004.jpeg",
         "card_type": "shanty",
         "crew": {
             "world_ender": 3
         },
-        "effect_text": "pick a player, until the start of your next turn, all of that player's pirates are considered to be no-effect pirates (including the ones in their hand and DJL).",
+        "effect_text": "when played, for each exhausted ship at sea, bring one pirate from either DJL onto this card. you get that added firepower until the end of the game turn. then all attached pirates are removed from the game.",
         "name": "seal_of_the_crossed_bones"
     },
     "seawolf_torpedos": {
@@ -1871,11 +1871,11 @@
     },
     "seaworthy_sovereign": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_43091e9c46dc47c39f0dfdd6b7c363b9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_018.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_0b65b433959e446582a0252337864f76~mv2.jpeg/v1/fill/w_746,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "While at sea any Shipmate that shares a Type with another Shipmate gets x2.",
-        "firepower": "8",
+        "firepower": "1",
         "name": "seaworthy_sovereign",
         "crew": {
             "valiant_shores": 2
@@ -1905,10 +1905,10 @@
     },
     "shiver_me_timberers": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_644a08842d2a40ba9e1cd3195cecddd0~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_014.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_50e1b986d57e4cc6bd6fcaec72b703ca~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_002.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played you may destroy any number of this pirate's shipmates. for every one you destroy, destroy a pirate on the ship opposite it.",
+        "effect_text": "while at sea your opponent cannot board a pirate on the matching space opposite this one (mirrored).",
         "firepower": "2",
         "crew": {
             "final_seas": 3
@@ -1954,9 +1954,9 @@
     },
     "skeletal_sloop": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_e50f4139526c4fb08cbeca7b55a8a926~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_036.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_f0a6cd57fa5e4035b4980cc3e4e3111c~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_001.jpeg",
         "card_type": "ship",
-        "effect_text": "once a turn, when a pirate with no effect boards this ship, you may immediately play a shanty/hidden shanty from your davy jones\u2019 locker.",
+        "effect_text": "once a game turn, when a pirate with no effect boards this ship, you may immediately play a shanty/hidden shanty from your davy jones\u2019 locker. At the end of turn remove it from the game",
         "name": "skeletal_sloop",
         "crew": {
             "starter_ships": 1
@@ -2020,7 +2020,7 @@
     },
     "stinger_class_jelly_frigate": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_de0f2b02323b4ab4996269d0747391cc~mv2.jpeg/v1/fill/w_743,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_023.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_0873afdda61441848106145662e133c0~mv2.jpeg/v1/fill/w_750,h_1033,al_c,q_90,enc_auto/hbm_cards_for_starters_today_2_002.jpeg",
         "card_type": "ship",
         "effect_text": "when this ship sets sail, your opponent must reveal their hand to you.",
         "name": "stinger_class_jelly_frigate",
@@ -2031,7 +2031,7 @@
     },
     "subject_s3a_zku11": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_ce70076f8f014aa1a5341c92a1de9e8d~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/todays_game_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_7661c8fbddde4b6a9eceda6107067769~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_002.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "while at sea this pirate gets x2 for every pirate on the ship opposite it.",
@@ -2137,7 +2137,7 @@
     },
     "the_bladeheim": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_4963bc09fcce4ada92b68faa5e3eb690~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_001.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_6d5030ae665a4c8482a265e45a642b04~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_starters_today_2_005.jpeg",
         "card_type": "ship",
         "effect_text": "when this ship completes a crew, gain one extra order.",
         "name": "the_bladeheim",
@@ -2148,10 +2148,10 @@
     },
     "the_deckrunner": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_f3bd3cf1049444e79c2487d75f1519be~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/todays_game_003.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_e3d03858f5a043e7902a1d1b35fa339e~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_004.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played if played on an exhausted ship you may free play another pirate. ignore that pirate's effect it now counts as no effect",
+        "effect_text": "when played if played on an exhausted ship you may free play another pirate onto this pirate's ship. ignore that pirate's effect it now counts as no effect",
         "firepower": "4",
         "name": "the_deckrunner",
         "crew": {
@@ -2252,9 +2252,9 @@
     },
     "the_oldest_sea_shanty": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_9c2a923eb4904902909eb1076a5dba5b~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_033.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_6e0bbaa759884057b359c091caf97045~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "card_type": "shanty",
-        "effect_text": "destroy a shanty.",
+        "effect_text": "cancel the effect of and destroy a shanty.",
         "crew": {
             "vacation_beach": 3
         },
@@ -2329,11 +2329,11 @@
     },
     "the_vacation_demon": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_d2c1aad83ae14599b8f1823817761aeb~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_019.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_968e5028899a464fb5b92cc92d58c8ef~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "when played both players shuffle their hands back into their poop decks and draw that many cards.",
-        "firepower": "8",
+        "firepower": "6",
         "name": "the_vacation_demon",
         "crew": {
             "vacation_beach": 3
@@ -2392,9 +2392,9 @@
     },
     "tree_house_hullentine": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_9034ce726a564d6cb5ffaa4e017ff5e7~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_025.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_f7acc3aedc4c414b854c1db55b56ecbe~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_001.jpeg",
         "card_type": "ship",
-        "effect_text": "once a turn, when a pirate with no effect boards this ship, gain an extra order.",
+        "effect_text": "once per game turn, when a pirate with no effect boards this ship, gain an extra order.",
         "name": "tree_house_hullentine",
         "crew": {
             "starter_ships": 1
@@ -2423,11 +2423,11 @@
     },
     "unkillable_kiwi_krew": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_79422d31b8664340a4d07973c381d28a~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_33_016.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_3ade0b875401402d8c891c8fc91be007~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_tropical_004.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "while in your davy jones\u2019 locker, if you retrieve any card from your djl, you may also free play this card.",
-        "firepower": "3",
+        "effect_text": "while in your davy jones\u2019 locker, once a turn, when you send a card to your djl, you may also free play one unkillable kiwi crew from your DJL (can not be the turn it is sent there).",
+        "firepower": "2",
         "crew": {
             "final_seas": 3
         },
@@ -2481,10 +2481,10 @@
     },
     "weredolphin": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_5114fec4199941c289c6dc5520311097~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_014.jpeg",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_9a395f9fb84b4fa3b60b968d091c4a33~mv2.jpeg/v1/fill/w_750,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "when played if this was played in any way besides a direct order, it gains +26.",
+        "effect_text": "if this is played with a standard use of order then its firepower is dropped to +4",
         "firepower": "4",
         "name": "weredolphin",
         "crew": {
