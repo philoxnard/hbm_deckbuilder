@@ -412,7 +412,12 @@ def filterCards(cards, filters):
 
         if filters["effect_text"] != "":
 
-            if filters["effect_text"].lower() not in card_info["effect_text"].lower() and filters["effect_text"].lower() not in card_info["name"]:
+            # When we compare the text that the user submitted against the name of pirates, we need to replace all the spaces with underscores
+
+            raw_searched_name = filters["effect_text"].lower()
+            edited_searched_name = raw_searched_name.replace( " ", "_" )
+
+            if filters["effect_text"].lower() not in card_info["effect_text"].lower() and edited_searched_name not in card_info["name"]:
 
                 if card_name in filtered_cards:
 
