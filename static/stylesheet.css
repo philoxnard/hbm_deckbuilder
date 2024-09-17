@@ -1,7 +1,12 @@
+body {
+    background-color: #00A2FF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
 .content {
     margin: auto;
     max-width: 1400px;
-    
 }
 
 .banner {
@@ -18,15 +23,15 @@
 .content_left {
     width: 300px;
     float: left; /* [1] */
-    background-color: red;
+    background-color: #354156;
+    border-color: #FFD932;
     margin: 20px;
     overflow-y: scroll;
     height: 75vh;
     padding-right: 40px;
-    
 }
 .content_right {
-    background-color: blue;
+    background-color: #354156;
     overflow: auto; /* [2] */
     margin: 20px;
     max-width: 90%;
@@ -42,6 +47,7 @@
     background-color: green;
     margin: auto;
     height: 5vh;
+    font-family: 'Murden CF ExtraBold Cond', sans-serif;;
 }
 
 #filter_button {
@@ -89,10 +95,10 @@
     top: 30px;
     border-width: 2px;
     border-style: solid;
-    border-color: black;
+    border-color: #FFD932;
     width: 400px;
     height: 400px;
-    background-color: gray;
+    background-color: #354156;
     text-align: left;
     padding: 3px;
 }
@@ -100,6 +106,7 @@
 img{
     width:100%;
     max-width:230px;
+    box-shadow: 10px 10px 5px;
     z-index: 1;
 }
 
@@ -111,4 +118,9 @@ img:active{
     position:absolute;
     left:100px;
     top:100px;
+}
+
+.quantity_text {
+    color: #FFD932;
+    font-family: 'Murden CF ExtraBold Cond', sans-serif;
 }

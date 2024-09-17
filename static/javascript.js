@@ -63,7 +63,7 @@ function drawCardButtons(card) {
         quantity = 0
     }
 
-    let drawn_card_buttons = "<div class="+card_name+"><button onClick=removeCard('"+stringifiedCard+"')>&#128308</button> "+quantity+" <button onClick=addCard('"+stringifiedCard+"')>&#128994;</button></div>"
+    let drawn_card_buttons = "<div class="+card_name+"><button onClick=removeCard('"+stringifiedCard+"')>&#128308</button><span class='quantity_text'> "+quantity+" </span><button onClick=addCard('"+stringifiedCard+"')>&#128994;</button></div>"
 
     let drawn_card_buttons_final = drawn_card_buttons + "</div>"
 
