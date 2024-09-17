@@ -42,7 +42,7 @@ function drawCard(card) {
     let image = card["FaceURL"]
     let name = card["name"]
 
-    let drawn_card = '<div class="card"><img src ="' + image + '" alt="' + name + '">'
+    let drawn_card = '<div class="card"><img class="card_art" src ="' + image + '" alt="' + name + '">'
     let drawn_card_buttons = drawCardButtons(card)
     let drawn_card_final = drawn_card + drawn_card_buttons
 

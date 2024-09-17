@@ -6,6 +6,7 @@ body {
 
 #logo {
     box-shadow: none;
+    margin-left: 20px;
 }
 
 .content {
@@ -113,14 +114,14 @@ body {
     padding: 3px;
 }
 
-img{
+.card_art{
     width:100%;
     max-width:230px;
     box-shadow: 10px 10px 5px;
     z-index: 1;
 }
 
-img:active{
+.card_art:active{
     max-width: 500px;
     width:500px;
     height:700px;
