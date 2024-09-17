@@ -120,7 +120,7 @@ function removeCard(stringifiedCard){
 
 function updateDrawnQuantity(stringifiedCard, name, quantity) {
 
-    $("."+name).html("<div class="+name+"><button onClick=removeCard('"+stringifiedCard+"')>&#128308</button> "+quantity+" <button onClick=addCard('"+stringifiedCard+"')>&#128994;</button></div>")
+    $("."+name).html("<div class="+name+"><button onClick=removeCard('"+stringifiedCard+"')>&#128308</button><span class='quantity_text'>  "+quantity+" </span><button onClick=addCard('"+stringifiedCard+"')>&#128994;</button></div>")
 
 }
 
@@ -449,7 +449,7 @@ function drawFilters(filters) {
 
     $("#filter_modal").append("<div class='filter_modal_column' id='filter_modal_column_1'>")
 
-    $("#filter_modal_column_1").append("Display only pirates from this pirate code:<br>")
+    $("#filter_modal_column_1").append("<span class='filter_header'>PIRATE CODE:</span><br>")
 
     // Can keep these in case we decide to filter inclusively
     // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="juju_checkbox" name="juju" value="juju"><label for="juju">Juju</label><br>')
@@ -464,31 +464,31 @@ function drawFilters(filters) {
     $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="heavy_metal" name="pirate_code" value="heavy_metal"><label for="heavy_metal">Heavy Metal</label><br>')
     $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="deep_sea" name="pirate_code" value="deep_sea"><label for="deep_sea">Deep Sea</label><br><br>')
 
-    $("#filter_modal_column_1").append("Display pirates with this type combination (separated by commas):<br>")
+    $("#filter_modal_column_1").append("<span class='filter_header'>PIRATE TYPE:</span><br>")
     $("#filter_modal_column_1").append("<input type='text' id='pirate_type_input' name='pirate_type_input'>")
 
     $("#filter_modal_column_1").append("<br><p><button onclick='resetFilters()'>Reset Filters</button></p>")
-   
+
     $("#filter_modal_column_1").append('</div>')
 
     $("#filter_modal").append("<div class='filter_modal_column' id='filter_modal_column_2'>")
 
-    $("#filter_modal_column_2").append('Display which card type:<br>')
+    $("#filter_modal_column_2").append("<span class='filter_header'>CARD TYPE:</span><br>")
     $("#filter_modal_column_2").append('<input class="card_type_radio" type="radio" id="pirate" name="card_type" value="pirate"><label for="pirate">Pirate</label><br>')
     $("#filter_modal_column_2").append('<input class="card_type_radio" type="radio" id="ship" name="card_type" value="ship"><label for="ship">Ship</label><br>')
     $("#filter_modal_column_2").append('<input class="card_type_radio" type="radio" id="shanty" name="card_type" value="shanty"><label for="shanty">Shanty</label><br>')
 
 
-    $("#filter_modal_column_2").append('Input card text to filter by:<br>')
+    $("#filter_modal_column_2").append("<span class='filter_header'>CARD TEXT:</span><br>")
     $("#filter_modal_column_2").append("<input type='text' id='effect_text' name='effect_text'><br><br>")
 
-    $("#filter_modal_column_2").append('Input firepower to display:<br>')
+    $("#filter_modal_column_2").append("<span class='filter_header'>FIREPOWER:</span><br>")
     $("#filter_modal_column_2").append('<input type="radio" id="firepower_higher" name="firepower" value="firepower_higher"><label for="firepower_higher">Firepower higher than</label><br>')
     $("#filter_modal_column_2").append('<input type="radio" id="firepower_equal" name="firepower" value="firepower_equal" checked="checked"><label for="firepower_equal">Firepower equal to</label><br>')
     $("#filter_modal_column_2").append('<input type="radio" id="firepower_lower" name="firepower" value="firepower_lower"><label for="firepower_lower">Firepower lower than</label><br>')
     $("#filter_modal_column_2").append("<input type='text' id='firepower_filter' name='firepower_filter'><br><br>")
 
-    $("#filter_modal_column_2").append('Input crew to display:<br>')
+    $("#filter_modal_column_2").append("<span class='filter_header'>CREW:</span><br>")
     $("#filter_modal_column_2").append("<select name='crew_filter' id='crew_filter'><option value='None'>None</option><option value='starter_ships'>Starter Ships</option><option value='high_seas_ships'>High Seas Ships</option><option value='starter'>Starter</option><option value='fearless'>Fearless</option><option value='clever'>Clever</option><option value='mystical'>Mystical</option><option value='boom_crew'>BOOM</option><option value='deep_sea_crew'>Deap Sea</option><option value='heavy_metal_crew'>Heavy Metal</option><option value='tropical_crew'>Tropical</option><option value='juju_crew'>Juju</option><option value='gotcha'>Gotcha!</option><option value='world_ender'>World Ender</option><option value='valiant_shores'>Valiant Shores</option><option value='privateer_alliance'>Privateer Alliance</option><option value='final_seas'>Final Seas</option><option value='outlaw_dynasty'>Outlaw Dynasty</option><option value='vacation_beach'>Vacation Beach</option></select>")
 
     $("#filter_modal_column_2").append("<button id='filter_button' onclick='submitFilters()'>Filter Cards</button>")
