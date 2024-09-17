@@ -4,6 +4,9 @@ body {
     scrollbar-color: #00A2FF #354156;
 }
 
+#logo {
+    box-shadow: none;
+}
 
 .content {
     margin: auto;

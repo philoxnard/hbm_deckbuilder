@@ -476,7 +476,7 @@ function drawFilters(filters) {
     $("#filter_modal_column_2").append("<span class='filter_header'>CARD TYPE:</span><br>")
     $("#filter_modal_column_2").append('<input class="card_type_radio" type="radio" id="pirate" name="card_type" value="pirate"><label for="pirate">Pirate</label><br>')
     $("#filter_modal_column_2").append('<input class="card_type_radio" type="radio" id="ship" name="card_type" value="ship"><label for="ship">Ship</label><br>')
-    $("#filter_modal_column_2").append('<input class="card_type_radio" type="radio" id="shanty" name="card_type" value="shanty"><label for="shanty">Shanty</label><br>')
+    $("#filter_modal_column_2").append('<input class="card_type_radio" type="radio" id="shanty" name="card_type" value="shanty"><label for="shanty">Shanty</label><br><br>')
 
 
     $("#filter_modal_column_2").append("<span class='filter_header'>CARD TEXT:</span><br>")
