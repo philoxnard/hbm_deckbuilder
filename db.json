@@ -584,19 +584,6 @@
             "???"
         ]
     },
-    "doombeard": {
-        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_de6595dbd0b142e586c3f81acf4d26d9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_026.jpeg",
-        "card_art": "",
-        "card_type": "pirate",
-        "effect_text": "This card can only be played on \u201cThe Doomtreader\u201d with \u201cRemnants of Piracy\u2019s First Age\u201d equipped. While this card is at Sea, your opponent cannot successfully Run the Blockade. When you successfully  Run the Blockade you immediately win the game. Only one \u201cDoombeard\u201d allowed in a deck.",
-        "firepower": "X",
-        "name": "doombeard",
-        "pirate_code": "other",
-        "pirate_types": [
-            "legend"
-        ]
-    },
     "doombeards_cutlass": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_5fb7053d4ab047d28ed827ae101278c8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_028.jpeg",
@@ -1691,13 +1678,6 @@
             "sea-thing"
         ]
     },
-    "remnant_of_piracys_first_age": {
-        "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_3c39b14dff1f49d9918c63dd35612bb9~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_032.jpeg",
-        "card_type": "shanty",
-        "effect_text": "equip to the ship \u201cthe doomtreader\u201d. if \u201cdoombeard\u201d is aboard this ship, it, this card and the ship cannot be destroyed by any effect your opponent plays. only one \u201cremnant of piracy\u2019s first age\u201d is allowed per deck.",
-        "name": "remnant_of_piracys_first_age"
-    },
     "requisite_icebreaker": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_52e2660efaaf4357a96f0dae89d0c403~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_015.jpeg",
@@ -2162,14 +2142,6 @@
             "vehicle"
         ]
     },
-    "the_doomtreader": {
-        "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_bd74641117b34083af7760ab21de4b1e~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_001.jpeg",
-        "card_type": "ship",
-        "effect_text": "if the pirate \u201cdoombeard\u201d is aboard this ship, any ship sending a volley at it must have more points aboard than \u201cthe doomtreader\u201d has aboard in order to sink it.",
-        "name": "the_doomtreader",
-        "pirate_code": "other"
-    },
     "the_grand_old_seaworth": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_df9811acc3ef4080be358fbf64876712~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_007.jpeg",
@@ -2295,7 +2267,7 @@
     },
     "the_ship_rex": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://cards.scryfall.io/large/front/4/0/409f9b88-f03e-40b6-9883-68c14c37c0de.jpg?1562546736",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_6a0e7e7ecaf34a3ca7a7ca8d55f04504~mv2.jpeg/v1/fill/w_746,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_001.jpeg",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "boarding restriction: costs 2 orders. at the end of your turn destroy all pirates on the ship this boards, unless they are boom, then you may instead board them on any open spaces on your other ships.\n",
