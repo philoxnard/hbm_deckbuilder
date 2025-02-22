@@ -13,7 +13,7 @@
 		</style>
 		<div id="logo"><img src="https://static.wixstatic.com/media/b7f019_42cabc3d993c45db9377d8177adfba73~mv2.png/v1/fill/w_281,h_186,al_c,q_95,enc_auto/b7f019_42cabc3d993c45db9377d8177adfba73~mv2.png"></div>
 		<div class="content">
-			<div class="banner">Click green circle to add card, red circle to remove card</div>
+			<div class="banner">Click green circle to add card, red circle to remove card. Click and hold on a card image to zoom in on it.</div>
 			<div class="banner">
 				<div class="banner_button" id="total_quantity"></div>
 				<div class="banner_button" id="reset_decklist"><button onclick="resetDeckList()">Clear out deck list</button></div>
@@ -22,6 +22,13 @@
 			</div>
 			<div class="content_left"></div>
 			<div class="content_right"></div>
+			<div style="text-align: center"></div>
+				<br>
+				To use deck in Tabletop Simulator, export JSON file to the following filepath:<br>
+				WINDOWS: Documents > My games > Tabletop Sim > Saved > Saved Objects<br>
+				MAC: User > Libary > Tabletop sim > Saved > Saved Objects<br>
+				LINUX: ~/.local/share/Tabletop Simulator/Saves/Saved Object<br><br>
+			</div>
 			<div class="export_button"><button id="export_button" onclick="exportDeckList()">Export</button></div>
 
 			<label for="build_crew">Quick build a crew:</label>
