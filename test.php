@@ -2,16 +2,16 @@
 
 
 if (isset($_POST)) {
-	$data = file_get_contents("php://input");
+        $data = json_decode(file_get_contents("php://input"), true);
 
-	$json_obj = json_decode($data, true);
+        $json_obj = $data["data"];
+        $test = $json_obj["command"];
+        $response = array(
+                "command" => $test,
+                "result" => $json_obj["test_data"] . " returned successfully",
+        );
 
-	$response = array(
-		"command" => $json_obj["command"],
-		"result" => $json_obj["test_data"] . " returned successfully",
-	);
-
-	echo json_decode($response);
+        echo json_encode($response);
 }
 
 ?>
