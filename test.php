@@ -11,7 +11,7 @@ if (isset($_POST)) {
 		"result" => $json_obj["test_data"] . " returned successfully",
 	);
 
-	echo $response;
+	echo json_decode($response);
 }
 
 ?>
