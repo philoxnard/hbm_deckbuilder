@@ -1600,7 +1600,7 @@
         "crew": {
             "mystical": 3
         },
-        "effect_text": "while at sea when you or your opponent reveals a hidden shanty, you may flip this card face down (at which point it counts as a no effect +0 juju pirate).  then it counts as if you immediately played a second copy of that shanty.",
+        "effect_text": "while at sea when you or your opponent reveals a hidden shanty, you may destroy this card.  then it counts as if you played a second copy of that shanty.",
         "firepower": "2",
         "name": "pumpkidd",
         "pirate_code": "juju",
