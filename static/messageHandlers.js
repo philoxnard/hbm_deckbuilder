@@ -4,6 +4,8 @@ function handleOnLoad(json) {
 	// we'll clear localstorage and reload the page to fix any art mismatch issues.
 	// If the
 
+	resetFilters()
+
 	let browser_version = localStorage.getItem("version")
 	if ( browser_version == null || browser_version != json["version"] ) {
 
