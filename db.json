@@ -18,7 +18,7 @@
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_37171cded6dc41a297bb32285a0e6794~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_heavy_metal_33_018.jpeg",
         "card_type": "pirate",
-        "effect_text": "none",
+        "effect_text": "no effect.",
         "firepower": "5",
         "name": "ahoy_toy",
         "crew": {
@@ -395,7 +395,7 @@
     },
     "caskmaster": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "9",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_dcb18cb33a0a473bb1e371165ba90791~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_heavy_metal_004.png",
         "card_art": "",
         "card_type": "pirate",
         "crew": {
@@ -714,7 +714,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_1bb511037c2749daa9faf551fe7355bd~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_boom_final_023.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "none",
+        "effect_text": "no effect.",
         "firepower": "2",
         "name": "gunpowder_sage",
         "pirate_code": "boom",
@@ -933,7 +933,7 @@
         "crew": {
             "fearless": 2
         },
-        "effect_text": "none",
+        "effect_text": "no effect.",
         "firepower": "5",
         "name": "jolly_rodish",
         "pirate_code": "tropical",
@@ -1071,7 +1071,7 @@
         "crew": {
             "starter": 3
         },
-        "effect_text": "none",
+        "effect_text": "no effect.",
         "firepower": "6",
         "name": "lobster_tank",
         "pirate_code": "heavy_metal",
@@ -1369,7 +1369,7 @@
         "crew": {
             "starter": 3
         },
-        "effect_text": "none",
+        "effect_text": "no effect.",
         "firepower": "6",
         "name": "oar_angutan",
         "pirate_code": "tropical",
@@ -1396,7 +1396,7 @@
         "crew": {
             "fearless": 3
         },
-        "effect_text": "none",
+        "effect_text": "no effect.",
         "firepower": "6",
         "name": "paladin_of_the_far_horizon",
         "pirate_code": "juju",
@@ -1598,7 +1598,7 @@
         "crew": {
             "mystical": 3
         },
-        "effect_text": "none",
+        "effect_text": "no effect.",
         "firepower": "5",
         "name": "purgatory_parrot",
         "pirate_code": "juju",
@@ -2040,7 +2040,7 @@
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_643a5726222842f09175516db253cfc6~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_001.jpeg",
         "card_type": "pirate",
-        "effect_text": "none\n",
+        "effect_text": "no effect.\n",
         "firepower": "5",
         "name": "big_heckin_gull",
         "pirate_code": "deep_sea",
@@ -2054,7 +2054,7 @@
     },
     "sword_bay_salvager": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_cff5f98ad37b4d56bdc6681b8bcee446~mv2.png/v1/fill/w_750,h_1048,al_c,q_95,enc_auto/hbm_cards_for_print_tts_ships_002.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_5c56b0645f5045a28133ca8ff12cf0aa~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_ships_003.png",
         "card_type": "ship",
         "effect_text": "any pirates with when played effects that board this ship activate their effect a second time at the end of the turn and then are destroyed.",
         "name": "sword_bay_salvager",
@@ -2071,7 +2071,7 @@
         "crew": {
             "fearless": 3
         },
-        "effect_text": "none",
+        "effect_text": "no effect.",
         "firepower": "7",
         "name": "sword_beast",
         "pirate_code": "boom",
@@ -2091,7 +2091,7 @@
     },
     "terror_of_the_seas_tater": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_84e2b0efc4f74b288cb9bd4c7214210b~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_tropical_006.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_87b265fbdb564d07961325f664fb417a~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_tropical_007.png",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "while at sea either player may spend two orders to move this card to any other ship (friendly or not). ships with it cannot fire the cannons (can initially be boarded on non-friendly ships).",
@@ -2442,7 +2442,7 @@
         "crew": {
             "fearless": 3
         },
-        "effect_text": "none\n",
+        "effect_text": "no effect.\n",
         "firepower": "6",
         "name": "wave_wolf",
         "pirate_code": "deep_sea",
@@ -2492,7 +2492,7 @@
         "crew": {
             "fearless": 3
         },
-        "effect_text": "none",
+        "effect_text": "no effect.",
         "firepower": "6",
         "name": "yo_ho_hero",
         "pirate_code": "boom",
