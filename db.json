@@ -454,6 +454,9 @@
         "crew": {
             "privateer_alliance": 3
         },
+        "pirate_types": [
+            "experimental"
+        ],
         "effect_text": "play as a hidden shanty. when an opponent plays a when played effect, negate it and activate it as if you had played it on your side.",
         "name": "confused_crew"
     },
@@ -534,7 +537,8 @@
         "pirate_code": "juju",
         "pirate_types": [
             "mythic",
-            "not-dead"
+            "not-dead",
+            "experimental"
         ]
     },
     "deal_with_the_broadside_devil": {
@@ -544,6 +548,9 @@
         "crew": {
             "boom_crew": 2
         },
+        "pirate_types": [
+            "experimental"
+        ],
         "effect_text": "when played, this card becomes a new zone which may hold one card. when on eof your hsips is unk, you may put it on this card. on any future turn where more than one of your ships is destroyed, you may set sail the stored ship instead of the top card of your shipyard. then destroy this card.",
         "name": "deal_with_the_broadside_devil"
     },
@@ -591,6 +598,9 @@
         "crew": {
             "vacation_beach": 3
         },
+        "pirate_types": [
+            "experimental"
+        ],
         "effect_text": "when played and at the start of each subsequent turn, each player may discard a pirate on top of this card. if they don't or can't, then their opponent chooses one of their pirates to destroy. this and all cards on top of this card are then sent to DJL.",
         "name": "doombeards_cutlass"
     },
@@ -635,7 +645,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "mythic",
-            "flying"
+            "flying",
+            "experimental"
         ]
     },
     "flintlock_fury": {
@@ -667,7 +678,8 @@
         "name": "flotsamstein",
         "pirate_code": "juju",
         "pirate_types": [
-            "not-dead"
+            "not-dead",
+            "experimental"
         ]
     },
     "forgotten_fleet": {
@@ -740,7 +752,8 @@
         },
         "pirate_types": [
             "explosive",
-            "super"
+            "super",
+            "experimental"
         ]
     },
     "gunpowder_shackles": {
@@ -864,6 +877,9 @@
         "crew": {
             "final_seas": 3
         },
+        "pirate_types": [
+            "experimental"
+        ],
         "effect_text": "when played, immediately free play a hidden shanty on this card. this card and the attached shanty are not destroyed at high tide. when the hidden shanty is revealed this card is destroyed.",
         "name": "heavy_metal_shanty_rock"
     },
@@ -880,7 +896,8 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "bug-ish"
+            "bug-ish",
+            "experimental"
         ]
     },
     "hermit_crawlers": {
@@ -922,7 +939,8 @@
         },
         "pirate_code": "deep_sea",
         "pirate_types": [
-            "flying"
+            "flying",
+            "experimental"
         ]
     },
     "jolly_rodish": {
@@ -988,7 +1006,8 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "authority",
-            "plant"
+            "plant",
+            "experimental"
         ]
     },
     "kommodore_kong": {
@@ -1826,7 +1845,8 @@
             "valiant_shores": 2
         },
         "pirate_types": [
-            "sea-thing"
+            "sea-thing",
+            "experimental"
         ]
     },
     "seal_of_the_crossed_bones": {
@@ -1836,6 +1856,9 @@
         "crew": {
             "world_ender": 3
         },
+        "pirate_types": [
+            "experimental"
+        ],
         "effect_text": "at the start of the game, set this card off to the side. until the first piece of treasure is captured by either player, you have -10 to your total firepower. but you may have more than 3 copies of a single card in your poop deck.",
         "name": "seal_of_the_crossed_bones"
     },
@@ -1896,7 +1919,8 @@
         "name": "shiver_me_timberers",
         "pirate_code": "tropical",
         "pirate_types": [
-            "wild"
+            "wild",
+            "experimental"
         ]
     },
     "shogun_scourge": {
@@ -1968,7 +1992,8 @@
         "pirate_code": "juju",
         "pirate_types": [
             "sword",
-            "ghost"
+            "ghost",
+            "experimental"
         ]
     },
     "spinnaker_spud": {
@@ -2023,7 +2048,8 @@
         "pirate_code": "heavy_metal",
         "pirate_types": [
             "science",
-            "???"
+            "???",
+            "experimental"
         ]
     },
     "sunrise_supplies": {
@@ -2102,7 +2128,8 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "plant"
+            "plant",
+            "experimental"
         ]
     },
     "the_art_of_marooning": {
@@ -2139,7 +2166,8 @@
         },
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "vehicle"
+            "vehicle",
+            "experimental"
         ]
     },
     "the_grand_old_seaworth": {
@@ -2181,7 +2209,8 @@
             "deep_sea_crew": 3
         },
         "pirate_types": [
-            "wild"
+            "wild",
+            "experimental"
         ]
     },
     "the_legendary_flamighydra": {
@@ -2407,7 +2436,8 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "plant",
-            "not-dead"
+            "not-dead",
+            "experimental"
         ]
     },
     "urchin_virus_ultra": {
@@ -2464,7 +2494,8 @@
         },
         "pirate_code": "juju",
         "pirate_types": [
-            "mythic"
+            "mythic",
+            "experimental"
         ]
     },
     "ye_olde_ferry_fox": {

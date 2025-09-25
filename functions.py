@@ -423,6 +423,14 @@ def filterCards(cards, filters):
 
                     del filtered_cards[card_name]
 
+        # Some cards are experimental and are not to be publicly known. These cards will be automatically removed
+        # from the general fetch unless the "experimental" type is specifically searched for
+        if "experimental" not in filters["pirate_types"]:
+
+            if "pirate_types" in card_info and "experimental" in card_info["pirate_types"]:
+
+                del filtered_cards[card_name]
+
         if filters["pirate_types"] != [""]:
 
             type_1 = filters["pirate_types"][0]
