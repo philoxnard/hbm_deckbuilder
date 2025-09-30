@@ -33,6 +33,9 @@ function receive(response) {
 
         handleBuildCrew(json)
 
+    } else if ( command == "command_import_decklist" ) {
+
+        handleImportDecklist(json)
     }
 
 }

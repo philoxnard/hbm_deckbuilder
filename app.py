@@ -48,6 +48,10 @@ def receive():
 
         response = handleBuildCrew(message)
 
+    elif command == "command_import_decklist":
+
+        response = handleImportDeck(message)
+
     else:
 
         print('error catch for no command')

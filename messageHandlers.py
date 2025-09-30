@@ -21,7 +21,7 @@ def handleOnLoad(message):
 
     response["cards"] = cards
     response["filters"] = filters
-    response["version"] = "2.3.4"
+    response["version"] = "2.3.6"
     response["result"] = "Success"
 
     return response
@@ -124,5 +124,32 @@ def handleBuildCrew(message):
 
     response["cards"] = cards
     response["crew"] = crew
+
+    return response
+
+def handleImportDeck(message):
+    """
+    This function populates the front end with a deck list as specified by the user's upload.
+
+    If the file format is .json, we parse the file as a TTS decklist
+    If the file format is .txt, we parse the file as a plain_text decklist
+    """
+
+    response = {}
+
+    imported_decklist = message["imported_decklist"]
+
+    # parsed_decklist is a dict of "card_name": quantity
+    parsed_decklist = parseImportedDecklist(imported_decklist)
+
+    # This obj contains stuff like pirate type, backURL, basically everything needed for front end other than quantity.
+    full_decklist_without_quantity = getCardList(imported_decklist=parsed_decklist)
+
+    for card_name, card_info in full_decklist_without_quantity.items():
+
+        # To get the quantity, we can just match up the name of the card with the matching name in the imported decklist
+        card_info["quantity"] = parsed_decklist[card_name]
+
+    response["imported_decklist"] = imported_decklist
 
     return response

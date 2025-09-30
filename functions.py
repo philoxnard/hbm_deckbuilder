@@ -4,7 +4,7 @@ import ast
 
 from configurations import *
 
-def getCardList(filters=None):
+def getCardList(filters=None, imported_decklist=None):
     """
     Grab the database of cards from db.json.
 
@@ -65,9 +65,9 @@ def generatePlainTextDeckList(deckListFromFrontEnd):
     for front_end_card_name, quantity in deckListFromFrontEnd.items():
 
         # Replace "_" with " " so it's prettier for human eyes
-        edited_card_name = front_end_card_name.replace( " ", "_" )
+        edited_card_name = front_end_card_name.replace( "_", " " )
 
-        plain_text_card_string = "\t " + str(quantity) + " " + edited_card_name.title() + "\n"
+        plain_text_card_string = "\t" + str(quantity) + " " + edited_card_name.title() + "\n"
 
         for db_card_name, db_card_info in db_card_list.items():
 
@@ -90,15 +90,15 @@ def generatePlainTextDeckList(deckListFromFrontEnd):
     # If any of the sections are empty, say NONE
     if ship_string == "Ships: \n":
 
-        ship_string == "Ships: \n \tNONE"
+        ship_string = "Ships: \n \tNONE"
 
     if pirate_string == "\nPirates: \n":
 
-        pirate_string == "\nPirates: \n\tNONE"
+        pirate_string = "\nPirates: \n\tNONE"
 
     if shanty_string == "\nShanties: \n":
 
-        shanty_string == "\nShanties: \n\tNONE"
+        shanty_string = "\nShanties: \n\tNONE"
 
     final_string = ship_string+pirate_string+shanty_string
 
