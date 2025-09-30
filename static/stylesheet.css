@@ -19,7 +19,7 @@ button{
 
 .content {
     margin: auto;
-    max-width: 1400px;
+    max-width: 1600px;
 }
 
 .banner {
@@ -34,7 +34,7 @@ button{
 }
 
 .content_left {
-    width: 300px;
+    width: 500px;
     float: left; /* [1] */
     background-color: #354156;
     border-color: #FFD932;
