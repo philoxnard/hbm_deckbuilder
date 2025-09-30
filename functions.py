@@ -33,6 +33,16 @@ def getFilters():
 
     return FILTER_DICT
 
+def parseImportedDecklist(importedDecklistFile):
+    """
+    This function reads either a TTS JSON file or a plain_text HBM file and returns a dict representing the decklist with card name
+    and quantity like this:
+    {
+        "avast_avenger": 3,
+        "avian_airship": 1
+    }
+    """
+
 def generatePlainTextDeckList(deckListFromFrontEnd):
 
     """

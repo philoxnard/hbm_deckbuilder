@@ -360,6 +360,44 @@ function buildCrew() {
     send(message)
 }
 
+
+async function importDeckList() {
+
+    const file = fileInput.files[0]; // Get the selected file
+    if (!file) {
+        console.log('No file selected.');
+        return;
+    }
+
+    // Get file extension, ensure its json or txt
+    const parts = filename.split('.');
+    if (parts.length > 1) { // Ensure there's actually an extension
+        const extension = parts.pop();
+        if ( extension != "json" && extension != "txt" ) {
+            alert("Unrecognized file type")
+        return
+        }
+
+    } else {
+        return ''; // No extension found
+    }
+
+    if ( file.size > 10000 ) {
+        alert("File too large")
+        return
+    }
+
+    let message = {}
+
+    let command = "command_import_decklist"
+
+    message["command"] = command
+    message["decklist_file"] = file
+
+    send(message)
+}
+
+
 function exportDeckList(exportType="json") {
 
     let json_decklist = {}
