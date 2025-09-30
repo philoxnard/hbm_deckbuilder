@@ -28,7 +28,15 @@ function handleExportDecklist(json) {
 
 	let decklist = json["decklist"]
 
-	filename = "test.json"
+	if ( json["export_type"] == "json") {
+
+		filename = "tts_decklist.json"
+
+	} else if ( json["export_type"] == "json") {
+
+		filename = "plain_text_decklist.txt"
+
+	}
 
 	var element = document.createElement('a');
 	element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(decklist));

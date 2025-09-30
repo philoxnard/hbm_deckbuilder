@@ -21,7 +21,7 @@ def handleOnLoad(message):
 
     response["cards"] = cards
     response["filters"] = filters
-    response["version"] = "2.3.3"
+    response["version"] = "2.3.4"
     response["result"] = "Success"
 
     return response
@@ -64,6 +64,8 @@ def handleExportDecklist(message):
         plain_text_decklist = generatePlainTextDeckList(decklist_from_front_end)
 
         response["decklist"] = plain_text_decklist
+
+    response["export_type"] = export_type
 
     return response
 
