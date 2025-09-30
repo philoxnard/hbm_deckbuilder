@@ -56,14 +56,6 @@ button{
     overflow-wrap: normal;
 }
 
-.export_button {
-    width: 300px;
-    justify-content: center;
-    margin: auto;
-    height: 5vh;
-    font-family: 'Murden CF ExtraBold Cond', sans-serif;
-}
-
 #filter_button {
 
     margin: 5px;
@@ -100,10 +92,20 @@ button{
     margin: 5px;
 }
 
+.export_button {
+    /* width: 300px; */
+    /* justify-content: center;
+    margin: auto; */
+    height: 5vh;
+    display: flex;
+    font-family: 'Murden CF ExtraBold Cond', sans-serif;
+}
+
 #export_button{
 
-    width:100%;
+    width:400px;
     height: 100%;
+    margin: 0 auto;
     font-size: 4vh;
     font-family: 'Murden CF ExtraBold Cond', sans-serif;
 }

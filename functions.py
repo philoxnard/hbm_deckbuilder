@@ -32,7 +32,94 @@ def getCardList(filters=None):
 def getFilters():
 
     return FILTER_DICT
-    
+
+def generatePlainTextDeckList(deckListFromFrontEnd):
+
+    """
+    Just fyi, deckListFromFrontEnd is a dict that looks like this:
+    {"anemone_silver_of_the_dozen_blades":1,"anchross_aweigh":1,"ahoy_toy":1,"abyss_battalion":2,"angler_bot_of_the_chaos_urchin_order":1,"all_hands_on_deck":1}
+
+
+    This function is going to return a string that looks like this:
+
+    Ships:
+        NONE
+    Pirates:
+        1 Anenome Silver of the Dozen Blades
+        1 Anchross Aweigh
+        1 Ahoy Toy
+        2 Abyss Battalion
+        1 Angler Bot of the Chaos Urchin Order
+    Shanties:
+        1 All Hands on Deck
+    """
+
+    ship_string = "Ships: \n"
+    pirate_string = "\nPirates: \n"
+    shanty_string = "\nShanties: \n"
+
+    # Get the full card list so we can check to see what type everything is
+    db_card_list = getCardList()
+
+    # Check to see which card type it belongs to, then put it into that string
+    for front_end_card_name, quantity in deckListFromFrontEnd.items():
+
+        # Replace "_" with " " so it's prettier for human eyes
+        edited_card_name = front_end_card_name.replace( " ", "_" )
+
+        plain_text_card_string = "\t " + str(quantity) + " " + edited_card_name.title() + "\n"
+
+        for db_card_name, db_card_info in db_card_list.items():
+
+            if front_end_card_name == db_card_name:
+
+                card_type = db_card_info["card_type"]
+
+                if card_type == "pirate":
+
+                    pirate_string += plain_text_card_string
+
+                elif card_type == "shanty":
+
+                    shanty_string += plain_text_card_string
+
+                elif card_type == "ship":
+
+                    ship_string += plain_text_card_string
+
+    # If any of the sections are empty, say NONE
+    if ship_string == "Ships: \n":
+
+        ship_string == "Ships: \n \tNONE"
+
+    if pirate_string == "\nPirates: \n":
+
+        pirate_string == "\nPirates: \n\tNONE"
+
+    if shanty_string == "\nShanties: \n":
+
+        shanty_string == "\nShanties: \n\tNONE"
+
+    final_string = ship_string+pirate_string+shanty_string
+
+    return final_string
+
+def generateTTSDeckList(decklistJsonObj, deckListFromFrontEnd):
+
+    """
+    decklistJsonObj is an empty dict
+    """
+
+    decklist_json_obj = generateHeader(decklistJsonObj)
+
+    decklist_json_obj = generateObjectStates(decklist_json_obj, deckListFromFrontEnd)
+
+    decklist_json_obj = generateFooter(decklist_json_obj)
+
+    string_list = json.dumps(decklist_json_obj)
+
+    return string_list
+
 def generateHeader(decklistJsonObj):
 
     decklistJsonObj['SaveName'] = ''

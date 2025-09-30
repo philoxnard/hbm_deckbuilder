@@ -21,7 +21,7 @@ def handleOnLoad(message):
 
     response["cards"] = cards
     response["filters"] = filters
-    response["version"] = "2.3.2"
+    response["version"] = "2.3.3"
     response["result"] = "Success"
 
     return response
@@ -32,6 +32,10 @@ def handleExportDecklist(message):
     contain a key called "stringified_decklist", which is a long stringified
     JSON object full of key/value pairs such as {} "cannon_boo" : 2 } which
     denotes what cards are to be added to the decklist and in what quantity.
+
+    It will also contain a key called "export_type" which will either be "json"
+    or "text". For json, we export a big nasty json string for TTS to ingest. For text,
+    we export a simple plain text version
 
     This function will take that information and use it to go through db.json
     and add the appropriate cards/quantities to the decklist. 
@@ -45,17 +49,21 @@ def handleExportDecklist(message):
     stringified_decklist = message["stringified_decklist"]
     decklist_from_front_end = json.loads(stringified_decklist)
 
-    decklist_json_obj = {}
+    export_type = message["export_type"]
 
-    decklist_json_obj = generateHeader(decklist_json_obj)
+    if export_type == "json":
 
-    decklist_json_obj = generateObjectStates(decklist_json_obj, decklist_from_front_end)
+        decklist_json_obj = {}
 
-    decklist_json_obj = generateFooter(decklist_json_obj)
+        tts_decklist = generateTTSDeckList(decklist_json_obj, decklist_from_front_end)
 
-    string_list = json.dumps(decklist_json_obj)
+        response["decklist"] = tts_decklist
 
-    response["tts_decklist"] = string_list
+    elif export_type == "text":
+
+        plain_text_decklist = generatePlainTextDeckList(decklist_from_front_end)
+
+        response["decklist"] = plain_text_decklist
 
     return response
 

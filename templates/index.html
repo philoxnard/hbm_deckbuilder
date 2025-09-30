@@ -29,7 +29,10 @@
 				MAC: User > Libary > Tabletop sim > Saved > Saved Objects<br>
 				LINUX: ~/.local/share/Tabletop Simulator/Saves/Saved Object<br><br>
 			</div>
-			<div class="export_button"><button id="export_button" onclick="exportDeckList()">Export</button></div>
+			<div class="export_button">
+				<button id="export_button" onclick="exportDeckList('json')">Export for TTS</button>
+				<button id="export_button" onclick="exportDeckList('text')">Export Plain Text</button>
+			</div>
 
 			<label for="build_crew">Quick build a crew:</label>
 			<select name="build_crew" id="build_crew">

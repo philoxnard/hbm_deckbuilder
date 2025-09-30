@@ -26,12 +26,12 @@ function handleOnLoad(json) {
 
 function handleExportDecklist(json) {
 
-	let tts_decklist = json["tts_decklist"]
+	let decklist = json["decklist"]
 
 	filename = "test.json"
 
 	var element = document.createElement('a');
-	element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(tts_decklist));
+	element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(decklist));
 	element.setAttribute('download', filename);
 	
 	element.style.display = 'none';

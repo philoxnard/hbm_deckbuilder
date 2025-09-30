@@ -357,7 +357,7 @@ function buildCrew() {
     send(message)
 }
 
-function exportDeckList() {
+function exportDeckList(exportType="json") {
 
     let json_decklist = {}
 
@@ -384,11 +384,11 @@ function exportDeckList() {
 
     stringified_decklist = JSON.stringify(json_decklist)
 
-    sendDeckListToServer(stringified_decklist)
+    sendDeckListToServer(stringified_decklist, exportType)
 
 }
 
-function sendDeckListToServer(stringifiedDeckList) {
+function sendDeckListToServer(stringifiedDeckList, exportType) {
 
     let message = {}
 
@@ -396,6 +396,7 @@ function sendDeckListToServer(stringifiedDeckList) {
 
     message["command"] = command
     message["stringified_decklist"] = stringifiedDeckList
+    message["export_type"] = exportType
 
     send(message)
 
