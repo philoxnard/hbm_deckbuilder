@@ -360,12 +360,17 @@ function buildCrew() {
     send(message)
 }
 
+function clickImportButton() {
+    $("#import_file_id").click();
+
+}
+
+$("#import_file_id").on('change', importDeckList)
 
 function importDeckList() {
 
-    $("#import_file_id").click();
+    const file = $('#import_file_id')[0].files[0]
 
-    const file = fileInput.files[0]; // Get the selected file
     if (!file) {
         console.log('No file selected.');
         return;
@@ -399,12 +404,17 @@ function importDeckList() {
         reader.readAsText(file);
     }
 
-    let decklist_as_string = reader.result
+    reader.addEventListener("load", () => {
+    // this will then display a text file
+        let decklist_as_string = reader.result;
+        message["command"] = command
+        message["decklist_as_string"] = decklist_as_string
+        console.log(decklist_as_string)
 
-    message["command"] = command
-    message["decklist_as_string"] = decklist_as_string
+        send(message)
 
-    send(message)
+    });
+
 }
 
 

@@ -40,8 +40,6 @@ function handleImportDecklist(json) {
 
 	}
 
-
-
 	for (const [card_name, card_info] of Object.entries(imported_decklist)) {
 
 		storeCardInLocalStorage(card_info)

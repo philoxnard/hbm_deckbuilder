@@ -20,6 +20,10 @@ def getCardList(filters=None, specificCardName=None):
 
 		cards = filterCards(cards, filters)
 
+	if specificCardName != None:
+
+		return cards[specificCardName] #NOTE: Not a list, this is just one card object
+
 	# NOTE: In order to display stuff on the GUI, we need to remove effect text from the card
 	#       object because its just too long - because we basically store the whole card
 	#       as text within the div id, we can't make it absurdly long.

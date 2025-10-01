@@ -146,7 +146,7 @@ def handleImportDeck(message):
 
     for card_name in parsed_decklist:
 
-        card_info_without_effect = getCardList(specificCardName=card_name)
+        card_info_without_effect = getCardList(specificCardName=card_name) # this func just returns one card when used with specificCardName
 
         final_decklist[card_name] = card_info_without_effect
 
