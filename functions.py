@@ -1,609 +1,701 @@
 import json
 import pprint
 import ast
+import os
 
 from configurations import *
 
-def getCardList(filters=None, imported_decklist=None):
-    """
-    Grab the database of cards from db.json.
+def getCardList(filters=None, specificCardName=None):
+	"""
+	Grab the database of cards from db.json.
 
-    Returns a (very large) dictionary
-    """
+	Returns a (very large) dictionary
+	"""
 
-    db = open(DATABASE_FILEPATH)
+	db = open(DATABASE_FILEPATH)
 
-    cards = json.load(db)
+	cards = json.load(db)
 
-    if filters != None:
+	if filters != None:
 
-        cards = filterCards(cards, filters)
+		cards = filterCards(cards, filters)
 
-    # NOTE: In order to display stuff on the GUI, we need to remove effect text from the card
-    #       object because its just too long - because we basically store the whole card
-    #       as text within the div id, we can't make it absurdly long.
-    cards_no_effect_text = {}
-    for card_name, card_info in cards.items():
-        del card_info["effect_text"]
-        cards_no_effect_text[card_name] = card_info
-    
-    return cards_no_effect_text
+	# NOTE: In order to display stuff on the GUI, we need to remove effect text from the card
+	#       object because its just too long - because we basically store the whole card
+	#       as text within the div id, we can't make it absurdly long.
+	cards_no_effect_text = {}
+	for card_name, card_info in cards.items():
+		del card_info["effect_text"]
+		cards_no_effect_text[card_name] = card_info
+	
+	return cards_no_effect_text
 
 def getFilters():
 
-    return FILTER_DICT
+	return FILTER_DICT
 
-def parseImportedDecklist(importedDecklistFile):
-    """
-    This function reads either a TTS JSON file or a plain_text HBM file and returns a dict representing the decklist with card name
-    and quantity like this:
-    {
-        "avast_avenger": 3,
-        "avian_airship": 1
-    }
-    """
+def parseImportedDecklist(importedDecklistString):
+	"""
+	This function reads either a TTS JSON file or a plain_text HBM file and returns a dict representing the decklist with card name
+	and quantity like this:
+	{
+		"avast_avenger": 3,
+		"avian_airship": 1
+	}
+	"""
+
+	if "LuaScript" in importedDecklistString: # Dumb way to check if its a TTS JSON string
+
+		parsed_decklist = parseTTSDecklist(importedDecklistString)
+
+	elif "Shanties:" in importedDecklistString: # Dumb way to check if its a plain text string
+
+		parsed_decklist = parsePlainTextDecklist(importedDecklistString)
+
+	else:
+
+		parsed_decklist = "error"
+
+	return parsed_decklist
+
+def parsePlainTextDecklist(importedDecklistString):
+
+	lines = importedDecklistString.splitlines()
+
+	decklist = {}
+
+	try:
+
+		for line in lines:
+
+			stripped_line = line.replace('\n', '').replace('\t', '')
+			if "Shanties:" in stripped_line or "Ships:" in stripped_line or "Pirates:" in stripped_line:
+				continue
+
+			parts = stripped_line.split(' ', 1) # Separate quantity from card name
+
+			quantity = parts[0]
+			raw_card_name = parts[1]
+
+			characters_to_replace = [" ", ". ", "."] # special case for mr. manty
+			for character in characters_to_replace:
+				# Replace "_" or "." with " " so it's prettier for human eyes
+				edited_card_name = raw_card_name.replace( character, "_" )
+
+			# Remove apostraphes and other punctuation
+			characters_to_remove = ["!", ",", "'", "B.H.G.", "(", ")"] # special case for big heckin gull
+			for character in characters_to_remove:
+				edited_card_name = edited_card_name.replace(character, "")
+
+			lowercase_card_name = edited_card_name.lower()
+
+			final_card_name = lowercase_card_name.rstrip() # Needed for shipside shelling corp and prob just good to have
+
+			decklist[final_card_name] = quantity
+
+	except:
+
+		decklist = "error"
+
+	return decklist
+
+def parseTTSDecklist(importedDecklistString):
+
+	try:
+
+		json_obj_tts_decklist = json.loads(importedDecklistString)
+
+		object_states = json_obj_tts_decklist["ObjectStates"] # a list of dictionaries, but theres only one entry
+		big_dict = object_states[0]
+		contained_objects = big_dict["ContainedObjects"] # a list of dictionaries, each one being a card
+
+		raw_decklist = [] # a list of raw card names, something like [avast_avenger, avast_avenger, avian_airship, monster_muskatoon, reef_ronin, reef_ronin]
+
+		for tts_card_obj in contained_objects:
+
+			raw_decklist.append(tts_card_obj["Nickname"])
+
+		decklist = {}
+
+		for card_name in raw_decklist:
+
+			# If the iterated card isn't in the deck already, set its quantity to 1
+			# if it is already in the deck, we increment it by 1
+			if card_name not in decklist:
+
+				decklist[card_name] = 1
+
+			else:
+
+				decklist[card_name] += 1
+
+	except:
+
+		decklist = "error"
+
+	return decklist
 
 def generatePlainTextDeckList(deckListFromFrontEnd):
 
-    """
-    Just fyi, deckListFromFrontEnd is a dict that looks like this:
-    {"anemone_silver_of_the_dozen_blades":1,"anchross_aweigh":1,"ahoy_toy":1,"abyss_battalion":2,"angler_bot_of_the_chaos_urchin_order":1,"all_hands_on_deck":1}
+	"""
+	Just fyi, deckListFromFrontEnd is a dict that looks like this:
+	{"anemone_silver_of_the_dozen_blades":1,"anchross_aweigh":1,"ahoy_toy":1,"abyss_battalion":2,"angler_bot_of_the_chaos_urchin_order":1,"all_hands_on_deck":1}
 
 
-    This function is going to return a string that looks like this:
+	This function is going to return a string that looks like this:
 
-    Ships:
-        NONE
-    Pirates:
-        1 Anenome Silver of the Dozen Blades
-        1 Anchross Aweigh
-        1 Ahoy Toy
-        2 Abyss Battalion
-        1 Angler Bot of the Chaos Urchin Order
-    Shanties:
-        1 All Hands on Deck
-    """
+	Ships:
+		NONE
+	Pirates:
+		1 Anenome Silver of the Dozen Blades
+		1 Anchross Aweigh
+		1 Ahoy Toy
+		2 Abyss Battalion
+		1 Angler Bot of the Chaos Urchin Order
+	Shanties:
+		1 All Hands on Deck
+	"""
 
-    ship_string = "Ships: \n"
-    pirate_string = "\nPirates: \n"
-    shanty_string = "\nShanties: \n"
+	ship_string = "Ships: \n"
+	pirate_string = "\nPirates: \n"
+	shanty_string = "\nShanties: \n"
 
-    # Get the full card list so we can check to see what type everything is
-    db_card_list = getCardList()
+	# Get the full card list so we can check to see what type everything is
+	db_card_list = getCardList()
 
-    # Check to see which card type it belongs to, then put it into that string
-    for front_end_card_name, quantity in deckListFromFrontEnd.items():
+	# Check to see which card type it belongs to, then put it into that string
+	for front_end_card_name, quantity in deckListFromFrontEnd.items():
 
-        # Replace "_" with " " so it's prettier for human eyes
-        edited_card_name = front_end_card_name.replace( "_", " " )
+		# Replace "_" with " " so it's prettier for human eyes
+		edited_card_name = front_end_card_name.replace( "_", " " )
 
-        plain_text_card_string = "\t" + str(quantity) + " " + edited_card_name.title() + "\n"
+		plain_text_card_string = "\t" + str(quantity) + " " + edited_card_name.title() + "\n"
 
-        for db_card_name, db_card_info in db_card_list.items():
+		for db_card_name, db_card_info in db_card_list.items():
 
-            if front_end_card_name == db_card_name:
+			if front_end_card_name == db_card_name:
 
-                card_type = db_card_info["card_type"]
+				card_type = db_card_info["card_type"]
 
-                if card_type == "pirate":
+				if card_type == "pirate":
 
-                    pirate_string += plain_text_card_string
+					pirate_string += plain_text_card_string
 
-                elif card_type == "shanty":
+				elif card_type == "shanty":
 
-                    shanty_string += plain_text_card_string
+					shanty_string += plain_text_card_string
 
-                elif card_type == "ship":
+				elif card_type == "ship":
 
-                    ship_string += plain_text_card_string
+					ship_string += plain_text_card_string
 
-    # If any of the sections are empty, say NONE
-    if ship_string == "Ships: \n":
+	# If any of the sections are empty, say NONE
+	if ship_string == "Ships: \n":
 
-        ship_string = "Ships: \n \tNONE"
+		ship_string = "Ships: \n \tNONE"
 
-    if pirate_string == "\nPirates: \n":
+	if pirate_string == "\nPirates: \n":
 
-        pirate_string = "\nPirates: \n\tNONE"
+		pirate_string = "\nPirates: \n\tNONE"
 
-    if shanty_string == "\nShanties: \n":
+	if shanty_string == "\nShanties: \n":
 
-        shanty_string = "\nShanties: \n\tNONE"
+		shanty_string = "\nShanties: \n\tNONE"
 
-    final_string = ship_string+pirate_string+shanty_string
+	final_string = ship_string+pirate_string+shanty_string
 
-    return final_string
+	return final_string
 
 def generateTTSDeckList(decklistJsonObj, deckListFromFrontEnd):
 
-    """
-    decklistJsonObj is an empty dict
-    """
+	"""
+	decklistJsonObj is an empty dict
+	"""
 
-    decklist_json_obj = generateHeader(decklistJsonObj)
+	decklist_json_obj = generateHeader(decklistJsonObj)
 
-    decklist_json_obj = generateObjectStates(decklist_json_obj, deckListFromFrontEnd)
+	decklist_json_obj = generateObjectStates(decklist_json_obj, deckListFromFrontEnd)
 
-    decklist_json_obj = generateFooter(decklist_json_obj)
+	decklist_json_obj = generateFooter(decklist_json_obj)
 
-    string_list = json.dumps(decklist_json_obj)
+	string_list = json.dumps(decklist_json_obj)
 
-    return string_list
+	return string_list
 
 def generateHeader(decklistJsonObj):
 
-    decklistJsonObj['SaveName'] = ''
-    decklistJsonObj["GameMode"] = ""
-    decklistJsonObj["Gravity"] = 0.5
-    decklistJsonObj["PlayArea"] = 0.5
-    decklistJsonObj["Date"] = ""
-    decklistJsonObj["Table"] = ""
-    decklistJsonObj["Sky"] = ""
-    decklistJsonObj["Note"] = ""
-    decklistJsonObj["Rules"] = ""
-    decklistJsonObj["XmlUI"] = ""
-    decklistJsonObj["LuaScript"] = ""
-    decklistJsonObj["LuaScriptState"] = ""
+	decklistJsonObj['SaveName'] = ''
+	decklistJsonObj["GameMode"] = ""
+	decklistJsonObj["Gravity"] = 0.5
+	decklistJsonObj["PlayArea"] = 0.5
+	decklistJsonObj["Date"] = ""
+	decklistJsonObj["Table"] = ""
+	decklistJsonObj["Sky"] = ""
+	decklistJsonObj["Note"] = ""
+	decklistJsonObj["Rules"] = ""
+	decklistJsonObj["XmlUI"] = ""
+	decklistJsonObj["LuaScript"] = ""
+	decklistJsonObj["LuaScriptState"] = ""
 
-    return decklistJsonObj
+	return decklistJsonObj
 
 def generateObjectStates(decklistJsonObj, deckListFromFrontEnd):
 
-    object_states = []
-    dict_1 = {}
+	object_states = []
+	dict_1 = {}
 
-    transform_dict = {
-        "posX": 0.1779872,
-        "posY": 3.08887124,
-        "posZ": 0.29411754,
-        "rotX": 358.469971,
-        "rotY": 179.966263,
-        "rotZ": 1.77417183,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-    }
+	transform_dict = {
+		"posX": 0.1779872,
+		"posY": 3.08887124,
+		"posZ": 0.29411754,
+		"rotX": 358.469971,
+		"rotY": 179.966263,
+		"rotZ": 1.77417183,
+		"scaleX": 1.0,
+		"scaleY": 1.0,
+		"scaleZ": 1.0
+	}
 
-    dict_1["Name"] = "Deck"
-    dict_1["Transform"] = transform_dict
-    dict_1["Nickname"] = ""
-    dict_1["Description"] = ""
-    dict_1["GMNotes"] = ""
-    dict_1["ColorDiffuse"] = {  "r": 0.713235259,
-                                "g": 0.713235259,
-                                "b": 0.713235259
-                            }
-    dict_1["Locked"] = False
-    dict_1["Grid"] = True
-    dict_1["Snap"] = True
-    dict_1["IgnoreFoW"] = False
-    dict_1["Autoraise"] = True
-    dict_1["Sticky"] = True
-    dict_1["Tooltip"] = True
-    dict_1["GridProjection"] = False
-    dict_1["HideWhenFaceDown"] = True
-    dict_1["Hands"] = False
-    dict_1["SidewaysCard"] = False
+	dict_1["Name"] = "Deck"
+	dict_1["Transform"] = transform_dict
+	dict_1["Nickname"] = ""
+	dict_1["Description"] = ""
+	dict_1["GMNotes"] = ""
+	dict_1["ColorDiffuse"] = {  "r": 0.713235259,
+								"g": 0.713235259,
+								"b": 0.713235259
+							}
+	dict_1["Locked"] = False
+	dict_1["Grid"] = True
+	dict_1["Snap"] = True
+	dict_1["IgnoreFoW"] = False
+	dict_1["Autoraise"] = True
+	dict_1["Sticky"] = True
+	dict_1["Tooltip"] = True
+	dict_1["GridProjection"] = False
+	dict_1["HideWhenFaceDown"] = True
+	dict_1["Hands"] = False
+	dict_1["SidewaysCard"] = False
 
-    deck_ids = generateDeckIDs(deckListFromFrontEnd)
+	deck_ids = generateDeckIDs(deckListFromFrontEnd)
 
-    dict_1["DeckIDs"] = deck_ids
+	dict_1["DeckIDs"] = deck_ids
 
-    custom_deck = generateCustomDeck(deckListFromFrontEnd)
+	custom_deck = generateCustomDeck(deckListFromFrontEnd)
 
-    dict_1["CustomDeck"] = custom_deck
-    dict_1["XmlUI"] = ""
-    dict_1["LuaScript"] = ""
+	dict_1["CustomDeck"] = custom_deck
+	dict_1["XmlUI"] = ""
+	dict_1["LuaScript"] = ""
 
-    contained_objects = generateContainedObjects(deckListFromFrontEnd)
+	contained_objects = generateContainedObjects(deckListFromFrontEnd)
 
-    dict_1["ContainedObjects"] = contained_objects
+	dict_1["ContainedObjects"] = contained_objects
 
-    dict_1["GUID"] = "2fc847"
+	dict_1["GUID"] = "2fc847"
 
-    object_states.append(dict_1)
+	object_states.append(dict_1)
 
-    decklistJsonObj["ObjectStates"] = object_states
+	decklistJsonObj["ObjectStates"] = object_states
 
-    return decklistJsonObj
+	return decklistJsonObj
 
 def generateDeckIDs(deckListJSONObj):
-    """
-    This function will spit out a list [100, 200, 300, etc] for each
-    card in the deck. It's important that this is flexible so users
-    can build 50 or 65 card decks.
-    """
+	"""
+	This function will spit out a list [100, 200, 300, etc] for each
+	card in the deck. It's important that this is flexible so users
+	can build 50 or 65 card decks.
+	"""
 
-    total_quantity = 1
+	total_quantity = 1
 
-    for card, quantity in deckListJSONObj.items():
+	for card, quantity in deckListJSONObj.items():
 
-        int_quantity = int(quantity)
+		int_quantity = int(quantity)
 
-        total_quantity += int_quantity
+		total_quantity += int_quantity
 
-    deckIDs = []
+	deckIDs = []
 
-    for i in range(1, total_quantity):
+	for i in range(1, total_quantity):
 
-        ID = i*100
-        deckIDs.append(ID)
+		ID = i*100
+		deckIDs.append(ID)
 
-    return deckIDs
+	return deckIDs
 
 def generateCustomDeck(deckListJSONObj):
-    """
-    This takes the decklist json obj and returns a dictionary full
-    of dictionaries that looks like this:
+	"""
+	This takes the decklist json obj and returns a dictionary full
+	of dictionaries that looks like this:
 
-    { "1" : 
-        "FaceURL": "https://cards.scryfall.io/normal/front/0/8/0826bec4-1958-4b5a-89be-70a4801e2384.jpg?1706240336",
-        "BackURL": "https://backs.scryfall.io/normal/0/a/0aeebaf5-8c7d-4636-9e82-8c27447861f7.jpg",
-        "NumWidth": 1,
-        "NumHeight": 1,
-        "BackIsHidden": true,
-        "UniqueBack": false
-    }
+	{ "1" : 
+		"FaceURL": "https://cards.scryfall.io/normal/front/0/8/0826bec4-1958-4b5a-89be-70a4801e2384.jpg?1706240336",
+		"BackURL": "https://backs.scryfall.io/normal/0/a/0aeebaf5-8c7d-4636-9e82-8c27447861f7.jpg",
+		"NumWidth": 1,
+		"NumHeight": 1,
+		"BackIsHidden": true,
+		"UniqueBack": false
+	}
 
-    To do this, we need to read from db.json
-    """
+	To do this, we need to read from db.json
+	"""
 
-    card_db_raw = open(DATABASE_FILEPATH)
-    card_db = json.load(card_db_raw)
+	card_db_raw = open(DATABASE_FILEPATH)
+	card_db = json.load(card_db_raw)
 
-    custom_deck = {}
-    count = 1
+	custom_deck = {}
+	count = 1
 
-    for card_name, quantity in deckListJSONObj.items():
+	for card_name, quantity in deckListJSONObj.items():
 
-        for i in range(quantity):
+		for i in range(quantity):
 
-            card_in_db = card_db[card_name]
+			card_in_db = card_db[card_name]
 
-            FaceURL = card_in_db["FaceURL"]
-            BackURL = card_in_db["BackURL"]
+			FaceURL = card_in_db["FaceURL"]
+			BackURL = card_in_db["BackURL"]
 
-            info_dict = {}
-            info_dict["FaceURL"] = FaceURL
-            info_dict["BackURL"] = BackURL
-            info_dict["NumWidth"] = 1
-            info_dict["NumHeight"] = 1
-            info_dict["BackIsHidden"] = True
-            info_dict["UniqueBack"] = False
+			info_dict = {}
+			info_dict["FaceURL"] = FaceURL
+			info_dict["BackURL"] = BackURL
+			info_dict["NumWidth"] = 1
+			info_dict["NumHeight"] = 1
+			info_dict["BackIsHidden"] = True
+			info_dict["UniqueBack"] = False
 
-            custom_deck[str(count)] = info_dict
+			custom_deck[str(count)] = info_dict
 
-            count += 1
+			count += 1
 
-    return custom_deck
+	return custom_deck
 
 def generateContainedObjects(deckListJSONObj):
-    """
-    This returns a list.
-    The list is comprised of dictionaries that look like this:
+	"""
+	This returns a list.
+	The list is comprised of dictionaries that look like this:
 
 
 {
-        "Name": "CardCustom",
-        "Transform": {
-        "posX": 0.5254047,
-        "posY": 1.21068287,
-        "posZ": 0.19025977,
-        "rotX": -0.0008576067,
-        "rotY": 180.000061,
-        "rotZ": 179.9986,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-        },
-        "Nickname": "Mountain",
-        "Description": "",
-        "GMNotes": "",
-        "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-        },
-        "Locked": false,
-        "Grid": true,
-        "Snap": true,
-        "IgnoreFoW": false,
-        "Autoraise": true,
-        "Sticky": true,
-        "Tooltip": true,
-        "GridProjection": false,
-        "HideWhenFaceDown": true,
-        "Hands": true,
-        "CardID": 100,
-        "SidewaysCard": false,
-        "CustomDeck": {
-        "1": {
-        "FaceURL": "https://cards.scryfall.io/normal/front/0/8/0826bec4-1958-4b5a-89be-70a4801e2384.jpg?1706240336",
-        "BackURL": "https://backs.scryfall.io/normal/0/a/0aeebaf5-8c7d-4636-9e82-8c27447861f7.jpg",
-        "NumWidth": 1,
-        "NumHeight": 1,
-        "BackIsHidden": true,
-        "UniqueBack": false
-        }
-        },
-        "XmlUI": "",
-        "LuaScript": "",
-        "LuaScriptState": ""
-        }
+		"Name": "CardCustom",
+		"Transform": {
+		"posX": 0.5254047,
+		"posY": 1.21068287,
+		"posZ": 0.19025977,
+		"rotX": -0.0008576067,
+		"rotY": 180.000061,
+		"rotZ": 179.9986,
+		"scaleX": 1.0,
+		"scaleY": 1.0,
+		"scaleZ": 1.0
+		},
+		"Nickname": "Mountain",
+		"Description": "",
+		"GMNotes": "",
+		"ColorDiffuse": {
+		"r": 0.713235259,
+		"g": 0.713235259,
+		"b": 0.713235259
+		},
+		"Locked": false,
+		"Grid": true,
+		"Snap": true,
+		"IgnoreFoW": false,
+		"Autoraise": true,
+		"Sticky": true,
+		"Tooltip": true,
+		"GridProjection": false,
+		"HideWhenFaceDown": true,
+		"Hands": true,
+		"CardID": 100,
+		"SidewaysCard": false,
+		"CustomDeck": {
+		"1": {
+		"FaceURL": "https://cards.scryfall.io/normal/front/0/8/0826bec4-1958-4b5a-89be-70a4801e2384.jpg?1706240336",
+		"BackURL": "https://backs.scryfall.io/normal/0/a/0aeebaf5-8c7d-4636-9e82-8c27447861f7.jpg",
+		"NumWidth": 1,
+		"NumHeight": 1,
+		"BackIsHidden": true,
+		"UniqueBack": false
+		}
+		},
+		"XmlUI": "",
+		"LuaScript": "",
+		"LuaScriptState": ""
+		}
 
-    """
+	"""
 
-    card_db_raw = open(DATABASE_FILEPATH)
-    card_db = json.load(card_db_raw)
+	card_db_raw = open(DATABASE_FILEPATH)
+	card_db = json.load(card_db_raw)
 
-    contained_objects = []
-    count = 1
+	contained_objects = []
+	count = 1
 
-    for card_name, quantity in deckListJSONObj.items():
+	for card_name, quantity in deckListJSONObj.items():
 
-        for i in range(quantity):
+		for i in range(quantity):
 
-            card_in_db = card_db[card_name]
+			card_in_db = card_db[card_name]
 
-            nickname = card_in_db["name"]
-            FaceURL = card_in_db["FaceURL"]
-            BackURL = card_in_db["BackURL"]
+			nickname = card_in_db["name"]
+			FaceURL = card_in_db["FaceURL"]
+			BackURL = card_in_db["BackURL"]
 
-            info_dict = {}
-            info_dict["Name"] = "CardCustom"
-            info_dict["Transform"] = {
-                "posX": 0.5254047,
-                "posY": 1.21068287,
-                "posZ": 0.19025977,
-                "rotX": -0.0008576067,
-                "rotY": 180.000061,
-                "rotZ": 179.9986,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-            }
-            info_dict["Nickname"] = nickname
-            info_dict["Description"] = ""
-            info_dict["GMNotes"] = ""
-            info_dict["ColorDiffuse"] = {"r": 0.713235259, "g": 0.713235259,"b": 0.713235259}
-            info_dict["Locked"] = False
-            info_dict["Grid"] = True
-            info_dict["Snap"] = True
-            info_dict["IgnoreFoW"] = False
-            info_dict["Autoraise"] = True
-            info_dict["Sticky"] = True
-            info_dict["Tooltip"] = True
-            info_dict["GridProjection"] = False
-            info_dict["HideWhenFaceDown"] = True
-            info_dict["Hands"] = True
-            info_dict["CardID"] = count*100
-            info_dict["SidewaysCard"] = False
+			info_dict = {}
+			info_dict["Name"] = "CardCustom"
+			info_dict["Transform"] = {
+				"posX": 0.5254047,
+				"posY": 1.21068287,
+				"posZ": 0.19025977,
+				"rotX": -0.0008576067,
+				"rotY": 180.000061,
+				"rotZ": 179.9986,
+				"scaleX": 1.0,
+				"scaleY": 1.0,
+				"scaleZ": 1.0
+			}
+			info_dict["Nickname"] = nickname
+			info_dict["Description"] = ""
+			info_dict["GMNotes"] = ""
+			info_dict["ColorDiffuse"] = {"r": 0.713235259, "g": 0.713235259,"b": 0.713235259}
+			info_dict["Locked"] = False
+			info_dict["Grid"] = True
+			info_dict["Snap"] = True
+			info_dict["IgnoreFoW"] = False
+			info_dict["Autoraise"] = True
+			info_dict["Sticky"] = True
+			info_dict["Tooltip"] = True
+			info_dict["GridProjection"] = False
+			info_dict["HideWhenFaceDown"] = True
+			info_dict["Hands"] = True
+			info_dict["CardID"] = count*100
+			info_dict["SidewaysCard"] = False
 
-            custom_deck = {}
-            custom_deck_info_dict = {}
+			custom_deck = {}
+			custom_deck_info_dict = {}
 
-            custom_deck_info_dict["FaceURL"] = FaceURL
-            custom_deck_info_dict["BackURL"] = BackURL
-            custom_deck_info_dict["NumWidth"] = 1
-            custom_deck_info_dict["NumHeight"] = 1
-            custom_deck_info_dict["BackIsHidden"] = True
-            custom_deck_info_dict["UniqueBack"] = False
+			custom_deck_info_dict["FaceURL"] = FaceURL
+			custom_deck_info_dict["BackURL"] = BackURL
+			custom_deck_info_dict["NumWidth"] = 1
+			custom_deck_info_dict["NumHeight"] = 1
+			custom_deck_info_dict["BackIsHidden"] = True
+			custom_deck_info_dict["UniqueBack"] = False
 
 
-            custom_deck[str(count)] = custom_deck_info_dict
-            info_dict["CustomDeck"] = custom_deck
+			custom_deck[str(count)] = custom_deck_info_dict
+			info_dict["CustomDeck"] = custom_deck
 
-            info_dict["XmlUI"] = ""
-            info_dict["LuaScript"] = ""
-            info_dict["LuaScriptState"] = ""
+			info_dict["XmlUI"] = ""
+			info_dict["LuaScript"] = ""
+			info_dict["LuaScriptState"] = ""
 
-            contained_objects.append(info_dict)
+			contained_objects.append(info_dict)
 
-            count += 1
+			count += 1
 
-    return contained_objects
+	return contained_objects
 
 def generateFooter(decklistJsonObj):
 
-    decklistJsonObj["TabStates"] = {}
-    decklistJsonObj["VersionNumber"] = ""
+	decklistJsonObj["TabStates"] = {}
+	decklistJsonObj["VersionNumber"] = ""
 
-    return decklistJsonObj
+	return decklistJsonObj
 
 def repackageRawFilters(rawFilters):
-    """
-    Repackage the incoming raw filters and make them pretty and readable.
-    For reference on what keys/values may be present in rawFilters, check
-    the docstring for handleFilterCards().
-    """
+	"""
+	Repackage the incoming raw filters and make them pretty and readable.
+	For reference on what keys/values may be present in rawFilters, check
+	the docstring for handleFilterCards().
+	"""
 
-    filters = {}
-    card_type = ""
-    pirate_code = ""
-    pirate_types = [""]
-    crew = None
-    effect_text = ""
-    firepower = None
-    firepower_relativity = None
+	filters = {}
+	card_type = ""
+	pirate_code = ""
+	pirate_types = [""]
+	crew = None
+	effect_text = ""
+	firepower = None
+	firepower_relativity = None
 
-    # In case we ever decide to filter inclusively, I'll leave this here
-    # if "show_boom" in rawFilters:
-    #     pirate_codes.append('boom')
-    # if "show_deep_sea" in rawFilters:
-    #     pirate_codes.append('deep_sea')
-    # if "show_heavy_metal" in rawFilters:
-    #     pirate_codes.append('heavy_metal')
-    # if "show_tropical" in rawFilters:
-    #     pirate_codes.append('tropical')
-    # if "show_juju" in rawFilters:
-    #     pirate_codes.append('juju')
+	# In case we ever decide to filter inclusively, I'll leave this here
+	# if "show_boom" in rawFilters:
+	#     pirate_codes.append('boom')
+	# if "show_deep_sea" in rawFilters:
+	#     pirate_codes.append('deep_sea')
+	# if "show_heavy_metal" in rawFilters:
+	#     pirate_codes.append('heavy_metal')
+	# if "show_tropical" in rawFilters:
+	#     pirate_codes.append('tropical')
+	# if "show_juju" in rawFilters:
+	#     pirate_codes.append('juju')
 
-    if "card_type" in rawFilters:
-        card_type = rawFilters["card_type"]
+	if "card_type" in rawFilters:
+		card_type = rawFilters["card_type"]
 
-    if "pirate_code" in rawFilters:
-        pirate_code = rawFilters["pirate_code"]
+	if "pirate_code" in rawFilters:
+		pirate_code = rawFilters["pirate_code"]
 
-    if "pirate_type" in rawFilters:
-        pirate_types_no_spaces = rawFilters["pirate_type"].replace(" ", "")
-        pirate_types_lowercase = pirate_types_no_spaces.lower()
-        pirate_types = pirate_types_lowercase.split(",")
+	if "pirate_type" in rawFilters:
+		pirate_types_no_spaces = rawFilters["pirate_type"].replace(" ", "")
+		pirate_types_lowercase = pirate_types_no_spaces.lower()
+		pirate_types = pirate_types_lowercase.split(",")
 
-    if "effect_text" in rawFilters:
-        effect_text = rawFilters["effect_text"]
+	if "effect_text" in rawFilters:
+		effect_text = rawFilters["effect_text"]
 
-    if "firepower" in rawFilters:
-        try:
-            firepower = int(rawFilters["firepower"])
-        except:
-            print("Firepower not an integer")
+	if "firepower" in rawFilters:
+		try:
+			firepower = int(rawFilters["firepower"])
+		except:
+			print("Firepower not an integer")
 
-    if "firepower_relativity" in rawFilters:
+	if "firepower_relativity" in rawFilters:
 
-        firepower_relativity = rawFilters["firepower_relativity"]
+		firepower_relativity = rawFilters["firepower_relativity"]
 
-    if "crew" in rawFilters:
+	if "crew" in rawFilters:
 
-        if rawFilters["crew"] != "None":
+		if rawFilters["crew"] != "None":
 
-            crew = rawFilters["crew"]
+			crew = rawFilters["crew"]
 
-    filters["card_type"] = card_type
-    filters["pirate_code"] = pirate_code
-    filters["pirate_types"] = pirate_types
-    filters["effect_text"] = effect_text
-    filters["firepower"] = firepower
-    filters["firepower_relativity"] = firepower_relativity
-    filters["crew"] = crew
+	filters["card_type"] = card_type
+	filters["pirate_code"] = pirate_code
+	filters["pirate_types"] = pirate_types
+	filters["effect_text"] = effect_text
+	filters["firepower"] = firepower
+	filters["firepower_relativity"] = firepower_relativity
+	filters["crew"] = crew
 
-    return filters
+	return filters
 
 def filterCards(cards, filters):
-    """
-    This function uses the filters to only pluck out the cards that satisfy the filters
-    and returning that json object.
+	"""
+	This function uses the filters to only pluck out the cards that satisfy the filters
+	and returning that json object.
 
-    It creates a copy of all of the cards, them removes anything from the copy that doesn't pass the filter(s)
+	It creates a copy of all of the cards, them removes anything from the copy that doesn't pass the filter(s)
 
-    """
+	"""
 
-    filtered_cards = cards.copy()
+	filtered_cards = cards.copy()
 
-    for card_name, card_info in cards.items():
+	for card_name, card_info in cards.items():
 
-        # Some cards are experimental and are not to be publicly known. These cards will be automatically removed
-        # from the general fetch unless the "experimental" type is specifically searched for
-        if "experimental" not in filters["pirate_types"]:
+		# Some cards are experimental and are not to be publicly known. These cards will be automatically removed
+		# from the general fetch unless the "experimental" type is specifically searched for
+		if "experimental" not in filters["pirate_types"]:
 
-            if "pirate_types" in card_info and "experimental" in card_info["pirate_types"]:
+			if "pirate_types" in card_info and "experimental" in card_info["pirate_types"]:
 
-                del filtered_cards[card_name]
+				del filtered_cards[card_name]
 
-        if filters["card_type"] != "":
+		if filters["card_type"] != "":
 
-            if card_info["card_type"] != filters["card_type"]:
+			if card_info["card_type"] != filters["card_type"]:
 
-                if card_name in filtered_cards:
+				if card_name in filtered_cards:
 
-                    del filtered_cards[card_name]
+					del filtered_cards[card_name]
 
-        if filters["pirate_code"] != "":
+		if filters["pirate_code"] != "":
 
-            if "pirate_code" not in card_info or card_info["pirate_code"] != filters["pirate_code"]:
+			if "pirate_code" not in card_info or card_info["pirate_code"] != filters["pirate_code"]:
 
-                if card_name in filtered_cards:
+				if card_name in filtered_cards:
 
-                    del filtered_cards[card_name]
+					del filtered_cards[card_name]
 
-        if filters["effect_text"] != "":
+		if filters["effect_text"] != "":
 
-            # When we compare the text that the user submitted against the name of pirates, we need to replace all the spaces with underscores
+			# When we compare the text that the user submitted against the name of pirates, we need to replace all the spaces with underscores
 
-            raw_searched_name = filters["effect_text"].lower()
-            edited_searched_name = raw_searched_name.replace( " ", "_" )
+			raw_searched_name = filters["effect_text"].lower()
+			edited_searched_name = raw_searched_name.replace( " ", "_" )
 
-            if filters["effect_text"].lower() not in card_info["effect_text"].lower() and edited_searched_name not in card_info["name"]:
+			if filters["effect_text"].lower() not in card_info["effect_text"].lower() and edited_searched_name not in card_info["name"]:
 
-                if card_name in filtered_cards:
+				if card_name in filtered_cards:
 
-                    del filtered_cards[card_name]
+					del filtered_cards[card_name]
 
-        if filters["pirate_types"] != [""]:
+		if filters["pirate_types"] != [""]:
 
-            type_1 = filters["pirate_types"][0]
+			type_1 = filters["pirate_types"][0]
 
-            if "pirate_types" not in card_info or type_1 not in card_info["pirate_types"]:
+			if "pirate_types" not in card_info or type_1 not in card_info["pirate_types"]:
 
-                if card_name in filtered_cards:
+				if card_name in filtered_cards:
 
-                    del filtered_cards[card_name]
+					del filtered_cards[card_name]
 
-            if len(filters["pirate_types"]) > 1:
+			if len(filters["pirate_types"]) > 1:
 
-                type_2 = filters["pirate_types"][1]
+				type_2 = filters["pirate_types"][1]
 
-                if type_2 not in card_info["pirate_types"]:
+				if type_2 not in card_info["pirate_types"]:
 
-                    if card_name in filtered_cards:
+					if card_name in filtered_cards:
 
-                        del filtered_cards[card_name]
+						del filtered_cards[card_name]
 
-        if filters["firepower"] != None:
+		if filters["firepower"] != None:
 
-            if "firepower" not in card_info:
+			if "firepower" not in card_info:
 
-                    if card_name in filtered_cards:
+					if card_name in filtered_cards:
 
-                        del filtered_cards[card_name]
+						del filtered_cards[card_name]
 
-            else:
+			else:
 
-                if card_info["firepower"] == "X":
+				if card_info["firepower"] == "X":
 
-                    card_info["firepower"] = "0"
+					card_info["firepower"] = "0"
 
-                card_info["firepower"] = int(card_info["firepower"])
+				card_info["firepower"] = int(card_info["firepower"])
 
-                if filters["firepower_relativity"] == "firepower_equal":
+				if filters["firepower_relativity"] == "firepower_equal":
 
-                    if card_info["firepower"] != filters["firepower"]:
+					if card_info["firepower"] != filters["firepower"]:
 
-                        if card_name in filtered_cards:
+						if card_name in filtered_cards:
 
-                            del filtered_cards[card_name]
+							del filtered_cards[card_name]
 
-                elif filters["firepower_relativity"] == "firepower_lower":
+				elif filters["firepower_relativity"] == "firepower_lower":
 
-                    if card_info["firepower"] >= filters["firepower"]:
+					if card_info["firepower"] >= filters["firepower"]:
 
-                        if card_name in filtered_cards:
+						if card_name in filtered_cards:
 
-                            del filtered_cards[card_name]
+							del filtered_cards[card_name]
 
-                elif filters["firepower_relativity"] == "firepower_higher":
+				elif filters["firepower_relativity"] == "firepower_higher":
 
-                    if card_info["firepower"] <= filters["firepower"]:
+					if card_info["firepower"] <= filters["firepower"]:
 
-                        if card_name in filtered_cards:
+						if card_name in filtered_cards:
 
-                            del filtered_cards[card_name]
+							del filtered_cards[card_name]
 
-        if filters["crew"] != None:
+		if filters["crew"] != None:
 
-            if "crew" not in card_info:
+			if "crew" not in card_info:
 
-                if card_name in filtered_cards:
+				if card_name in filtered_cards:
 
-                    del filtered_cards[card_name]
+					del filtered_cards[card_name]
 
-            else:
+			else:
 
-                for crew in card_info["crew"]:
+				for crew in card_info["crew"]:
 
-                    if crew != filters["crew"]:
+					if crew != filters["crew"]:
 
-                        if card_name in filtered_cards:
+						if card_name in filtered_cards:
 
-                            del filtered_cards[card_name]
+							del filtered_cards[card_name]
 
-    return filtered_cards
+	return filtered_cards

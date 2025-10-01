@@ -137,19 +137,24 @@ def handleImportDeck(message):
 
     response = {}
 
-    decklist_file = message["decklist_file"]
+    decklist_as_string = message["decklist_as_string"]
 
     # parsed_decklist is a dict of "card_name": quantity
-    parsed_decklist = parseImportedDecklist(decklist_file)
+    parsed_decklist = parseImportedDecklist(decklist_as_string)
 
-    # This obj contains stuff like pirate type, backURL, basically everything needed for front end other than quantity.
-    full_decklist_without_quantity = getCardList(imported_decklist=parsed_decklist)
+    final_decklist = {}
 
-    for card_name, card_info in full_decklist_without_quantity.items():
+    for card_name in parsed_decklist:
+
+        card_info_without_effect = getCardList(specificCardName=card_name)
+
+        final_decklist[card_name] = card_info_without_effect
+
+    for card_name, card_info in final_decklist.items():
 
         # To get the quantity, we can just match up the name of the card with the matching name in the imported decklist
         card_info["quantity"] = parsed_decklist[card_name]
 
-    response["imported_decklist"] = full_decklist_without_quantity # Note that at this point it actually does have quantity
+    response["imported_decklist"] = final_decklist
 
     return response

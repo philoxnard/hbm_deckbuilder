@@ -33,6 +33,15 @@ function handleImportDecklist(json) {
 
 	imported_decklist = json["imported_decklist"]
 
+	if ( imported_decklist == "error" ) {
+
+		alert("Error importing decklist")
+		return
+
+	}
+
+
+
 	for (const [card_name, card_info] of Object.entries(imported_decklist)) {
 
 		storeCardInLocalStorage(card_info)

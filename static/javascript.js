@@ -361,7 +361,7 @@ function buildCrew() {
 }
 
 
-async function importDeckList() {
+function importDeckList() {
 
     const file = fileInput.files[0]; // Get the selected file
     if (!file) {
@@ -391,8 +391,16 @@ async function importDeckList() {
 
     let command = "command_import_decklist"
 
+    const reader = new FileReader();
+
+    if (file) {
+        reader.readAsText(file);
+    }
+
+    let decklist_as_string = reader.result
+
     message["command"] = command
-    message["decklist_file"] = file
+    message["decklist_as_string"] = decklist_as_string
 
     send(message)
 }
