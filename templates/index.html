@@ -30,6 +30,7 @@
 				LINUX: ~/.local/share/Tabletop Simulator/Saves/Saved Object<br><br>
 			</div>
 			<div class="export_button">
+				<input id='import_file_id' type='file' hidden/>
 				<button id="export_button" title="Upload either TTS format or plain text format" onclick="importDeckList()">Import Decklist</button>
 				<button id="export_button" onclick="exportDeckList('json')">Export for TTS</button>
 				<button id="export_button" onclick="exportDeckList('text')">Export Plain Text</button>

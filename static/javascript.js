@@ -363,6 +363,8 @@ function buildCrew() {
 
 function importDeckList() {
 
+    $("#import_file_id").click();
+
     const file = fileInput.files[0]; // Get the selected file
     if (!file) {
         console.log('No file selected.');
@@ -370,7 +372,7 @@ function importDeckList() {
     }
 
     // Get file extension, ensure its json or txt
-    const parts = filename.split('.');
+    const parts = file.name.split('.');
     if (parts.length > 1) { // Ensure there's actually an extension
         const extension = parts.pop();
         if ( extension != "json" && extension != "txt" ) {
