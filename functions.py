@@ -22,7 +22,9 @@ def getCardList(filters=None, specificCardName=None):
 
 	if specificCardName != None:
 
-		return cards[specificCardName] #NOTE: Not a list, this is just one card object
+		card_info = cards[specificCardName]
+		del card_info["effect_text"]
+		return card_info #NOTE: Not a list, this is just one card object
 
 	# NOTE: In order to display stuff on the GUI, we need to remove effect text from the card
 	#       object because its just too long - because we basically store the whole card
@@ -64,7 +66,8 @@ def parseImportedDecklist(importedDecklistString):
 
 def parsePlainTextDecklist(importedDecklistString):
 
-	lines = importedDecklistString.splitlines()
+	# lines = importedDecklistString.splitlines()
+	lines = importedDecklistString.split("\n")
 
 	decklist = {}
 
@@ -73,8 +76,11 @@ def parsePlainTextDecklist(importedDecklistString):
 		for line in lines:
 
 			stripped_line = line.replace('\n', '').replace('\t', '')
-			if "Shanties:" in stripped_line or "Ships:" in stripped_line or "Pirates:" in stripped_line:
+			if "Shanties:" in stripped_line or "Ships:" in stripped_line or "Pirates:" in stripped_line or "NONE" in stripped_line:
 				continue
+
+			if stripped_line == "" or stripped_line == " " or stripped_line == "\n" or stripped_line == "\t":
+					continue
 
 			parts = stripped_line.split(' ', 1) # Separate quantity from card name
 
@@ -84,18 +90,18 @@ def parsePlainTextDecklist(importedDecklistString):
 			characters_to_replace = [" ", ". ", "."] # special case for mr. manty
 			for character in characters_to_replace:
 				# Replace "_" or "." with " " so it's prettier for human eyes
-				edited_card_name = raw_card_name.replace( character, "_" )
+				raw_card_name = raw_card_name.replace( character, "_" )
 
 			# Remove apostraphes and other punctuation
 			characters_to_remove = ["!", ",", "'", "B.H.G.", "(", ")"] # special case for big heckin gull
 			for character in characters_to_remove:
-				edited_card_name = edited_card_name.replace(character, "")
+				raw_card_name = raw_card_name.replace(character, "")
 
-			lowercase_card_name = edited_card_name.lower()
+			lowercase_card_name = raw_card_name.lower()
 
 			final_card_name = lowercase_card_name.rstrip() # Needed for shipside shelling corp and prob just good to have
 
-			decklist[final_card_name] = quantity
+			decklist[final_card_name] = int(quantity)
 
 	except:
 

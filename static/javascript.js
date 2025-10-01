@@ -389,7 +389,7 @@ function importDeckList() {
         return ''; // No extension found
     }
 
-    if ( file.size > 10000 ) {
+    if ( file.size > 100000 ) {
         alert("File too large")
         return
     }
