@@ -21,7 +21,7 @@ def handleOnLoad(message):
 
     response["cards"] = cards
     response["filters"] = filters
-    response["version"] = "2.4.3"
+    response["version"] = "2.4.6"
     response["result"] = "Success"
 
     return response
@@ -141,6 +141,12 @@ def handleImportDeck(message):
 
     # parsed_decklist is a dict of "card_name": quantity
     parsed_decklist = parseImportedDecklist(decklist_as_string)
+
+    if parsed_decklist == "error":
+
+        response["imported_decklist"] = parsed_decklist
+
+        return response
 
     final_decklist = {}
 
