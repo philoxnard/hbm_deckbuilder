@@ -133,7 +133,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "super",
-            "robot"
+            "robot",
+            "experimental"
         ]
     },
     "avian_airship": {
@@ -145,7 +146,10 @@
         "crew": {
             "starter_ships": 1
         },
-        "pirate_code": "deep_sea"
+        "pirate_code": "deep_sea",
+        "pirate_types": [
+            "experimental"
+        ]
     },
     "ba_ba_buccaneer": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -298,7 +302,8 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "bug-ish",
-            "soldier"
+            "soldier",
+            "experimental"
         ]
     },
     "calculegend": {
@@ -347,7 +352,8 @@
         },
         "pirate_code": "boom",
         "pirate_types": [
-            "explosive"
+            "explosive",
+            "experimental"
         ]
     },
     "cannon_floof": {
@@ -363,7 +369,8 @@
         },
         "pirate_types": [
             "toy",
-            "animal"
+            "animal",
+            "experimental"
         ]
     },
     "cannonball_cruiser": {
@@ -390,7 +397,8 @@
             "heavy_metal_crew": 3
         },
         "pirate_types": [
-            "robot"
+            "robot",
+            "experimental"
         ]
     },
     "caskmaster": {
@@ -468,7 +476,10 @@
             "mystical": 3
         },
         "effect_text": "Equip to a Pirate. That Pirate gets +2. When this card is destroyed you may Free Play a card from your hand or draw a card.",
-        "name": "crows_nest_coffee"
+        "name": "crows_nest_coffee",
+        "pirate_types": [
+            "experimental"
+        ]
     },
     "crustacean_carrier": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
@@ -510,7 +521,8 @@
             "heavy_metal_crew": 3
         },
         "pirate_types": [
-            "robot"
+            "robot",
+            "experimental"
         ]
     },
     "dagger_of_the_deep": {
@@ -764,7 +776,10 @@
             "valiant_shores": 3
         },
         "effect_text": "Equip to a friendly Pirate. If this card is destroyed, you may choose to either 1) pick one of your opponent's Pirates to destroy or 2) your opponent picks two of their Pirates to destroy.",
-        "name": "gunpowder_shackles"
+        "name": "gunpowder_shackles",
+        "pirate_types": [
+            "experimental"
+        ]
     },
     "hacker_of_halyard_rig": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -797,7 +812,8 @@
         "pirate_code": "juju",
         "pirate_types": [
             "mythic",
-            "colossal"
+            "colossal",
+            "experimental"
         ]
     },
     "hangmans_barge": {
@@ -867,7 +883,8 @@
         "pirate_code": "deep_sea",
         "pirate_types": [
             "mythic",
-            "armor"
+            "armor",
+            "experimental"
         ]
     },
     "heavy_metal_shanty_rock": {
@@ -1227,7 +1244,8 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "bug-ish",
-            "flying"
+            "flying",
+            "experimental"
         ]
     },
     "monkey_bones": {
@@ -1265,7 +1283,10 @@
             "fearless": 3
         },
         "effect_text": "Cannot be played as a Hidden Shanty. Equip to a Pirate. That Pirate's Firepower is multiplied by the number of Pirates on the Ship opposite.",
-        "name": "monster_musketoon"
+        "name": "monster_musketoon",
+        "pirate_types": [
+            "experimental"
+        ]
     },
     "mooring_monk": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1473,7 +1494,10 @@
             "deep_sea_crew": 3
         },
         "effect_text": "Search your Poop Deck for a Deep Sea (blue) card to bring to your hand. Then you may equip this card to a Deep Sea Pirate at Sea (if able). They get +5.",
-        "name": "pirate_life_blue"
+        "name": "pirate_life_blue",
+        "pirate_types": [
+            "experimental"
+        ]
     },
     "pirate_life_orange": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1483,7 +1507,10 @@
             "tropical_crew": 3
         },
         "effect_text": "Search your Poop Deck for a Tropical (orange) card to bring to your hand. Then you may equip this card to a Tropical Pirate at Sea (if able). They get +5.",
-        "name": "pirate_life_orange"
+        "name": "pirate_life_orange",
+        "pirate_types": [
+            "experimental"
+        ]
     },
     "pirate_life_purple": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1493,7 +1520,10 @@
             "juju_crew": 3
         },
         "effect_text": "Search your Poop Deck for a Juju (purple) card to bring to your hand. Then you may equip this card to a Juju Pirate at Sea (if able). They get +5.",
-        "name": "pirate_life_purple"
+        "name": "pirate_life_purple",
+        "pirate_types": [
+            "experimental"
+        ]
     },
     "pirate_life_red": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1503,7 +1533,10 @@
             "boom_crew": 3
         },
         "effect_text": "Search your Poop Deck for a BOOM (red) card to bring to your hand. Then you may equip this card to a BOOM Pirate at Sea (if able). They get +5.",
-        "name": "pirate_life_red"
+        "name": "pirate_life_red",
+        "pirate_types": [
+            "experimental"
+        ]
     },
     "pirate_life_silver": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1513,7 +1546,10 @@
             "heavy_metal_crew": 3
         },
         "effect_text": "Search your Poop Deck for a Heavy Metal (silver) card to bring to your hand. Then you may equip this card to a Heavy Metal Pirate at Sea (if able). They get +5.",
-        "name": "pirate_life_silver"
+        "name": "pirate_life_silver",
+        "pirate_types": [
+            "experimental"
+        ]
     },
     "platypirate": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1544,7 +1580,8 @@
         },
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "toy"
+            "toy",
+            "experimental"
         ]
     },
     "popcolonels": {
@@ -1561,7 +1598,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "plant",
-            "soldier"
+            "soldier",
+            "experimental"
         ]
     },
     "pterror_deck": {
@@ -1759,7 +1797,8 @@
         "name": "scallywag_cyber",
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "science"
+            "science",
+            "experimental"
         ]
     },
     "scallywag_cyber_2_0": {
@@ -1775,7 +1814,8 @@
         },
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "science"
+            "science",
+            "experimental"
         ]
     },
     "scarpion_treasure_bug": {
@@ -1965,7 +2005,10 @@
         "crew": {
             "starter_ships": 1
         },
-        "pirate_code": "juju"
+        "pirate_code": "juju",
+        "pirate_types": [
+            "experimental"
+        ]
     },
     "skull_of_the_shipasaurus": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
@@ -2326,7 +2369,10 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_7238ed13b1924c4497f6027dcd229c06~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_003.png",
         "card_type": "shanty",
         "effect_text": "When played and after each Order, this card equips itself to the Pirate at Sea with the highest available Firepower. It remains on a tie or if unable to move. After played, each subsequent time it equips to a new Pirate, that player gets a bonus Order. This card is only destroyed during High Tide.",
-        "name": "the_sunken_crown"
+        "name": "the_sunken_crown",
+        "pirate_types": [
+            "experimental"
+        ]
     },
     "the_vacation_demon": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -2372,7 +2418,8 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "???"
+            "???",
+            "experimental"
         ]
     },
     "treasuratops": {
@@ -2512,7 +2559,8 @@
         "pirate_code": "juju",
         "pirate_types": [
             "mythic",
-            "ghost"
+            "ghost",
+            "experimental"
         ]
     },
     "yo_ho_hero": {
