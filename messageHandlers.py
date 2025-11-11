@@ -19,9 +19,13 @@ def handleOnLoad(message):
 
     filters = getFilters()
 
+    # Read version from file
+    with open("version.txt", "r") as version_file:
+        version = version_file.read().strip()
+
     response["cards"] = cards
     response["filters"] = filters
-    response["version"] = "2.4.7"
+    response["version"] = version
     response["result"] = "Success"
 
     return response

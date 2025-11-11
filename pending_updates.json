@@ -1,0 +1,67 @@
+[
+  {
+    "display_name": "Avian Airship",
+    "snake_case_name": "avian_airship",
+    "image_url": "https://static.wixstatic.com/media/b7f019_db9097dc153e4df289428ccda3e2583e~mv2.png/v1/fill/w_750,h_1048,al_c,q_95,enc_auto/hbm_cards_for_print_tts_ships_001.png"
+  },
+  {
+    "display_name": "Skeletal Sloop",
+    "snake_case_name": "skeletal_sloop",
+    "image_url": "https://static.wixstatic.com/media/b7f019_c53651c10ae34da490e00aa04f220425~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_ships_001.png"
+  },
+  {
+    "display_name": "Gunpowder Sage: Blast Mode",
+    "snake_case_name": "gunpowder_sage_blast_mode",
+    "image_url": "https://static.wixstatic.com/media/b7f019_d77853b9cabb40a99b04c5e154ce5e23~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_boom_001.png"
+  },
+  {
+    "display_name": "Seadog Squid",
+    "snake_case_name": "seadog_squid",
+    "image_url": "https://static.wixstatic.com/media/b7f019_98c33774eaf84644a4259643e4ba2da9~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_deep_sea_001.png"
+  },
+  {
+    "display_name": "The Icemoor",
+    "snake_case_name": "the_icemoor",
+    "image_url": "https://static.wixstatic.com/media/b7f019_6353f461ec8f44028a0ed2f43395aafd~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_deep_sea_002.png"
+  },
+  {
+    "display_name": "Captain Lazerbeard",
+    "snake_case_name": "captain_lazerbeard",
+    "image_url": "https://static.wixstatic.com/media/b7f019_526f232d91af4fe98d098ba0af52cf76~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_heavy_metal_001.png"
+  },
+  {
+    "display_name": "Flotsamstein",
+    "snake_case_name": "flotsamstein",
+    "image_url": "https://static.wixstatic.com/media/b7f019_ddf607558fbd41fb81298d94fc32d073~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_001.png"
+  },
+  {
+    "display_name": "Davy Jones' Abomination",
+    "snake_case_name": "davy_jones_abomination",
+    "image_url": "https://static.wixstatic.com/media/b7f019_d57c49bafac84b86afd91c19ad50f0b9~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_002.png"
+  },
+  {
+    "display_name": "Spectral Dutchman",
+    "snake_case_name": "spectral_dutchman",
+    "image_url": "https://static.wixstatic.com/media/b7f019_2dda535f22b448e5b51d7513ee6d625d~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_003.png"
+  },
+  {
+    "display_name": "Weredolphin",
+    "snake_case_name": "weredolphin",
+    "image_url": "https://static.wixstatic.com/media/b7f019_e21c69714a9f4d3f957f2c9a91ce7dad~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_004.png"
+  },
+  {
+    "display_name": "Bumble Smee",
+    "snake_case_name": "bumble_smee",
+    "image_url": "https://static.wixstatic.com/media/b7f019_2b74c93995df4cb38347c501c40771aa~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_tropical_001.png"
+  },
+  {
+    "display_name": "Seal of the Crossed Bones",
+    "snake_case_name": "seal_of_the_crossed_bones",
+    "image_url": "https://static.wixstatic.com/media/b7f019_f98d504ffb4e408cb942a583bb31db66~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_001.png"
+  },
+  {
+    "display_name": "Monster Musketoon",
+    "snake_case_name": "monster_musketoon",
+    "image_url": "https://static.wixstatic.com/media/b7f019_759d9a69cd514b05a9ec44b56568aa17~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_001.png"
+  }
+]

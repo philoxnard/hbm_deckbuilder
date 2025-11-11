@@ -290,10 +290,10 @@
     },
     "bumble_smee": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_65dda9185ccf4c7a9c32feed16f7ebf0~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_tropical_001.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_2b74c93995df4cb38347c501c40771aa~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_tropical_001.png",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "WHEN DESTROYED pick an enemy pirate to destroy. If there's nothing to destroy your opponent must discard a card.",
+        "effect_text": "WHEN PLAYED pick one other Pirate. That is the 'Queen'. All friendly 'Bumble Smee' cannot be destroyed by card effect. All friendly 'Bumble Smee' are destroyed when the 'Queen' is destroyed.",
         "firepower": "2",
         "name": "bumble_smee",
         "crew": {
@@ -386,11 +386,11 @@
     },
     "captain_lazerbeard": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_1a4b4f3078ba48e0af2187185581d622~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_heavy_metal_001.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_526f232d91af4fe98d098ba0af52cf76~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_heavy_metal_001.png",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "WHILE AT SEA this card gets +2 for every Pirate in your DJL.",
-        "firepower": "2",
+        "effect_text": "WHILE AT SEA if this card is in the front row of its Ship, then it gets +2 for every Pirate in your DJL when you're Searching for the Treasure. If it's in the back row, then this happens when your opponent Searches for the Treasure.",
+        "firepower": "X",
         "name": "captain_lazerbeard",
         "pirate_code": "heavy_metal",
         "crew": {
@@ -537,11 +537,11 @@
     },
     "davy_jones_abomination": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_7ccb1d1166a0418186cf02d46d73f19b~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_002.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_d57c49bafac84b86afd91c19ad50f0b9~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_002.png",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "WHEN PLAYED pick one Pirate in your opponent's DJL and activate its WHEN PLAYED effect (if able), then remove that card from the game.",
-        "firepower": "4",
+        "effect_text": "WHILE AT SEA any Pirate that is destroyed instead goes underneath this card. This card's base Firepower is equal to the total printed Firepower of all cards underneath.",
+        "firepower": "0",
         "name": "davy_jones_abomination",
         "crew": {
             "world_ender": 2
@@ -679,11 +679,11 @@
     },
     "flotsamstein": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_2c95dc594c6f4a71a271a36362807d64~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_003.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_ddf607558fbd41fb81298d94fc32d073~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_001.png",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "WHEN PLAYED take the top card from all players DJLs and place it under this card. That is this Pirate's Firepower.",
-        "firepower": "X",
+        "effect_text": "WHEN PLAYED pick one Pirate in your opponent's DJL and activate its WHEN PLAYED effect (if able), then remove that card from the game.",
+        "firepower": "4",
         "crew": {
             "final_seas": 3
         },
@@ -752,11 +752,11 @@
     },
     "gunpowder_sage_blast_mode": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_3477f1217c7142859c5ff0ecd3daba9f~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_boom_004.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_d77853b9cabb40a99b04c5e154ce5e23~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_boom_001.png",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "BOARDING RESTRICTION: May only be played on top of a \"Gunpowder Sage\" I 17. This card gets +10 for every exhausted Ship at Sea.",
-        "firepower": "X",
+        "effect_text": "BOARDING RESTRICTION: May only be played instead of taking your Free Draw at the start of your turn. Must be played on top of a 'Gunpowder Sage' ||7. This card gets +20 for every exhausted Ship at Sea.",
+        "firepower": "7",
         "name": "gunpowder_sage_blast_mode",
         "pirate_code": "boom",
         "crew": {
@@ -1277,12 +1277,12 @@
     },
     "monster_musketoon": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_a22ad3dd852f450ca89dbc8919c9c9df~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_001.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_759d9a69cd514b05a9ec44b56568aa17~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_001.png",
         "card_type": "shanty",
         "crew": {
             "fearless": 3
         },
-        "effect_text": "Cannot be played as a Hidden Shanty. Equip to a Pirate. That Pirate's Firepower is multiplied by the number of Pirates on the Ship opposite.",
+        "effect_text": "Cannot be played as a Hidden Shanty. Equip to a Pirate. That Pirate gets x2 for every Pirate on the Ship opposite.",
         "name": "monster_musketoon",
         "pirate_types": [
             "experimental"
@@ -1875,10 +1875,10 @@
     },
     "seadog_squid": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_9fb7881f207c498e9a089e69d7e57c60~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_deep_sea_002.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_98c33774eaf84644a4259643e4ba2da9~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_deep_sea_001.png",
         "card_type": "pirate",
-        "effect_text": "WHEN PLAYED you may move any \"Equip to\" Shanties or Hidden Shanties at Sea (friendly or not) to different targets (if able).",
-        "firepower": "2",
+        "effect_text": "WHILE AT SEA anytime a Shanty is played you may move one 'Equip to' Shanty to another Pirate/Ship (if able), even between players.",
+        "firepower": "0",
         "name": "seadog_squid",
         "pirate_code": "deep_sea",
         "crew": {
@@ -1891,7 +1891,7 @@
     },
     "seal_of_the_crossed_bones": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_6bdaaef889584fdfa82f4596aa6ae120~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_005.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_f98d504ffb4e408cb942a583bb31db66~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_001.png",
         "card_type": "shanty",
         "crew": {
             "world_ender": 3
@@ -1899,7 +1899,7 @@
         "pirate_types": [
             "experimental"
         ],
-        "effect_text": "Equip to a Ship. Until the start of your next turn all Shanties, Hidden Shanties and Ship effects on the Ship across from this are ignored for gameplay purposes. Then this is destroyed.",
+        "effect_text": "Equip to a Ship. All Shanties, Hidden Shanties and Ship effects on the Ship across from this are ignored for gameplay purposes.",
         "name": "seal_of_the_crossed_bones"
     },
     "seawolf_torpedos": {
@@ -1998,9 +1998,9 @@
     },
     "skeletal_sloop": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_f2f4cc1b6fbc4312abda70d0e8ba09d2~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_ships_001.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_c53651c10ae34da490e00aa04f220425~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_ships_001.png",
         "card_type": "ship",
-        "effect_text": "Once a Game Turn, when a Pirate with no effect Boards this Ship, you may play a Shanty/Hidden Shanty from your Crew Locker. At the end of the turn remove it from the game.",
+        "effect_text": "Once a Game Turn, when a Pirate with no effect Boards this Ship, you may play a Shanty/Hidden Shanty from your Davy Jones' Locker. If that Shanty would be destroyed, instead remove it from the game.",
         "name": "skeletal_sloop",
         "crew": {
             "starter_ships": 1
@@ -2023,10 +2023,10 @@
     },
     "spectral_dutchman": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_32beda8e31364f2d8e2e7f3e0c5dfd31~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_004.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_2dda535f22b448e5b51d7513ee6d625d~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_003.png",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "WHILE AT SEA anytime this card would be destroyed by card effect it instead remains and gains a permanent x2.",
+        "effect_text": "WHILE AT SEA this card can only be sent to DJL by High Tide. Any other time it would be destroyed it instead keeps its position on the Ship and gains a permanent x2.",
         "firepower": "3",
         "name": "spectral_dutchman",
         "crew": {
@@ -2242,9 +2242,9 @@
     },
     "the_icemoor": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_fd05989ddd9f41398db938607e79aa6c~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_deep_sea_002.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_6353f461ec8f44028a0ed2f43395aafd~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_deep_sea_002.png",
         "card_type": "pirate",
-        "effect_text": "WHILE AT SEA if one of your Ships is Sunk, the Pirates/Shanties aboard are destroyed, but you may choose for the Ship to remain. Once this card is destroyed that Ship immediately Sinks.",
+        "effect_text": "WHILE AT SEA if a friendly Ship is Sunk, you may choose for the cards aboard to remain, filling the space with the next Ship in your Shipyard. Once this card is destroyed all saved cards are immediately destroyed too.",
         "firepower": "2",
         "name": "the_icemoor",
         "pirate_code": "deep_sea",
@@ -2530,11 +2530,11 @@
     },
     "weredolphin": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_8e9d4c1cef1e464d82e4b651d0cea0fe~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_005.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_e21c69714a9f4d3f957f2c9a91ce7dad~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_004.png",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "WHILE AT SEA if there are more Shanties/Hidden Shanties at sea (friendly or not) than the number of this Pirate's Shipmates, then this card gets +20.",
-        "firepower": "0",
+        "effect_text": "WHILE AT SEA unless there are more Shanties/Hidden Shanties at sea (friendly or not) than the number of this Pirate's Shipmates, this card is a +0.",
+        "firepower": "20",
         "name": "weredolphin",
         "crew": {
             "privateer_alliance": 2
