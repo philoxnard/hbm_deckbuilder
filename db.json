@@ -133,8 +133,7 @@
         "pirate_code": "boom",
         "pirate_types": [
             "super",
-            "robot",
-            "experimental"
+            "robot"
         ]
     },
     "avian_airship": {
@@ -146,10 +145,7 @@
         "crew": {
             "starter_ships": 1
         },
-        "pirate_code": "deep_sea",
-        "pirate_types": [
-            "experimental"
-        ]
+        "pirate_code": "deep_sea"
     },
     "ba_ba_buccaneer": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -290,11 +286,11 @@
     },
     "bumble_smee": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_2b74c93995df4cb38347c501c40771aa~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_tropical_001.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_2155f76032414b249f3871bb7a2ec7cf~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_tropical_001.png",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "WHEN PLAYED pick one other Pirate. That is the 'Queen'. All friendly 'Bumble Smee' cannot be destroyed by card effect. All friendly 'Bumble Smee' are destroyed when the 'Queen' is destroyed.",
-        "firepower": "2",
+        "effect_text": "While this card is in your hand, you may set it aside at the end of your turn. Until the start of your next turn, if your opponent(s) play any Pirate with greater Firepower than this card then you may immediately Free Play this card. If they do not, you must spend an Order to play it as soon as able.",
+        "firepower": "8",
         "name": "bumble_smee",
         "crew": {
             "tropical_crew": 3
@@ -302,8 +298,7 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "bug-ish",
-            "soldier",
-            "experimental"
+            "soldier"
         ]
     },
     "calculegend": {
@@ -352,8 +347,7 @@
         },
         "pirate_code": "boom",
         "pirate_types": [
-            "explosive",
-            "experimental"
+            "explosive"
         ]
     },
     "cannon_floof": {
@@ -369,8 +363,7 @@
         },
         "pirate_types": [
             "toy",
-            "animal",
-            "experimental"
+            "animal"
         ]
     },
     "cannonball_cruiser": {
@@ -386,19 +379,18 @@
     },
     "captain_lazerbeard": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_526f232d91af4fe98d098ba0af52cf76~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_heavy_metal_001.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_c87bf05b2bd148c4b018ac1ce95bf925~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_heavy_metal_001.png",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "WHILE AT SEA if this card is in the front row of its Ship, then it gets +2 for every Pirate in your DJL when you're Searching for the Treasure. If it's in the back row, then this happens when your opponent Searches for the Treasure.",
-        "firepower": "X",
+        "effect_text": "WHILE AT SEA this card gets +2 for every Pirate in your Davy Jones' Locker.",
+        "firepower": "-10",
         "name": "captain_lazerbeard",
         "pirate_code": "heavy_metal",
         "crew": {
             "heavy_metal_crew": 3
         },
         "pirate_types": [
-            "robot",
-            "experimental"
+            "robot"
         ]
     },
     "caskmaster": {
@@ -462,9 +454,6 @@
         "crew": {
             "privateer_alliance": 3
         },
-        "pirate_types": [
-            "experimental"
-        ],
         "effect_text": "Equip to a Ship. The next three Pirates your opponent plays get boarded on the Ship of your choosing (following boarding rules, including that it needs to be one of theirs).",
         "name": "confused_crew"
     },
@@ -476,10 +465,7 @@
             "mystical": 3
         },
         "effect_text": "Equip to a Pirate. That Pirate gets +2. When this card is destroyed you may Free Play a card from your hand or draw a card.",
-        "name": "crows_nest_coffee",
-        "pirate_types": [
-            "experimental"
-        ]
+        "name": "crows_nest_coffee"
     },
     "crustacean_carrier": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
@@ -521,8 +507,7 @@
             "heavy_metal_crew": 3
         },
         "pirate_types": [
-            "robot",
-            "experimental"
+            "robot"
         ]
     },
     "dagger_of_the_deep": {
@@ -549,21 +534,17 @@
         "pirate_code": "juju",
         "pirate_types": [
             "mythic",
-            "not-dead",
-            "experimental"
+            "not-dead"
         ]
     },
     "deal_with_the_broadside_devil": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_0af6fba5368c4893ab90c00df52132cf~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_008.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_671a13d29dcf4a9f83ddabff4a3d36ef~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_001.png",
         "card_type": "shanty",
         "crew": {
             "boom_crew": 2
         },
-        "pirate_types": [
-            "experimental"
-        ],
-        "effect_text": "Equip to a Ship. Anytime one of your Ships would be Sunk, you may instead discard the top 10 cards from your Poop Deck to prevent it sinking, and then destroy this card.",
+        "effect_text": "SURPRISE! When one of your Ships would be Sunk, you may prevent it from sinking by discarding the top 10 cards from your Poop Deck. You may then Free Play one of the discarded cards.\n\n*Only 3 SURPRISE! Cards allowed per Poop Deck.",
         "name": "deal_with_the_broadside_devil"
     },
     "deckstroyer_mk_iii": {
@@ -610,9 +591,6 @@
         "crew": {
             "vacation_beach": 3
         },
-        "pirate_types": [
-            "experimental"
-        ],
         "effect_text": "Equip to a Ship. Remove one pirate from that Ship and set it off to the side of the Ship. The Pirate's effect is ignored, but its printed firepower counts towards your total Firepower. This card can only be destroyed if \"Doombeard's Cutlass\" is destroyed or via High Tide.",
         "name": "doombeards_cutlass"
     },
@@ -657,8 +635,7 @@
         "pirate_code": "boom",
         "pirate_types": [
             "mythic",
-            "flying",
-            "experimental"
+            "flying"
         ]
     },
     "flintlock_fury": {
@@ -679,19 +656,18 @@
     },
     "flotsamstein": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_ddf607558fbd41fb81298d94fc32d073~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_001.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_10adaae826a44f97b032ed2ae1a1d730~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_001.png",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "WHEN PLAYED pick one Pirate in your opponent's DJL and activate its WHEN PLAYED effect (if able), then remove that card from the game.",
-        "firepower": "4",
+        "effect_text": "BOARDING RESTRICTION: may only be played once you have 10 or more cards in your DJL.",
+        "firepower": "15",
         "crew": {
             "final_seas": 3
         },
         "name": "flotsamstein",
         "pirate_code": "juju",
         "pirate_types": [
-            "not-dead",
-            "experimental"
+            "not-dead"
         ]
     },
     "forgotten_fleet": {
@@ -752,11 +728,11 @@
     },
     "gunpowder_sage_blast_mode": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_d77853b9cabb40a99b04c5e154ce5e23~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_boom_001.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_86a83081961040538774ac3d948e20fd~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_boom_001.png",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "BOARDING RESTRICTION: May only be played instead of taking your Free Draw at the start of your turn. Must be played on top of a 'Gunpowder Sage' ||7. This card gets +20 for every exhausted Ship at Sea.",
-        "firepower": "7",
+        "effect_text": "BOARDING RESTRICTION: Must be played on top of a \"Gunpowder Sage\" 117. This card gets +20 for every exhausted Ship at Sea.",
+        "firepower": "X",
         "name": "gunpowder_sage_blast_mode",
         "pirate_code": "boom",
         "crew": {
@@ -764,8 +740,7 @@
         },
         "pirate_types": [
             "explosive",
-            "super",
-            "experimental"
+            "super"
         ]
     },
     "gunpowder_shackles": {
@@ -776,10 +751,7 @@
             "valiant_shores": 3
         },
         "effect_text": "Equip to a friendly Pirate. If this card is destroyed, you may choose to either 1) pick one of your opponent's Pirates to destroy or 2) your opponent picks two of their Pirates to destroy.",
-        "name": "gunpowder_shackles",
-        "pirate_types": [
-            "experimental"
-        ]
+        "name": "gunpowder_shackles"
     },
     "hacker_of_halyard_rig": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -812,8 +784,7 @@
         "pirate_code": "juju",
         "pirate_types": [
             "mythic",
-            "colossal",
-            "experimental"
+            "colossal"
         ]
     },
     "hangmans_barge": {
@@ -883,8 +854,7 @@
         "pirate_code": "deep_sea",
         "pirate_types": [
             "mythic",
-            "armor",
-            "experimental"
+            "armor"
         ]
     },
     "heavy_metal_shanty_rock": {
@@ -913,8 +883,7 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "bug-ish",
-            "experimental"
+            "bug-ish"
         ]
     },
     "hermit_crawlers": {
@@ -956,8 +925,7 @@
         },
         "pirate_code": "deep_sea",
         "pirate_types": [
-            "flying",
-            "experimental"
+            "flying"
         ]
     },
     "jolly_rodish": {
@@ -1011,11 +979,11 @@
     },
     "kickus_cactus": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_eeb77db8a1a643208ad3a3bdfa49e210~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_tropical_004.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_39d4cc8aeb854ef48fa1679be9fb64c6~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_tropical_002.png",
         "card_art": "",
         "card_type": "pirate",
         "effect_text": "WHEN DESTROYED you may move one pirate (friendly or not) to another Ship. If a Crew is Completed no Cannons are Fired.",
-        "firepower": "2",
+        "firepower": "4",
         "name": "kickus_cactus",
         "crew": {
             "outlaw_dynasty": 3
@@ -1023,8 +991,7 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "authority",
-            "plant",
-            "experimental"
+            "plant"
         ]
     },
     "kommodore_kong": {
@@ -1244,8 +1211,7 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "bug-ish",
-            "flying",
-            "experimental"
+            "flying"
         ]
     },
     "monkey_bones": {
@@ -1283,10 +1249,7 @@
             "fearless": 3
         },
         "effect_text": "Cannot be played as a Hidden Shanty. Equip to a Pirate. That Pirate gets x2 for every Pirate on the Ship opposite.",
-        "name": "monster_musketoon",
-        "pirate_types": [
-            "experimental"
-        ]
+        "name": "monster_musketoon"
     },
     "mooring_monk": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1494,10 +1457,7 @@
             "deep_sea_crew": 3
         },
         "effect_text": "Search your Poop Deck for a Deep Sea (blue) card to bring to your hand. Then you may equip this card to a Deep Sea Pirate at Sea (if able). They get +5.",
-        "name": "pirate_life_blue",
-        "pirate_types": [
-            "experimental"
-        ]
+        "name": "pirate_life_blue"
     },
     "pirate_life_orange": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1507,10 +1467,7 @@
             "tropical_crew": 3
         },
         "effect_text": "Search your Poop Deck for a Tropical (orange) card to bring to your hand. Then you may equip this card to a Tropical Pirate at Sea (if able). They get +5.",
-        "name": "pirate_life_orange",
-        "pirate_types": [
-            "experimental"
-        ]
+        "name": "pirate_life_orange"
     },
     "pirate_life_purple": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1520,10 +1477,7 @@
             "juju_crew": 3
         },
         "effect_text": "Search your Poop Deck for a Juju (purple) card to bring to your hand. Then you may equip this card to a Juju Pirate at Sea (if able). They get +5.",
-        "name": "pirate_life_purple",
-        "pirate_types": [
-            "experimental"
-        ]
+        "name": "pirate_life_purple"
     },
     "pirate_life_red": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1533,10 +1487,7 @@
             "boom_crew": 3
         },
         "effect_text": "Search your Poop Deck for a BOOM (red) card to bring to your hand. Then you may equip this card to a BOOM Pirate at Sea (if able). They get +5.",
-        "name": "pirate_life_red",
-        "pirate_types": [
-            "experimental"
-        ]
+        "name": "pirate_life_red"
     },
     "pirate_life_silver": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1546,10 +1497,7 @@
             "heavy_metal_crew": 3
         },
         "effect_text": "Search your Poop Deck for a Heavy Metal (silver) card to bring to your hand. Then you may equip this card to a Heavy Metal Pirate at Sea (if able). They get +5.",
-        "name": "pirate_life_silver",
-        "pirate_types": [
-            "experimental"
-        ]
+        "name": "pirate_life_silver"
     },
     "platypirate": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1580,8 +1528,7 @@
         },
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "toy",
-            "experimental"
+            "toy"
         ]
     },
     "popcolonels": {
@@ -1598,8 +1545,7 @@
         "pirate_code": "boom",
         "pirate_types": [
             "plant",
-            "soldier",
-            "experimental"
+            "soldier"
         ]
     },
     "pterror_deck": {
@@ -1797,8 +1743,7 @@
         "name": "scallywag_cyber",
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "science",
-            "experimental"
+            "science"
         ]
     },
     "scallywag_cyber_2_0": {
@@ -1814,8 +1759,7 @@
         },
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "science",
-            "experimental"
+            "science"
         ]
     },
     "scarpion_treasure_bug": {
@@ -1885,8 +1829,7 @@
             "valiant_shores": 2
         },
         "pirate_types": [
-            "sea-thing",
-            "experimental"
+            "sea-thing"
         ]
     },
     "seal_of_the_crossed_bones": {
@@ -1896,9 +1839,6 @@
         "crew": {
             "world_ender": 3
         },
-        "pirate_types": [
-            "experimental"
-        ],
         "effect_text": "Equip to a Ship. All Shanties, Hidden Shanties and Ship effects on the Ship across from this are ignored for gameplay purposes.",
         "name": "seal_of_the_crossed_bones"
     },
@@ -1959,8 +1899,7 @@
         "name": "shiver_me_timberers",
         "pirate_code": "tropical",
         "pirate_types": [
-            "wild",
-            "experimental"
+            "wild"
         ]
     },
     "shogun_scourge": {
@@ -2005,10 +1944,7 @@
         "crew": {
             "starter_ships": 1
         },
-        "pirate_code": "juju",
-        "pirate_types": [
-            "experimental"
-        ]
+        "pirate_code": "juju"
     },
     "skull_of_the_shipasaurus": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
@@ -2023,10 +1959,10 @@
     },
     "spectral_dutchman": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
-        "FaceURL": "https://static.wixstatic.com/media/b7f019_2dda535f22b448e5b51d7513ee6d625d~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_003.png",
+        "FaceURL": "https://static.wixstatic.com/media/b7f019_1ad7667bbe474756b121956acdc8859e~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_juju_002.png",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "WHILE AT SEA this card can only be sent to DJL by High Tide. Any other time it would be destroyed it instead keeps its position on the Ship and gains a permanent x2.",
+        "effect_text": "WHILE AT SEA this card can only be sent to DJL by High Tide. Any other time it would be destroyed it instead keeps its position and gains a permanent x2.",
         "firepower": "3",
         "name": "spectral_dutchman",
         "crew": {
@@ -2035,8 +1971,7 @@
         "pirate_code": "juju",
         "pirate_types": [
             "sword",
-            "ghost",
-            "experimental"
+            "ghost"
         ]
     },
     "spinnaker_spud": {
@@ -2091,8 +2026,7 @@
         "pirate_code": "heavy_metal",
         "pirate_types": [
             "science",
-            "???",
-            "experimental"
+            "???"
         ]
     },
     "sunrise_supplies": {
@@ -2171,8 +2105,7 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "plant",
-            "experimental"
+            "plant"
         ]
     },
     "the_art_of_marooning": {
@@ -2209,8 +2142,7 @@
         },
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "vehicle",
-            "experimental"
+            "vehicle"
         ]
     },
     "the_grand_old_seaworth": {
@@ -2252,8 +2184,7 @@
             "deep_sea_crew": 3
         },
         "pirate_types": [
-            "wild",
-            "experimental"
+            "wild"
         ]
     },
     "the_legendary_flamighydra": {
@@ -2369,10 +2300,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_7238ed13b1924c4497f6027dcd229c06~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_003.png",
         "card_type": "shanty",
         "effect_text": "When played and after each Order, this card equips itself to the Pirate at Sea with the highest available Firepower. It remains on a tie or if unable to move. After played, each subsequent time it equips to a new Pirate, that player gets a bonus Order. This card is only destroyed during High Tide.",
-        "name": "the_sunken_crown",
-        "pirate_types": [
-            "experimental"
-        ]
+        "name": "the_sunken_crown"
     },
     "the_vacation_demon": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -2418,8 +2346,7 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "???",
-            "experimental"
+            "???"
         ]
     },
     "treasuratops": {
@@ -2483,8 +2410,7 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "plant",
-            "not-dead",
-            "experimental"
+            "not-dead"
         ]
     },
     "urchin_virus_ultra": {
@@ -2541,8 +2467,7 @@
         },
         "pirate_code": "juju",
         "pirate_types": [
-            "mythic",
-            "experimental"
+            "mythic"
         ]
     },
     "ye_olde_ferry_fox": {
@@ -2559,8 +2484,7 @@
         "pirate_code": "juju",
         "pirate_types": [
             "mythic",
-            "ghost",
-            "experimental"
+            "ghost"
         ]
     },
     "yo_ho_hero": {
