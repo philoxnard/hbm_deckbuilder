@@ -1598,12 +1598,12 @@
         "crew": {
             "juju_crew": 3
         },
-        "effect_text": "Search your Poop Deck for a Juju (purple) card to bring to your hand. Then you may equip this card to a Juju Pirate at Sea (if able). They get +5.",
-        "name": "pirate_life_purple"
-    },
         "pirate_types": [
             "advanced"
         ],
+        "effect_text": "Search your Poop Deck for a Juju (purple) card to bring to your hand. Then you may equip this card to a Juju Pirate at Sea (if able). They get +5.",
+        "name": "pirate_life_purple"
+    },
     "pirate_life_red": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_b6e4ec16c0ee4ab69963be6cd7df2f0e~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_001.png",

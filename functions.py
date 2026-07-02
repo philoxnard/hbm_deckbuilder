@@ -599,7 +599,8 @@ def filterCards(cards, filters):
 
 			if "pirate_types" in card_info and "experimental" in card_info["pirate_types"]:
 
-				del filtered_cards[card_name]
+				if card_name in filtered_cards:
+					del filtered_cards[card_name]
 
 		# Some cards are advanced and are not yet to be publicly known. These cards will be automatically removed
 		# from the general fetch unless the "advanced" type is specifically searched for
@@ -607,7 +608,8 @@ def filterCards(cards, filters):
 
 			if "pirate_types" in card_info and "advanced" in card_info["pirate_types"]:
 
-				del filtered_cards[card_name]
+				if card_name in filtered_cards:
+					del filtered_cards[card_name]
 
 		if filters["card_type"] != "":
 

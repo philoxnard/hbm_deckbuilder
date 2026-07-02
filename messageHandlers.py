@@ -15,7 +15,7 @@ def handleOnLoad(message):
 
     response = {}
 
-    cards = getCardList()
+    cards = getCardList(repackageRawFilters({}))
 
     filters = getFilters()
 
