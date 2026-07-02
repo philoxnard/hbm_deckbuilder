@@ -306,8 +306,8 @@ function submitFilters() {
     // if ( $( boom_checkbox ).is( ":checked" ) ) {
     //     json_message["show_boom"] = true
     // }
-    // if ( $( deep_sea_checkbox ).is( ":checked" ) ) {
-    //     json_message["show_deep_sea"] = true
+    // if ( $( salty_checkbox ).is( ":checked" ) ) {
+    //     json_message["show_salty"] = true
     // }
     // if ( $( heavy_metal_checkbox ).is( ":checked" ) ) {
     //     json_message["show_heavy_metal"] = true
@@ -315,8 +315,8 @@ function submitFilters() {
     // if ( $( tropical_checkbox ).is( ":checked" ) ) {
     //     json_message["show_tropical"] = true
     // }
-    // if ( $( juju_checkbox ).is( ":checked" ) ) {
-    //     json_message["show_juju"] = true
+    // if ( $( spoooooky_checkbox ).is( ":checked" ) ) {
+    //     json_message["show_spoooooky"] = true
     // }
 
     json_message["card_type"] = $('input[name="card_type"]:checked').val()
@@ -514,17 +514,17 @@ function drawFilters(filters) {
     $("#filter_modal_column_1").append("<span class='filter_header'>PIRATE CODE:</span><br>")
 
     // Can keep these in case we decide to filter inclusively
-    // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="juju_checkbox" name="juju" value="juju"><label for="juju">Juju</label><br>')
-    // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="deep_sea_checkbox" name="deep_sea" value="deep_sea"><label for="deep_sea">Deep Sea</label><br>')
+    // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="spoooooky_checkbox" name="spoooooky" value="spoooooky"><label for="spoooooky">SpoOOooky</label><br>')
+    // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="salty_checkbox" name="salty" value="salty"><label for="salty">Salty</label><br>')
     // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="heavy_metal_checkbox" name="heavy_metal" value="heavy_metal"><label for="heavy_metal">Heavy Metal</label><br>')
     // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="tropical_checkbox" name="tropical" value="tropical"><label for="tropical">Tropical</label><br>')
     // $("#filter_modal_column_1").append('<input class="code_checkbox" type="checkbox" id="boom_checkbox" name="boom" value="boom"><label for="boom">Boom</label><br>')
 
     $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="boom" name="pirate_code" value="boom"><label for="boom">Boom</label><br>')
-    $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="juju" name="pirate_code" value="juju"><label for="juju">Juju</label><br>')
+    $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="spoooooky" name="pirate_code" value="spoooooky"><label for="spoooooky">SpoOOooky</label><br>')
     $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="tropical" name="pirate_code" value="tropical"><label for="tropical">Tropical</label><br>')
     $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="heavy_metal" name="pirate_code" value="heavy_metal"><label for="heavy_metal">Heavy Metal</label><br>')
-    $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="deep_sea" name="pirate_code" value="deep_sea"><label for="deep_sea">Deep Sea</label><br><br>')
+    $("#filter_modal_column_1").append('<input class="pirate_code_radio" type="radio" id="salty" name="pirate_code" value="salty"><label for="salty">Salty</label><br><br>')
 
     $("#filter_modal_column_1").append("<span class='filter_header'>PIRATE TYPE:</span><br>")
     $("#filter_modal_column_1").append("<input type='text' id='pirate_type_input' name='pirate_type_input'>")
@@ -551,7 +551,7 @@ function drawFilters(filters) {
     $("#filter_modal_column_2").append("<input type='text' id='firepower_filter' name='firepower_filter'><br><br>")
 
     $("#filter_modal_column_2").append("<span class='filter_header'>CREW:</span><br>")
-    $("#filter_modal_column_2").append("<select name='crew_filter' id='crew_filter'><option value='None'>None</option><option value='starter_ships'>Starter Ships</option><option value='high_seas_ships'>High Seas Ships</option><option value='starter'>Starter</option><option value='fearless'>Fearless</option><option value='clever'>Clever</option><option value='mystical'>Mystical</option><option value='boom_crew'>BOOM</option><option value='deep_sea_crew'>Deap Sea</option><option value='heavy_metal_crew'>Heavy Metal</option><option value='tropical_crew'>Tropical</option><option value='juju_crew'>Juju</option><option value='gotcha'>Gotcha!</option><option value='world_ender'>World Ender</option><option value='valiant_shores'>Valiant Shores</option><option value='privateer_alliance'>Privateer Alliance</option><option value='final_seas'>Final Seas</option><option value='outlaw_dynasty'>Outlaw Dynasty</option><option value='vacation_beach'>Vacation Beach</option></select>")
+    $("#filter_modal_column_2").append("<select name='crew_filter' id='crew_filter'><option value='None'>None</option><option value='starter_ships'>Starter Ships</option><option value='high_seas_ships'>High Seas Ships</option><option value='starter'>Starter</option><option value='fearless'>Fearless</option><option value='clever'>Clever</option><option value='mystical'>Mystical</option><option value='boom_crew'>BOOM</option><option value='salty_crew'>Salty</option><option value='heavy_metal_crew'>Heavy Metal</option><option value='tropical_crew'>Tropical</option><option value='spoooooky_crew'>SpoOOooky</option><option value='gotcha'>Gotcha!</option><option value='world_ender'>World Ender</option><option value='valiant_shores'>Valiant Shores</option><option value='privateer_alliance'>Privateer Alliance</option><option value='final_seas'>Final Seas</option><option value='outlaw_dynasty'>Outlaw Dynasty</option><option value='vacation_beach'>Vacation Beach</option></select>")
 
     $("#filter_modal_column_2").append("<button id='filter_button' onclick='submitFilters()'>Filter Cards</button>")
 

@@ -4,8 +4,8 @@ DATABASE_FILEPATH = "db.json"
 # List of all of the things that players can filter by
 FILTER_DICT = [
     "boom",
-    "juju",
-    "deep sea",
+    "spoooooky",
+    "salty",
     "heavy metal",
     "tropical",
     "pirate",

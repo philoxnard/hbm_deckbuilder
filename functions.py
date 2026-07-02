@@ -531,14 +531,14 @@ def repackageRawFilters(rawFilters):
 	# In case we ever decide to filter inclusively, I'll leave this here
 	# if "show_boom" in rawFilters:
 	#     pirate_codes.append('boom')
-	# if "show_deep_sea" in rawFilters:
-	#     pirate_codes.append('deep_sea')
+	# if "show_salty" in rawFilters:
+	#     pirate_codes.append('salty')
 	# if "show_heavy_metal" in rawFilters:
 	#     pirate_codes.append('heavy_metal')
 	# if "show_tropical" in rawFilters:
 	#     pirate_codes.append('tropical')
-	# if "show_juju" in rawFilters:
-	#     pirate_codes.append('juju')
+	# if "show_spoooooky" in rawFilters:
+	#     pirate_codes.append('spoooooky')
 
 	if "card_type" in rawFilters:
 		card_type = rawFilters["card_type"]

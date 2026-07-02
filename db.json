@@ -9,7 +9,7 @@
         "effect_text": "when played: the game turn after this, running the blockade costs you 2 orders.",
         "firepower": "2",
         "name": "abyss_battalion",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "soldier"
         ]
@@ -66,7 +66,7 @@
         "effect_text": "while at sea at the start of your turn, you may choose to give up your free draw in exchange for an extra order.",
         "firepower": "4",
         "name": "anemone_silver_of_the_dozen_blades",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "crew": {
             "privateer_alliance": 2
         },
@@ -120,9 +120,9 @@
         "firepower": "3",
         "name": "arg_angel",
         "crew": {
-            "juju_crew": 3
+            "spoooooky_crew": 3
         },
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "divine",
             "advanced"
@@ -155,7 +155,7 @@
         "crew": {
             "starter_ships": 1
         },
-        "pirate_code": "deep_sea"
+        "pirate_code": "salty"
     },
     "ba_ba_buccaneer": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -221,7 +221,7 @@
         "crew": {
             "valiant_shores": 3
         },
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "mythic",
             "advanced"
@@ -252,7 +252,7 @@
         "effect_text": "while at sea when this card has a hidden shanty or \u201cequip\u201d card attached to it, it gets x2.",
         "firepower": "4",
         "name": "bootstrap_berserker",
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "wild"
         ]
@@ -280,7 +280,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_e5bf85266f9c4dad8e0d504490a59ae8~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_030.jpeg",
         "card_type": "shanty",
         "crew": {
-            "juju_crew": 3
+            "spoooooky_crew": 3
         },
         "pirate_types": [
             "advanced"
@@ -353,7 +353,7 @@
         "crew": {
             "world_ender": 3
         },
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "ghost",
             "advanced"
@@ -383,9 +383,9 @@
         "effect_text": "WHEN PLAYED take the top card of your Poop Deck and Free Play it (you cannot play another Pirate via card effect for the rest of the player turn).",
         "firepower": "0",
         "name": "cannon_floof",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "crew": {
-            "deep_sea_crew": 3
+            "salty_crew": 3
         },
         "pirate_types": [
             "toy",
@@ -444,7 +444,7 @@
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_2e750fd8db4744b3ad485098554e83eb~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_008.jpeg",
         "card_type": "ship",
-        "effect_text": "all deep sea (blue) pirates on this ship get +5.",
+        "effect_text": "all salty (blue) pirates on this ship get +5.",
         "name": "coast_cutter",
         "crew": {
             "high_seas_ships": 1
@@ -452,7 +452,7 @@
         "pirate_types": [
             "advanced"
         ],
-        "pirate_code": "deep_sea"
+        "pirate_code": "salty"
     },
     "coco_cannon": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
@@ -574,7 +574,7 @@
         "crew": {
             "world_ender": 2
         },
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "mythic",
             "not-dead",
@@ -630,9 +630,9 @@
         "firepower": "2",
         "name": "doctor_croctor",
         "crew": {
-            "juju_crew": 3
+            "spoooooky_crew": 3
         },
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "???",
             "advanced"
@@ -727,7 +727,7 @@
             "final_seas": 3
         },
         "name": "flotsamstein",
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "not-dead",
             "advanced"
@@ -745,7 +745,7 @@
         "pirate_types": [
             "advanced"
         ],
-        "pirate_code": "juju"
+        "pirate_code": "spoooooky"
     },
     "gladiator_gold": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -854,7 +854,7 @@
             "final_seas": 3
         },
         "name": "hangkor_lord_of_gallows",
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "mythic",
             "colossal",
@@ -873,7 +873,7 @@
         "pirate_types": [
             "advanced"
         ],
-        "pirate_code": "juju"
+        "pirate_code": "spoooooky"
     },
     "harbinger_of_pyrocy": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -899,9 +899,9 @@
         "effect_text": "when played if your opponent has double, or more, pirates at sea than you, bring one of your opponent\u2019s pirates over to the ship this pirate is on, if able.",
         "firepower": "3",
         "name": "harbor_harpy",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "crew": {
-            "deep_sea_crew": 3
+            "salty_crew": 3
         },
         "pirate_types": [
             "mythic",
@@ -913,7 +913,7 @@
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_f85780da0fd642188e69e894bfa93daf~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_032.jpeg",
         "card_type": "ship",
-        "effect_text": "every time a juju (purple) pirate boards this ship, draw a card.",
+        "effect_text": "every time a SpoOOooky (purple) pirate boards this ship, draw a card.",
         "name": "haunted_hauler",
         "crew": {
             "high_seas_ships": 1
@@ -921,7 +921,7 @@
         "pirate_types": [
             "advanced"
         ],
-        "pirate_code": "juju"
+        "pirate_code": "spoooooky"
     },
     "headwind_hero_of_land-ho": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -933,7 +933,7 @@
         "crew": {
             "valiant_shores": 3
         },
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "mythic",
             "armor",
@@ -1006,9 +1006,9 @@
         "firepower": "3",
         "name": "jay_sparrows",
         "crew": {
-            "deep_sea_crew": 3
+            "salty_crew": 3
         },
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "flying",
             "advanced"
@@ -1041,7 +1041,7 @@
         "crew": {
             "outlaw_dynasty": 3
         },
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "animal",
             "advanced"
@@ -1202,9 +1202,9 @@
         "firepower": "0",
         "name": "madame_crossed_bones",
         "crew": {
-            "juju_crew": 3
+            "spoooooky_crew": 3
         },
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "???",
             "authority",
@@ -1367,7 +1367,7 @@
         "effect_text": "when played you may board a pirate with no effect from your davy jones' locker onto this pirate's ship.",
         "firepower": "0",
         "name": "mooring_monk",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "divine"
         ]
@@ -1383,7 +1383,7 @@
         "crew": {
             "privateer_alliance": 3
         },
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "bug-ish",
             "mythic",
@@ -1401,7 +1401,7 @@
         "effect_text": "when played you may free play a hidden shanty.",
         "firepower": "2",
         "name": "mr_manty_and_his_magical_hat",
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "sea-thing",
             "???"
@@ -1418,7 +1418,7 @@
         "crew": {
             "outlaw_dynasty": 3
         },
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "mythic",
             "notdead",
@@ -1434,7 +1434,7 @@
         "crew": {
             "starter_ships": 1
         },
-        "pirate_code": "deep_sea"
+        "pirate_code": "salty"
     },
     "navigator_nuts": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1443,9 +1443,9 @@
         "effect_text": "when played you may immediately swap one ship at sea with a ship from your dock deck (replacing all pirates and shanties on the new ship).",
         "firepower": "0",
         "name": "navigator_nuts",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "crew": {
-            "deep_sea_crew": 3
+            "salty_crew": 3
         },
         "pirate_types": [
             "animal",
@@ -1471,7 +1471,7 @@
         "crew": {
             "starter_ships": 1
         },
-        "pirate_code": "deep_sea"
+        "pirate_code": "salty"
     },
     "oar_angutan": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1493,7 +1493,7 @@
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_d8160c23ed5a4f6cb03aeb8f9816c63d~mv2.jpeg/v1/fill/w_750,h_1048,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_009.jpeg",
         "card_type": "ship",
-        "effect_text": "everytime a deep sea (blue) pirate boards this ship, draw a card.",
+        "effect_text": "everytime a salty (blue) pirate boards this ship, draw a card.",
         "name": "ocean_keep",
         "crew": {
             "high_seas_ships": 1
@@ -1501,7 +1501,7 @@
         "pirate_types": [
             "advanced"
         ],
-        "pirate_code": "deep_sea"
+        "pirate_code": "salty"
     },
     "paladin_of_the_far_horizon": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1514,7 +1514,7 @@
         "effect_text": "no effect.",
         "firepower": "6",
         "name": "paladin_of_the_far_horizon",
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "divine",
             "armor"
@@ -1543,7 +1543,7 @@
         "effect_text": "when played on the following turn, your opponent can\u2019t run the blockade.",
         "firepower": "2",
         "name": "peglegasus",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "mythic",
             "flying"
@@ -1559,7 +1559,7 @@
         "crew": {
             "vacation_beach": 3
         },
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "sea-thing",
             "advanced"
@@ -1570,12 +1570,12 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_17b2a56a67454731969194d11dddce33~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_002.png",
         "card_type": "shanty",
         "crew": {
-            "deep_sea_crew": 3
+            "salty_crew": 3
         },
         "pirate_types": [
             "advanced"
         ],
-        "effect_text": "Search your Poop Deck for a Deep Sea (blue) card to bring to your hand. Then you may equip this card to a Deep Sea Pirate at Sea (if able). They get +5.",
+        "effect_text": "Search your Poop Deck for a Salty (blue) card to bring to your hand. Then you may equip this card to a Salty Pirate at Sea (if able). They get +5.",
         "name": "pirate_life_blue"
     },
     "pirate_life_orange": {
@@ -1596,12 +1596,12 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_7e3c20694e8d4e359a3403be4983be51~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_005.png",
         "card_type": "shanty",
         "crew": {
-            "juju_crew": 3
+            "spoooooky_crew": 3
         },
         "pirate_types": [
             "advanced"
         ],
-        "effect_text": "Search your Poop Deck for a Juju (purple) card to bring to your hand. Then you may equip this card to a Juju Pirate at Sea (if able). They get +5.",
+        "effect_text": "Search your Poop Deck for a SpoOOooky (purple) card to bring to your hand. Then you may equip this card to a SpoOOooky Pirate at Sea (if able). They get +5.",
         "name": "pirate_life_purple"
     },
     "pirate_life_red": {
@@ -1721,7 +1721,7 @@
         "effect_text": "while at sea when you or your opponent reveals a hidden shanty, you may destroy this card.  then it counts as if you played a second copy of that shanty.",
         "firepower": "2",
         "name": "pumpkidd",
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "???",
             "plant"
@@ -1738,7 +1738,7 @@
         "effect_text": "no effect.",
         "firepower": "5",
         "name": "purgatory_parrot",
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "flying",
             "notdead"
@@ -1753,7 +1753,7 @@
         "crew": {
             "starter_ships": 1
         },
-        "pirate_code": "juju"
+        "pirate_code": "spoooooky"
     },
     "pyrannosaurus_rex": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1811,7 +1811,7 @@
         "effect_text": "when played pick a pirate at sea (friendly or not) and send them back to their owner\u2019s hand.",
         "firepower": "2",
         "name": "reef_ronin",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "sword",
             "sea-thing"
@@ -1826,7 +1826,10 @@
         "crew": {
             "high_seas_ships": 1
         },
-        "pirate_code": "deep_sea"
+        "pirate_types": [
+            "advanced"
+        ],
+        "pirate_code": "salty"
     },
     "sailor_boom": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1865,7 +1868,7 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_547148d14f8641a680510f5c7b313771~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_33_018.jpeg",
         "card_type": "shanty",
         "crew": {
-            "deep_sea_crew": 2
+            "salty_crew": 2
         },
         "pirate_types": [
             "advanced"
@@ -1946,7 +1949,7 @@
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_3b8047a150a6414aaeb0301336bf3079~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_ships_33_031.jpeg",
         "card_type": "ship",
-        "effect_text": "all juju (purple) pirates on this ship get +5.",
+        "effect_text": "all SpoOOooky (purple) pirates on this ship get +5.",
         "name": "sea_u_gator",
         "crew": {
             "high_seas_ships": 1
@@ -1954,7 +1957,7 @@
         "pirate_types": [
             "advanced"
         ],
-        "pirate_code": "juju"
+        "pirate_code": "spoooooky"
     },
     "seacove_smuggler_co": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
@@ -1968,7 +1971,7 @@
         "pirate_types": [
             "advanced"
         ],
-        "pirate_code": "deep_sea"
+        "pirate_code": "salty"
     },
     "seadog_squid": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -1977,7 +1980,7 @@
         "effect_text": "WHILE AT SEA anytime a Shanty is played you may move one 'Equip to' Shanty to another Pirate/Ship (if able), even between players.",
         "firepower": "0",
         "name": "seadog_squid",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "crew": {
             "valiant_shores": 2
         },
@@ -2083,12 +2086,12 @@
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_422a9ead12e345309dccdced0e42f5e4~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_deep_sea_1_005.jpeg",
         "card_type": "pirate",
-        "effect_text": "boarding restriction: costs 2 orders. at the end of your turn destroy all pirates on the ship this boards, unless they are deep sea, then you may instead board them on any open spaces on your other ships.",
+        "effect_text": "boarding restriction: costs 2 orders. at the end of your turn destroy all pirates on the ship this boards, unless they are salty, then you may instead board them on any open spaces on your other ships.",
         "firepower": "15",
         "name": "shrimpviathen_aka_jumbo_shrimp",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "crew": {
-            "deep_sea_crew": 3
+            "salty_crew": 3
         },
         "pirate_types": [
             "colossal",
@@ -2105,7 +2108,7 @@
         "crew": {
             "starter_ships": 1
         },
-        "pirate_code": "juju"
+        "pirate_code": "spoooooky"
     },
     "skull_of_the_shipasaurus": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_5dc4cbadf29e484cb6c74fa6ba987ce2~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_002.jpeg",
@@ -2130,9 +2133,9 @@
         "firepower": "3",
         "name": "spectral_dutchman",
         "crew": {
-            "juju_crew": 1
+            "spoooooky_crew": 1
         },
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "sword",
             "ghost",
@@ -2163,7 +2166,7 @@
         "effect_text": "Boarding restriction: you need at least five friendly pirates at sea",
         "firepower": "11",
         "name": "sponge_barbarian",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "wild",
             "sea-thing"
@@ -2215,9 +2218,9 @@
         "effect_text": "no effect.\n",
         "firepower": "5",
         "name": "big_heckin_gull",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "crew": {
-            "deep_sea_crew": 2
+            "salty_crew": 2
         },
         "pirate_types": [
             "flying",
@@ -2351,7 +2354,7 @@
         "effect_text": "while at sea this pirate gets +2 for every shanty in your davy jones\u2019 locker.",
         "firepower": "4",
         "name": "the_greater_sand_witch",
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "???"
         ]
@@ -2363,9 +2366,9 @@
         "effect_text": "WHILE AT SEA if a friendly Ship is Sunk, you may choose for the cards aboard to remain, filling the space with the next Ship in your Shipyard. Once this card is destroyed all saved cards are immediately destroyed too.",
         "firepower": "2",
         "name": "the_icemoor",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "crew": {
-            "deep_sea_crew": 3
+            "salty_crew": 3
         },
         "pirate_types": [
             "wild",
@@ -2432,13 +2435,13 @@
         "FaceURL": "https://static.wixstatic.com/media/b7f019_148a9a5b8790418ba5733c6906ccad11~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_juju_33_019.jpeg",
         "card_art": "",
         "card_type": "pirate",
-        "effect_text": "boarding restriction: costs 2 orders. at the end of your turn destroy all pirates on the ship this boards, unless they are juju, then you may instead board them on any open spaces on your other ships.",
+        "effect_text": "boarding restriction: costs 2 orders. at the end of your turn destroy all pirates on the ship this boards, unless they are SpoOOooky, then you may instead board them on any open spaces on your other ships.",
         "firepower": "15",
         "name": "the_plankwalker",
         "crew": {
-            "juju_crew": 3
+            "spoooooky_crew": 3
         },
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "colossal",
             "sea-thing",
@@ -2454,9 +2457,9 @@
         "firepower": "1",
         "name": "the_seastress",
         "crew": {
-            "juju_crew": 3
+            "spoooooky_crew": 3
         },
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "???",
             "advanced"
@@ -2488,7 +2491,7 @@
         "crew": {
             "starter_ships": 1
         },
-        "pirate_code": "deep_sea"
+        "pirate_code": "salty"
     },
     "the_sunken_crown": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
@@ -2527,7 +2530,7 @@
         "effect_text": "while at sea all pirates on the ship this pirate is on cannot be destroyed, moved or returned to your hand directly by card effects.",
         "firepower": "3",
         "name": "topgallant_knight",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "armor"
         ]
@@ -2638,7 +2641,7 @@
         "effect_text": "when played exhaust one of your opponent\u2019s ships.",
         "firepower": "1",
         "name": "wave_in_a_bottle",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "???"
         ]
@@ -2653,7 +2656,7 @@
         "effect_text": "no effect.\n",
         "firepower": "6",
         "name": "wave_wolf",
-        "pirate_code": "deep_sea",
+        "pirate_code": "salty",
         "pirate_types": [
             "animal",
             "wild"
@@ -2670,7 +2673,7 @@
         "crew": {
             "privateer_alliance": 2
         },
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "mythic",
             "advanced"
@@ -2685,9 +2688,9 @@
         "firepower": "3",
         "name": "ye_olde_ferry_fox",
         "crew": {
-            "juju_crew": 3
+            "spoooooky_crew": 3
         },
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "mythic",
             "ghost",
@@ -2722,7 +2725,7 @@
         "effect_text": "when destroyed, during your next turn, board this pirate on a friendly ship.",
         "firepower": "0",
         "name": "zombuoy",
-        "pirate_code": "juju",
+        "pirate_code": "spoooooky",
         "pirate_types": [
             "notdead"
         ]
