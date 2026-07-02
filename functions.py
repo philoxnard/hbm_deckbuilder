@@ -601,6 +601,14 @@ def filterCards(cards, filters):
 
 				del filtered_cards[card_name]
 
+		# Some cards are advanced and are not yet to be publicly known. These cards will be automatically removed
+		# from the general fetch unless the "advanced" type is specifically searched for
+		if "advanced" not in filters["pirate_types"]:
+
+			if "pirate_types" in card_info and "advanced" in card_info["pirate_types"]:
+
+				del filtered_cards[card_name]
+
 		if filters["card_type"] != "":
 
 			if card_info["card_type"] != filters["card_type"]:

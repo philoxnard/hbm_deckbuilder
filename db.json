@@ -26,7 +26,8 @@
         },
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "toy"
+            "toy",
+            "advanced"
         ]
     },
     "all_hands_on_deck": {
@@ -36,6 +37,9 @@
         "crew": {
             "gotcha": 2
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "play as a hidden shanty. when on eof your cards is destroyed, reveal this card. you may replay that card or another card from your hand",
         "name": "all_hands_on_deck"
     },
@@ -51,7 +55,8 @@
         },
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "bug-ish"
+            "bug-ish",
+            "advanced"
         ]
     },
     "anemone_silver_of_the_dozen_blades": {
@@ -67,7 +72,8 @@
         },
         "pirate_types": [
             "sword",
-            "sea-thing"
+            "sea-thing",
+            "advanced"
         ]
     },
     "angler_bot_of_the_chaos_urchin_order": {
@@ -83,7 +89,8 @@
         "name": "angler_bot_of_the_chaos_urchin_order",
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "robot"
+            "robot",
+            "advanced"
         ]
     },
     "apoc_ko1_lypse": {
@@ -100,7 +107,8 @@
         "pirate_code": "heavy_metal",
         "pirate_types": [
             "cyborg",
-            "colossal"
+            "colossal",
+            "advanced"
         ]
     },
     "arg_angel": {
@@ -116,7 +124,8 @@
         },
         "pirate_code": "juju",
         "pirate_types": [
-            "divine"
+            "divine",
+            "advanced"
         ]
     },
     "super_barrel_soldier": {
@@ -133,7 +142,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "super",
-            "robot"
+            "robot",
+            "advanced"
         ]
     },
     "avian_airship": {
@@ -161,7 +171,8 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "sword",
-            "animal"
+            "animal",
+            "advanced"
         ]
     },
     "barfrogamew_hops": {
@@ -178,7 +189,8 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "authority",
-            "animal"
+            "animal",
+            "advanced"
         ]
     },
     "bionic_blowfish_blader": {
@@ -195,7 +207,8 @@
         },
         "pirate_types": [
             "sword",
-            "cyborg"
+            "cyborg",
+            "advanced"
         ]
     },
     "bluesmith_of_ocean_end_lane": {
@@ -210,7 +223,8 @@
         },
         "pirate_code": "deep_sea",
         "pirate_types": [
-            "mythic"
+            "mythic",
+            "advanced"
         ]
     },
     "boatload_buster": {
@@ -222,6 +236,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "heavy_metal"
     },
     "bootstrap_berserker": {
@@ -254,7 +271,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "dinosaur",
-            "super"
+            "super",
+            "advanced"
         ]
     },
     "bring_me_that_horizon": {
@@ -264,6 +282,9 @@
         "crew": {
             "juju_crew": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "play the top card in either player' davy jones\u2019 locker.",
         "name": "bring_me_that_horizon"
     },
@@ -281,7 +302,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "dinosaur",
-            "explosive"
+            "explosive",
+            "advanced"
         ]
     },
     "bumble_smee": {
@@ -298,7 +320,8 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "bug-ish",
-            "soldier"
+            "soldier",
+            "advanced"
         ]
     },
     "calculegend": {
@@ -315,7 +338,8 @@
         },
         "pirate_types": [
             "science",
-            "toy"
+            "toy",
+            "advanced"
         ]
     },
     "cannon_boo": {
@@ -331,7 +355,8 @@
         },
         "pirate_code": "juju",
         "pirate_types": [
-            "ghost"
+            "ghost",
+            "advanced"
         ]
     },
     "cannon_bully": {
@@ -347,7 +372,8 @@
         },
         "pirate_code": "boom",
         "pirate_types": [
-            "explosive"
+            "explosive",
+            "advanced"
         ]
     },
     "cannon_floof": {
@@ -363,7 +389,8 @@
         },
         "pirate_types": [
             "toy",
-            "animal"
+            "animal",
+            "advanced"
         ]
     },
     "cannonball_cruiser": {
@@ -375,6 +402,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "boom"
     },
     "captain_lazerbeard": {
@@ -390,7 +420,8 @@
             "heavy_metal_crew": 3
         },
         "pirate_types": [
-            "robot"
+            "robot",
+            "advanced"
         ]
     },
     "caskmaster": {
@@ -418,6 +449,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "deep_sea"
     },
     "coco_cannon": {
@@ -429,6 +463,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "tropical"
     },
     "coconaut": {
@@ -444,7 +481,8 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "plant"
+            "plant",
+            "advanced"
         ]
     },
     "confused_crew": {
@@ -454,6 +492,9 @@
         "crew": {
             "privateer_alliance": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "Equip to a Ship. The next three Pirates your opponent plays get boarded on the Ship of your choosing (following boarding rules, including that it needs to be one of theirs).",
         "name": "confused_crew"
     },
@@ -491,7 +532,8 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "bug-ish"
+            "bug-ish",
+            "advanced"
         ]
     },
     "cycloptus": {
@@ -507,7 +549,8 @@
             "heavy_metal_crew": 3
         },
         "pirate_types": [
-            "robot"
+            "robot",
+            "advanced"
         ]
     },
     "dagger_of_the_deep": {
@@ -534,7 +577,8 @@
         "pirate_code": "juju",
         "pirate_types": [
             "mythic",
-            "not-dead"
+            "not-dead",
+            "advanced"
         ]
     },
     "deal_with_the_broadside_devil": {
@@ -544,6 +588,9 @@
         "crew": {
             "boom_crew": 2
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "SURPRISE! When one of your Ships would be Sunk, you may prevent it from sinking by discarding the top 10 cards from your Poop Deck. You may then Free Play one of the discarded cards.\n\n*Only 3 SURPRISE! Cards allowed per Poop Deck.",
         "name": "deal_with_the_broadside_devil"
     },
@@ -556,6 +603,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "heavy_metal"
     },
     "disrupting_fundamental_laws_of_cannonball_physics": {
@@ -565,6 +615,9 @@
         "crew": {
             "privateer_alliance": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "surprise you may free play this card when your opponent is sending a volley. destroy two friendly pirates. your ship is not destroyed, instead send a volley at one of your opponent\u2019s ships. \n\n*only 3 surprise cards allowed per poop deck.",
         "name": "disrupting_fundamental_laws_of_cannonball_physics"
     },
@@ -581,7 +634,8 @@
         },
         "pirate_code": "juju",
         "pirate_types": [
-            "???"
+            "???",
+            "advanced"
         ]
     },
     "doombeards_cutlass": {
@@ -591,6 +645,9 @@
         "crew": {
             "vacation_beach": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "Equip to a Ship. Remove one pirate from that Ship and set it off to the side of the Ship. The Pirate's effect is ignored, but its printed firepower counts towards your total Firepower. This card can only be destroyed if \"Doombeard's Cutlass\" is destroyed or via High Tide.",
         "name": "doombeards_cutlass"
     },
@@ -603,6 +660,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "tropical"
     },
     "fiend_o_war": {
@@ -618,7 +678,8 @@
         },
         "pirate_code": "boom",
         "pirate_types": [
-            "mythic"
+            "mythic",
+            "advanced"
         ]
     },
     "fleet_phoenix": {
@@ -635,7 +696,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "mythic",
-            "flying"
+            "flying",
+            "advanced"
         ]
     },
     "flintlock_fury": {
@@ -667,7 +729,8 @@
         "name": "flotsamstein",
         "pirate_code": "juju",
         "pirate_types": [
-            "not-dead"
+            "not-dead",
+            "advanced"
         ]
     },
     "forgotten_fleet": {
@@ -679,6 +742,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "juju"
     },
     "gladiator_gold": {
@@ -695,7 +761,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "wild",
-            "armor"
+            "armor",
+            "advanced"
         ]
     },
     "goldfish_gallion": {
@@ -723,7 +790,8 @@
         },
         "pirate_types": [
             "explosive",
-            "???"
+            "???",
+            "advanced"
         ]
     },
     "gunpowder_sage_blast_mode": {
@@ -740,7 +808,8 @@
         },
         "pirate_types": [
             "explosive",
-            "super"
+            "super",
+            "advanced"
         ]
     },
     "gunpowder_shackles": {
@@ -750,6 +819,9 @@
         "crew": {
             "valiant_shores": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "Equip to a friendly Pirate. If this card is destroyed, you may choose to either 1) pick one of your opponent's Pirates to destroy or 2) your opponent picks two of their Pirates to destroy.",
         "name": "gunpowder_shackles"
     },
@@ -767,7 +839,8 @@
         "pirate_code": "heavy_metal",
         "pirate_types": [
             "science",
-            "authority"
+            "authority",
+            "advanced"
         ]
     },
     "hangkor_lord_of_gallows": {
@@ -784,7 +857,8 @@
         "pirate_code": "juju",
         "pirate_types": [
             "mythic",
-            "colossal"
+            "colossal",
+            "advanced"
         ]
     },
     "hangmans_barge": {
@@ -796,6 +870,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "juju"
     },
     "harbinger_of_pyrocy": {
@@ -811,7 +888,8 @@
             "boom_crew": 3
         },
         "pirate_types": [
-            "wild"
+            "wild",
+            "advanced"
         ]
     },
     "harbor_harpy": {
@@ -827,7 +905,8 @@
         },
         "pirate_types": [
             "mythic",
-            "flying"
+            "flying",
+            "advanced"
         ]
     },
     "haunted_hauler": {
@@ -839,6 +918,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "juju"
     },
     "headwind_hero_of_land-ho": {
@@ -854,7 +936,8 @@
         "pirate_code": "deep_sea",
         "pirate_types": [
             "mythic",
-            "armor"
+            "armor",
+            "advanced"
         ]
     },
     "heavy_metal_shanty_rock": {
@@ -883,7 +966,8 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "bug-ish"
+            "bug-ish",
+            "advanced"
         ]
     },
     "hermit_crawlers": {
@@ -899,7 +983,8 @@
         },
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "robot"
+            "robot",
+            "advanced"
         ]
     },
     "indisputable_ironclad": {
@@ -925,7 +1010,8 @@
         },
         "pirate_code": "deep_sea",
         "pirate_types": [
-            "flying"
+            "flying",
+            "advanced"
         ]
     },
     "jolly_rodish": {
@@ -957,7 +1043,8 @@
         },
         "pirate_code": "deep_sea",
         "pirate_types": [
-            "animal"
+            "animal",
+            "advanced"
         ]
     },
     "kannon_katcher": {
@@ -991,7 +1078,8 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "authority",
-            "plant"
+            "plant",
+            "experimental"
         ]
     },
     "kommodore_kong": {
@@ -1007,7 +1095,8 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "colossal"
+            "colossal",
+            "advanced"
         ]
     },
     "lava_landlubber": {
@@ -1024,7 +1113,8 @@
         },
         "pirate_types": [
             "wild",
-            "???"
+            "???",
+            "advanced"
         ]
     },
     "lava_tug": {
@@ -1036,6 +1126,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "boom"
     },
     "legionnaire_longship": {
@@ -1096,7 +1189,8 @@
         "pirate_code": "heavy_metal",
         "pirate_types": [
             "science",
-            "authority"
+            "authority",
+            "advanced"
         ]
     },
     "madame_crossed_bones": {
@@ -1113,7 +1207,8 @@
         "pirate_code": "juju",
         "pirate_types": [
             "???",
-            "authority"
+            "authority",
+            "advanced"
         ]
     },
     "maritime_magnet": {
@@ -1123,6 +1218,9 @@
         "crew": {
             "outlaw_dynasty": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "pick an opponent\u2019s hidden shanty. they cannot activate it in response to this card. play it or place it as a hidden shanty on one of your pirates (if no pirate is available, destroy it instead).",
         "name": "maritime_magnet"
     },
@@ -1140,7 +1238,8 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "animal",
-            "divine"
+            "divine",
+            "advanced"
         ]
     },
     "metal_pirazoid_armor": {
@@ -1150,6 +1249,9 @@
         "crew": {
             "valiant_shores": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "equip to a Pirate. That Pirate gets +2 and all friendly Pirates that share the same positioning on their Ships as this Pirate get firepower equal to this Pirate (does not stack with other \u2018Metal Pirazoid Armor\u2019s)",
         "name": "metal_pirazoid_armor"
     },
@@ -1167,7 +1269,8 @@
         },
         "pirate_types": [
             "robot",
-            "soldier"
+            "soldier",
+            "advanced"
         ]
     },
     "mobile_sailor_gundeck": {
@@ -1184,7 +1287,8 @@
         },
         "pirate_types": [
             "colossal",
-            "robot"
+            "robot",
+            "advanced"
         ]
     },
     "mollusk_mania": {
@@ -1211,7 +1315,8 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "bug-ish",
-            "flying"
+            "flying",
+            "advanced"
         ]
     },
     "monkey_bones": {
@@ -1228,7 +1333,8 @@
         },
         "pirate_types": [
             "mythic",
-            "animal"
+            "animal",
+            "advanced"
         ]
     },
     "monsoon_force": {
@@ -1280,7 +1386,8 @@
         "pirate_code": "juju",
         "pirate_types": [
             "bug-ish",
-            "mythic"
+            "mythic",
+            "advanced"
         ]
     },
     "mr_manty_and_his_magical_hat": {
@@ -1314,7 +1421,8 @@
         "pirate_code": "juju",
         "pirate_types": [
             "mythic",
-            "notdead"
+            "notdead",
+            "advanced"
         ]
     },
     "nauticlaw": {
@@ -1340,7 +1448,8 @@
             "deep_sea_crew": 3
         },
         "pirate_types": [
-            "animal"
+            "animal",
+            "advanced"
         ]
     },
     "navy_orders": {
@@ -1389,6 +1498,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "deep_sea"
     },
     "paladin_of_the_far_horizon": {
@@ -1415,6 +1527,9 @@
         "crew": {
             "gotcha": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "if you have 3x \u201cpearl pieces of three\u201d in your hand, you may immediately free play five pirates from your davy jones\u2019 locker, your poop deck, your hand or a combination of the three. ignore all boarding restrictions. then remove these three shanties from the game.",
         "name": "pearl_pieces_of_three"
     },
@@ -1446,7 +1561,8 @@
         },
         "pirate_code": "deep_sea",
         "pirate_types": [
-            "sea-thing"
+            "sea-thing",
+            "advanced"
         ]
     },
     "pirate_life_blue": {
@@ -1456,6 +1572,9 @@
         "crew": {
             "deep_sea_crew": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "Search your Poop Deck for a Deep Sea (blue) card to bring to your hand. Then you may equip this card to a Deep Sea Pirate at Sea (if able). They get +5.",
         "name": "pirate_life_blue"
     },
@@ -1466,6 +1585,9 @@
         "crew": {
             "tropical_crew": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "Search your Poop Deck for a Tropical (orange) card to bring to your hand. Then you may equip this card to a Tropical Pirate at Sea (if able). They get +5.",
         "name": "pirate_life_orange"
     },
@@ -1479,6 +1601,9 @@
         "effect_text": "Search your Poop Deck for a Juju (purple) card to bring to your hand. Then you may equip this card to a Juju Pirate at Sea (if able). They get +5.",
         "name": "pirate_life_purple"
     },
+        "pirate_types": [
+            "advanced"
+        ],
     "pirate_life_red": {
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_b6e4ec16c0ee4ab69963be6cd7df2f0e~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_001.png",
@@ -1486,6 +1611,9 @@
         "crew": {
             "boom_crew": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "Search your Poop Deck for a BOOM (red) card to bring to your hand. Then you may equip this card to a BOOM Pirate at Sea (if able). They get +5.",
         "name": "pirate_life_red"
     },
@@ -1496,6 +1624,9 @@
         "crew": {
             "heavy_metal_crew": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "Search your Poop Deck for a Heavy Metal (silver) card to bring to your hand. Then you may equip this card to a Heavy Metal Pirate at Sea (if able). They get +5.",
         "name": "pirate_life_silver"
     },
@@ -1528,7 +1659,8 @@
         },
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "toy"
+            "toy",
+            "advanced"
         ]
     },
     "popcolonels": {
@@ -1545,7 +1677,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "plant",
-            "soldier"
+            "soldier",
+            "advanced"
         ]
     },
     "pterror_deck": {
@@ -1573,7 +1706,8 @@
         },
         "pirate_types": [
             "flying",
-            "dinosaur"
+            "dinosaur",
+            "advanced"
         ]
     },
     "pumpkidd": {
@@ -1634,7 +1768,8 @@
         },
         "pirate_code": "boom",
         "pirate_types": [
-            "dinosaur"
+            "dinosaur",
+            "advanced"
         ]
     },
     "quartermaster_95": {
@@ -1651,7 +1786,8 @@
         "pirate_code": "heavy_metal",
         "pirate_types": [
             "sea-thing",
-            "cyborg"
+            "cyborg",
+            "advanced"
         ]
     },
     "red_eye_wreckage": {
@@ -1706,7 +1842,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "explosive",
-            "???"
+            "???",
+            "advanced"
         ]
     },
     "santa_monstera": {
@@ -1718,6 +1855,9 @@
         "crew": {
             "starter_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "tropical"
     },
     "sargasso_spyglass": {
@@ -1727,6 +1867,9 @@
         "crew": {
             "deep_sea_crew": 2
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "look at the bottom five cards of your opponent\u2019s poop deck. pick one to bring to your hand. then shuffle their deck.",
         "name": "sargasso_spyglass"
     },
@@ -1743,7 +1886,8 @@
         "name": "scallywag_cyber",
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "science"
+            "science",
+            "advanced"
         ]
     },
     "scallywag_cyber_2_0": {
@@ -1759,7 +1903,8 @@
         },
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "science"
+            "science",
+            "advanced"
         ]
     },
     "scarpion_treasure_bug": {
@@ -1776,7 +1921,8 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "bug-ish",
-            "wild"
+            "wild",
+            "advanced"
         ]
     },
     "sea_loth": {
@@ -1792,7 +1938,8 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "animal"
+            "animal",
+            "advanced"
         ]
     },
     "sea_u_gator": {
@@ -1804,6 +1951,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "juju"
     },
     "seacove_smuggler_co": {
@@ -1815,6 +1965,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "deep_sea"
     },
     "seadog_squid": {
@@ -1829,7 +1982,8 @@
             "valiant_shores": 2
         },
         "pirate_types": [
-            "sea-thing"
+            "sea-thing",
+            "advanced"
         ]
     },
     "seal_of_the_crossed_bones": {
@@ -1839,6 +1993,9 @@
         "crew": {
             "world_ender": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "Equip to a Ship. All Shanties, Hidden Shanties and Ship effects on the Ship across from this are ignored for gameplay purposes.",
         "name": "seal_of_the_crossed_bones"
     },
@@ -1866,7 +2023,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "authority",
-            "armor"
+            "armor",
+            "advanced"
         ]
     },
     "shipside_shelling_corp": {
@@ -1899,7 +2057,8 @@
         "name": "shiver_me_timberers",
         "pirate_code": "tropical",
         "pirate_types": [
-            "wild"
+            "wild",
+            "advanced"
         ]
     },
     "shogun_scourge": {
@@ -1916,7 +2075,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "explosive",
-            "ghost"
+            "ghost",
+            "advanced"
         ]
     },
     "shrimpviathen_aka_jumbo_shrimp": {
@@ -1932,7 +2092,8 @@
         },
         "pirate_types": [
             "colossal",
-            "sea-thing"
+            "sea-thing",
+            "advanced"
         ]
     },
     "skeletal_sloop": {
@@ -1955,6 +2116,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "boom"
     },
     "spectral_dutchman": {
@@ -1971,7 +2135,8 @@
         "pirate_code": "juju",
         "pirate_types": [
             "sword",
-            "ghost"
+            "ghost",
+            "advanced"
         ]
     },
     "spinnaker_spud": {
@@ -1983,6 +2148,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "tropical"
     },
     "sponge_barbarian": {
@@ -2026,7 +2194,8 @@
         "pirate_code": "heavy_metal",
         "pirate_types": [
             "science",
-            "???"
+            "???",
+            "advanced"
         ]
     },
     "sunrise_supplies": {
@@ -2052,7 +2221,8 @@
         },
         "pirate_types": [
             "flying",
-            "colossal"
+            "colossal",
+            "advanced"
         ]
     },
     "sword_bay_salvager": {
@@ -2064,6 +2234,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "heavy_metal"
     },
     "sword_beast": {
@@ -2089,6 +2262,9 @@
         "crew": {
             "outlaw_dynasty": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "when this card is played, shuffle it into your opponent\u2019s deck. the next time either player draws a \u201cteach\u2019s ticking time bomb\u201d that player\u2019s opponent immediately sinks one of that player\u2019s ships.",
         "name": "teachs_ticking_time_bomb"
     },
@@ -2105,7 +2281,8 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "plant"
+            "plant",
+            "advanced"
         ]
     },
     "the_art_of_marooning": {
@@ -2115,6 +2292,9 @@
         "crew": {
             "clever": 2
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "this card may be free played from you hand when either player successfully runs the blockade. pick one pirate (friendly or not) that would have been destroyed after the blockade run and return it on a new ship on your following turn.",
         "name": "the_art_of_marooning"
     },
@@ -2142,7 +2322,8 @@
         },
         "pirate_code": "heavy_metal",
         "pirate_types": [
-            "vehicle"
+            "vehicle",
+            "advanced"
         ]
     },
     "the_grand_old_seaworth": {
@@ -2154,6 +2335,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "boom"
     },
     "the_greater_sand_witch": {
@@ -2184,7 +2368,8 @@
             "deep_sea_crew": 3
         },
         "pirate_types": [
-            "wild"
+            "wild",
+            "advanced"
         ]
     },
     "the_legendary_flamighydra": {
@@ -2201,7 +2386,8 @@
         "pirate_code": "boom",
         "pirate_types": [
             "animal",
-            "???"
+            "???",
+            "advanced"
         ]
     },
     "the_legendary_octdent": {
@@ -2223,6 +2409,9 @@
         "crew": {
             "high_seas_ships": 1
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "pirate_code": "tropical"
     },
     "the_oldest_sea_shanty": {
@@ -2233,6 +2422,9 @@
         "crew": {
             "vacation_beach": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "name": "the_oldest_sea_shanty"
     },
     "the_plankwalker": {
@@ -2249,7 +2441,8 @@
         "pirate_code": "juju",
         "pirate_types": [
             "colossal",
-            "sea-thing"
+            "sea-thing",
+            "advanced"
         ]
     },
     "the_seastress": {
@@ -2265,7 +2458,8 @@
         },
         "pirate_code": "juju",
         "pirate_types": [
-            "???"
+            "???",
+            "advanced"
         ]
     },
     "the_ship_rex": {
@@ -2281,7 +2475,8 @@
             "boom_crew": 3
         },
         "pirate_types": [
-            "colossal"
+            "colossal",
+            "advanced"
         ]
     },
     "the_squall_skiff_squad": {
@@ -2299,6 +2494,9 @@
         "BackURL": "https://static.wixstatic.com/media/b7f019_f4a88f3977c74ab19bee20d0ee6a6cce~mv2.jpeg/v1/fill/w_749,h_1050,al_c,q_90,enc_auto/hbm_cards_for_print_tts_shanty_001.jpeg",
         "FaceURL": "https://static.wixstatic.com/media/b7f019_7238ed13b1924c4497f6027dcd229c06~mv2.png/v1/fill/w_749,h_1050,al_c,q_95,enc_auto/hbm_cards_for_print_tts_shanty_003.png",
         "card_type": "shanty",
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "When played and after each Order, this card equips itself to the Pirate at Sea with the highest available Firepower. It remains on a tie or if unable to move. After played, each subsequent time it equips to a new Pirate, that player gets a bonus Order. This card is only destroyed during High Tide.",
         "name": "the_sunken_crown"
     },
@@ -2315,7 +2513,8 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "???"
+            "???",
+            "advanced"
         ]
     },
     "topgallant_knight": {
@@ -2346,7 +2545,8 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "???"
+            "???",
+            "advanced"
         ]
     },
     "treasuratops": {
@@ -2362,7 +2562,8 @@
         },
         "pirate_code": "tropical",
         "pirate_types": [
-            "dinosaur"
+            "dinosaur",
+            "advanced"
         ]
     },
     "tree_house_hullentine": {
@@ -2410,7 +2611,8 @@
         "pirate_code": "tropical",
         "pirate_types": [
             "plant",
-            "not-dead"
+            "not-dead",
+            "advanced"
         ]
     },
     "urchin_virus_ultra": {
@@ -2420,6 +2622,9 @@
         "crew": {
             "world_ender": 3
         },
+        "pirate_types": [
+            "advanced"
+        ],
         "effect_text": "equip to a ship. all of your opponent\u2019s pirates with firepower over +4 now get brought down to +4 (after any effects are factored in).",
         "name": "urchin_virus_ultra"
     },
@@ -2467,7 +2672,8 @@
         },
         "pirate_code": "juju",
         "pirate_types": [
-            "mythic"
+            "mythic",
+            "advanced"
         ]
     },
     "ye_olde_ferry_fox": {
@@ -2484,7 +2690,8 @@
         "pirate_code": "juju",
         "pirate_types": [
             "mythic",
-            "ghost"
+            "ghost",
+            "advanced"
         ]
     },
     "yo_ho_hero": {
